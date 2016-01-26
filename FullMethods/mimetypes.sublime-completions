@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-MimeTypes\tmimetypes*", "contents": "mimetypes.MimeTypes(${1:filenames=}, ${2:})"},
+		{"trigger": "y-add_type()\tmimetypes*", "contents": "mimetypes.add_type(${1:type}, ${2:ext}, ${3:strict=True})"},
+		{"trigger": "y-common_types()\tmimetypes*", "contents": "mimetypes.common_types()"},
+		{"trigger": "y-encodings_map()\tmimetypes*", "contents": "mimetypes.encodings_map()"},
+		{"trigger": "y-guess_all_extensions()\tmimetypes*", "contents": "mimetypes.guess_all_extensions(${1:type}, ${2:strict=True})"},
+		{"trigger": "y-guess_extension()\tmimetypes*", "contents": "mimetypes.guess_extension(${1:type}, ${2:strict=True})"},
+		{"trigger": "y-guess_type()\tmimetypes*", "contents": "mimetypes.guess_type(${1:url}, ${2:strict=True})"},
+		{"trigger": "y-init()\tmimetypes*", "contents": "mimetypes.init(${1:files=None})"},
+		{"trigger": "y-inited()\tmimetypes*", "contents": "mimetypes.inited()"},
+		{"trigger": "y-knownfiles()\tmimetypes*", "contents": "mimetypes.knownfiles()"},
+		{"trigger": "y-read()\tmimetypes*", "contents": "mimetypes.read(${1:filename}, ${2:strict=True})"},
+		{"trigger": "y-read_mime_types()\tmimetypes*", "contents": "mimetypes.read_mime_types(${1:filename})"},
+		{"trigger": "y-read_windows_registry()\tmimetypes*", "contents": "mimetypes.read_windows_registry(${1:strict=True})"},
+		{"trigger": "y-readfp()\tmimetypes*", "contents": "mimetypes.readfp(${1:fp}, ${2:strict=True})"},
+		{"trigger": "y-suffix_map()\tmimetypes*", "contents": "mimetypes.suffix_map()"},
+		{"trigger": "y-types_map()\tmimetypes*", "contents": "mimetypes.types_map()"},
+		{"trigger": "y-types_map_inv()\tmimetypes*", "contents": "mimetypes.types_map_inv()"}
+	]
+}

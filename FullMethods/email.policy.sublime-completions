@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Compat32\temail*", "contents": "email.policy.Compat32(${1:**kw})"},
+		{"trigger": "y-EmailPolicy\temail*", "contents": "email.policy.EmailPolicy(${1:**kw})"},
+		{"trigger": "y-HTTP\temail*", "contents": "email.policy.HTTP"},
+		{"trigger": "y-Policy\temail*", "contents": "email.policy.Policy(${1:**kw})"},
+		{"trigger": "y-SMTP\temail*", "contents": "email.policy.SMTP"},
+		{"trigger": "y-SMTPUTF8\temail*", "contents": "email.policy.SMTPUTF8"},
+		{"trigger": "y-compat32()\temail*", "contents": "email.policy.compat32()"},
+		{"trigger": "y-default()\temail*", "contents": "email.policy.default()"},
+		{"trigger": "y-strict()\temail*", "contents": "email.policy.strict()"}
+	]
+}

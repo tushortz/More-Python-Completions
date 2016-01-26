@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Complex\tnumbers", "contents": "Complex"},
+		{"trigger": "Integral\tnumbers", "contents": "Integral"},
+		{"trigger": "Number\tnumbers", "contents": "Number"},
+		{"trigger": "Rational\tnumbers", "contents": "Rational"},
+		{"trigger": "Real\tnumbers", "contents": "Real"}
+	]
+}

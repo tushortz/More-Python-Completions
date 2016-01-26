@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-PrettyPrinter\tpprint*", "contents": "pprint.PrettyPrinter(${1:indent=1}, ${2:width=80}, ${3:depth=None}, ${4:stream=None}, ${5:*}, ${6:compact=False})"},
+		{"trigger": "y-format()\tpprint*", "contents": "pprint.format(${1:object}, ${2:context}, ${3:maxlevels}, ${4:level})"},
+		{"trigger": "y-isreadable()\tpprint*", "contents": "pprint.isreadable(${1:object})"},
+		{"trigger": "y-isrecursive()\tpprint*", "contents": "pprint.isrecursive(${1:object})"},
+		{"trigger": "y-pformat()\tpprint*", "contents": "pprint.pformat(${1:object}, ${2:indent=1}, ${3:width=80}, ${4:depth=None}, ${5:*}, ${6:compact=False})"},
+		{"trigger": "y-pformat()\tpprint*", "contents": "pprint.pformat(${1:object})"},
+		{"trigger": "y-pprint()\tpprint*", "contents": "pprint.pprint(${1:object}, ${2:stream=None}, ${3:indent=1}, ${4:width=80}, ${5:depth=None}, ${6:*}, ${7:compact=False})"},
+		{"trigger": "y-pprint()\tpprint*", "contents": "pprint.pprint(${1:object})"},
+		{"trigger": "y-saferepr()\tpprint*", "contents": "pprint.saferepr(${1:object})"}
+	]
+}

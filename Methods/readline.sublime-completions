@@ -1,0 +1,32 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "add_history()\treadline", "contents": "add_history(${1:line})"},
+		{"trigger": "append_history_file()\treadline", "contents": "append_history_file(${1:nelements[}, ${2:filename]})"},
+		{"trigger": "clear_history()\treadline", "contents": "clear_history(${1:})"},
+		{"trigger": "get_begidx()\treadline", "contents": "get_begidx(${1:})"},
+		{"trigger": "get_completer()\treadline", "contents": "get_completer(${1:})"},
+		{"trigger": "get_completer_delims()\treadline", "contents": "get_completer_delims(${1:})"},
+		{"trigger": "get_completion_type()\treadline", "contents": "get_completion_type(${1:})"},
+		{"trigger": "get_current_history_length()\treadline", "contents": "get_current_history_length(${1:})"},
+		{"trigger": "get_endidx()\treadline", "contents": "get_endidx(${1:})"},
+		{"trigger": "get_history_item()\treadline", "contents": "get_history_item(${1:index})"},
+		{"trigger": "get_history_length()\treadline", "contents": "get_history_length(${1:})"},
+		{"trigger": "get_line_buffer()\treadline", "contents": "get_line_buffer(${1:})"},
+		{"trigger": "insert_text()\treadline", "contents": "insert_text(${1:string})"},
+		{"trigger": "parse_and_bind()\treadline", "contents": "parse_and_bind(${1:string})"},
+		{"trigger": "read_history_file()\treadline", "contents": "read_history_file(${1:[filename]})"},
+		{"trigger": "read_init_file()\treadline", "contents": "read_init_file(${1:[filename]})"},
+		{"trigger": "redisplay()\treadline", "contents": "redisplay(${1:})"},
+		{"trigger": "remove_history_item()\treadline", "contents": "remove_history_item(${1:pos})"},
+		{"trigger": "replace_history_item()\treadline", "contents": "replace_history_item(${1:pos}, ${2:line})"},
+		{"trigger": "set_completer()\treadline", "contents": "set_completer(${1:[function]})"},
+		{"trigger": "set_completer_delims()\treadline", "contents": "set_completer_delims(${1:string})"},
+		{"trigger": "set_completion_display_matches_hook()\treadline", "contents": "set_completion_display_matches_hook(${1:[function]})"},
+		{"trigger": "set_history_length()\treadline", "contents": "set_history_length(${1:length})"},
+		{"trigger": "set_pre_input_hook()\treadline", "contents": "set_pre_input_hook(${1:[function]})"},
+		{"trigger": "set_startup_hook()\treadline", "contents": "set_startup_hook(${1:[function]})"},
+		{"trigger": "write_history_file()\treadline", "contents": "write_history_file(${1:[filename]})"}
+	]
+}

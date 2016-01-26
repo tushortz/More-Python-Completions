@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "NamedTemporaryFile\ttempfile", "contents": "NamedTemporaryFile(${1:mode='w+b'}, ${2:buffering=None}, ${3:encoding=None}, ${4:newline=None}, ${5:suffix=None}, ${6:prefix=None}, ${7:dir=None}, ${8:delete=True})"},
+		{"trigger": "SpooledTemporaryFile\ttempfile", "contents": "SpooledTemporaryFile(${1:max_size=0}, ${2:mode='w+b'}, ${3:buffering=None}, ${4:encoding=None}, ${5:newline=None}, ${6:suffix=None}, ${7:prefix=None}, ${8:dir=None})"},
+		{"trigger": "TemporaryDirectory\ttempfile", "contents": "TemporaryDirectory(${1:suffix=None}, ${2:prefix=None}, ${3:dir=None})"},
+		{"trigger": "TemporaryFile\ttempfile", "contents": "TemporaryFile(${1:mode='w+b'}, ${2:buffering=None}, ${3:encoding=None}, ${4:newline=None}, ${5:suffix=None}, ${6:prefix=None}, ${7:dir=None})"},
+		{"trigger": "gettempdir()\ttempfile", "contents": "gettempdir(${1:})"},
+		{"trigger": "gettempdirb()\ttempfile", "contents": "gettempdirb(${1:})"},
+		{"trigger": "gettempprefix()\ttempfile", "contents": "gettempprefix(${1:})"},
+		{"trigger": "gettempprefixb()\ttempfile", "contents": "gettempprefixb(${1:})"},
+		{"trigger": "mkdtemp()\ttempfile", "contents": "mkdtemp(${1:suffix=None}, ${2:prefix=None}, ${3:dir=None})"},
+		{"trigger": "mkstemp()\ttempfile", "contents": "mkstemp(${1:suffix=None}, ${2:prefix=None}, ${3:dir=None}, ${4:text=False})"},
+		{"trigger": "mktemp()\ttempfile", "contents": "mktemp(${1:suffix=''}, ${2:prefix='tmp'}, ${3:dir=None})"},
+		{"trigger": "tempdir()\ttempfile", "contents": "tempdir()"}
+	]
+}

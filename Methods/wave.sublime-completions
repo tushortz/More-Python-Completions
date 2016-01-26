@@ -1,0 +1,31 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Error\twave", "contents": "Error"},
+		{"trigger": "close()\twave", "contents": "close(${1:})"},
+		{"trigger": "getcompname()\twave", "contents": "getcompname(${1:})"},
+		{"trigger": "getcomptype()\twave", "contents": "getcomptype(${1:})"},
+		{"trigger": "getframerate()\twave", "contents": "getframerate(${1:})"},
+		{"trigger": "getmark()\twave", "contents": "getmark(${1:id})"},
+		{"trigger": "getmarkers()\twave", "contents": "getmarkers(${1:})"},
+		{"trigger": "getnchannels()\twave", "contents": "getnchannels(${1:})"},
+		{"trigger": "getnframes()\twave", "contents": "getnframes(${1:})"},
+		{"trigger": "getparams()\twave", "contents": "getparams(${1:})"},
+		{"trigger": "getsampwidth()\twave", "contents": "getsampwidth(${1:})"},
+		{"trigger": "open()\twave", "contents": "open(${1:file}, ${2:mode=None})"},
+		{"trigger": "openfp()\twave", "contents": "openfp(${1:file}, ${2:mode})"},
+		{"trigger": "readframes()\twave", "contents": "readframes(${1:n})"},
+		{"trigger": "rewind()\twave", "contents": "rewind(${1:})"},
+		{"trigger": "setcomptype()\twave", "contents": "setcomptype(${1:type}, ${2:name})"},
+		{"trigger": "setframerate()\twave", "contents": "setframerate(${1:n})"},
+		{"trigger": "setnchannels()\twave", "contents": "setnchannels(${1:n})"},
+		{"trigger": "setnframes()\twave", "contents": "setnframes(${1:n})"},
+		{"trigger": "setparams()\twave", "contents": "setparams(${1:tuple})"},
+		{"trigger": "setpos()\twave", "contents": "setpos(${1:pos})"},
+		{"trigger": "setsampwidth()\twave", "contents": "setsampwidth(${1:n})"},
+		{"trigger": "tell()\twave", "contents": "tell(${1:})"},
+		{"trigger": "writeframes()\twave", "contents": "writeframes(${1:data})"},
+		{"trigger": "writeframesraw()\twave", "contents": "writeframesraw(${1:data})"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-InteractiveConsole\tcode*", "contents": "code.InteractiveConsole(${1:locals=None}, ${2:filename=\"\"})"},
+		{"trigger": "y-InteractiveInterpreter\tcode*", "contents": "code.InteractiveInterpreter(${1:locals=None})"},
+		{"trigger": "y-compile_command()\tcode*", "contents": "code.compile_command(${1:source}, ${2:filename=\"\"}, ${3:symbol=\"single\"})"},
+		{"trigger": "y-interact()\tcode*", "contents": "code.interact(${1:banner=None}, ${2:readfunc=None}, ${3:local=None})"},
+		{"trigger": "y-interact()\tcode*", "contents": "code.interact(${1:banner=None})"},
+		{"trigger": "y-push()\tcode*", "contents": "code.push(${1:line})"},
+		{"trigger": "y-raw_input()\tcode*", "contents": "code.raw_input(${1:prompt=\"\"})"},
+		{"trigger": "y-resetbuffer()\tcode*", "contents": "code.resetbuffer(${1:})"},
+		{"trigger": "y-runcode()\tcode*", "contents": "code.runcode(${1:code})"},
+		{"trigger": "y-runsource()\tcode*", "contents": "code.runsource(${1:source}, ${2:filename=\"\"}, ${3:symbol=\"single\"})"},
+		{"trigger": "y-showsyntaxerror()\tcode*", "contents": "code.showsyntaxerror(${1:filename=None})"},
+		{"trigger": "y-showtraceback()\tcode*", "contents": "code.showtraceback(${1:})"},
+		{"trigger": "y-write()\tcode*", "contents": "code.write(${1:data})"}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ContextDecorator\tcontextlib", "contents": "ContextDecorator"},
+		{"trigger": "ExitStack\tcontextlib", "contents": "ExitStack"},
+		{"trigger": "closing()\tcontextlib", "contents": "closing(${1:thing})"},
+		{"trigger": "contextmanager()\tcontextlib", "contents": "contextmanager()"},
+		{"trigger": "redirect_stderr()\tcontextlib", "contents": "redirect_stderr(${1:new_target})"},
+		{"trigger": "redirect_stdout()\tcontextlib", "contents": "redirect_stdout(${1:new_target})"},
+		{"trigger": "suppress()\tcontextlib", "contents": "suppress(${1:*exceptions})"}
+	]
+}

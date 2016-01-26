@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Babyl\tmailbox", "contents": "Babyl(${1:path}, ${2:factory=None}, ${3:create=True})"},
+		{"trigger": "BabylMessage\tmailbox", "contents": "BabylMessage(${1:message=None})"},
+		{"trigger": "Error\tmailbox", "contents": "Error"},
+		{"trigger": "ExternalClashError\tmailbox", "contents": "ExternalClashError"},
+		{"trigger": "FormatError\tmailbox", "contents": "FormatError"},
+		{"trigger": "MH\tmailbox", "contents": "MH(${1:path}, ${2:factory=None}, ${3:create=True})"},
+		{"trigger": "MHMessage\tmailbox", "contents": "MHMessage(${1:message=None})"},
+		{"trigger": "MMDF\tmailbox", "contents": "MMDF(${1:path}, ${2:factory=None}, ${3:create=True})"},
+		{"trigger": "MMDFMessage\tmailbox", "contents": "MMDFMessage(${1:message=None})"},
+		{"trigger": "Mailbox\tmailbox", "contents": "Mailbox"},
+		{"trigger": "Maildir\tmailbox", "contents": "Maildir(${1:dirname}, ${2:factory=None}, ${3:create=True})"},
+		{"trigger": "MaildirMessage\tmailbox", "contents": "MaildirMessage(${1:message=None})"},
+		{"trigger": "Message\tmailbox", "contents": "Message(${1:message=None})"},
+		{"trigger": "NoSuchMailboxError\tmailbox", "contents": "NoSuchMailboxError"},
+		{"trigger": "NotEmptyError\tmailbox", "contents": "NotEmptyError"},
+		{"trigger": "mbox()\tmailbox", "contents": "mbox(${1:path}, ${2:factory=None}, ${3:create=True})"},
+		{"trigger": "mboxMessage()\tmailbox", "contents": "mboxMessage(${1:message=None})"}
+	]
+}

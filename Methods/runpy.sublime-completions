@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "run_module()\trunpy", "contents": "run_module(${1:mod_name}, ${2:init_globals=None}, ${3:run_name=None}, ${4:alter_sys=False})"},
+		{"trigger": "run_path()\trunpy", "contents": "run_path(${1:file_path}, ${2:init_globals=None}, ${3:run_name=None})"}
+	]
+}

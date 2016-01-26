@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-block_size()\thmac*", "contents": "hmac.block_size()"},
+		{"trigger": "y-compare_digest()\thmac*", "contents": "hmac.compare_digest(${1:a}, ${2:b})"},
+		{"trigger": "y-copy()\thmac*", "contents": "hmac.copy(${1:})"},
+		{"trigger": "y-digest()\thmac*", "contents": "hmac.digest(${1:})"},
+		{"trigger": "y-digest_size()\thmac*", "contents": "hmac.digest_size()"},
+		{"trigger": "y-hexdigest()\thmac*", "contents": "hmac.hexdigest(${1:})"},
+		{"trigger": "y-name()\thmac*", "contents": "hmac.name()"},
+		{"trigger": "y-new()\thmac*", "contents": "hmac.new(${1:key}, ${2:msg=None}, ${3:digestmod=None})"},
+		{"trigger": "y-update()\thmac*", "contents": "hmac.update(${1:msg})"}
+	]
+}

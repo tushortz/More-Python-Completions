@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-AST\tast*", "contents": "ast.AST"},
+		{"trigger": "y-NodeTransformer\tast*", "contents": "ast.NodeTransformer"},
+		{"trigger": "y-NodeVisitor\tast*", "contents": "ast.NodeVisitor"},
+		{"trigger": "y-copy_location()\tast*", "contents": "ast.copy_location(${1:new_node}, ${2:old_node})"},
+		{"trigger": "y-dump()\tast*", "contents": "ast.dump(${1:node}, ${2:annotate_fields=True}, ${3:include_attributes=False})"},
+		{"trigger": "y-fix_missing_locations()\tast*", "contents": "ast.fix_missing_locations(${1:node})"},
+		{"trigger": "y-get_docstring()\tast*", "contents": "ast.get_docstring(${1:node}, ${2:clean=True})"},
+		{"trigger": "y-increment_lineno()\tast*", "contents": "ast.increment_lineno(${1:node}, ${2:n=1})"},
+		{"trigger": "y-iter_child_nodes()\tast*", "contents": "ast.iter_child_nodes(${1:node})"},
+		{"trigger": "y-iter_fields()\tast*", "contents": "ast.iter_fields(${1:node})"},
+		{"trigger": "y-literal_eval()\tast*", "contents": "ast.literal_eval(${1:node_or_string})"},
+		{"trigger": "y-parse()\tast*", "contents": "ast.parse(${1:source}, ${2:filename=''}, ${3:mode='exec'})"},
+		{"trigger": "y-walk()\tast*", "contents": "ast.walk(${1:node})"}
+	]
+}

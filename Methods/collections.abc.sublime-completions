@@ -1,0 +1,27 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "AsyncIterable\tcollections", "contents": "AsyncIterable"},
+		{"trigger": "AsyncIterator\tcollections", "contents": "AsyncIterator"},
+		{"trigger": "Awaitable\tcollections", "contents": "Awaitable"},
+		{"trigger": "Callable\tcollections", "contents": "Callable"},
+		{"trigger": "Container\tcollections", "contents": "Container"},
+		{"trigger": "Coroutine\tcollections", "contents": "Coroutine"},
+		{"trigger": "Generator\tcollections", "contents": "Generator"},
+		{"trigger": "Hashable\tcollections", "contents": "Hashable"},
+		{"trigger": "ItemsView\tcollections", "contents": "ItemsView"},
+		{"trigger": "Iterable\tcollections", "contents": "Iterable"},
+		{"trigger": "Iterator\tcollections", "contents": "Iterator"},
+		{"trigger": "KeysView\tcollections", "contents": "KeysView"},
+		{"trigger": "Mapping\tcollections", "contents": "Mapping"},
+		{"trigger": "MappingView\tcollections", "contents": "MappingView"},
+		{"trigger": "MutableMapping\tcollections", "contents": "MutableMapping"},
+		{"trigger": "MutableSequence\tcollections", "contents": "MutableSequence"},
+		{"trigger": "MutableSet\tcollections", "contents": "MutableSet"},
+		{"trigger": "Sequence\tcollections", "contents": "Sequence"},
+		{"trigger": "Set\tcollections", "contents": "Set"},
+		{"trigger": "Sized\tcollections", "contents": "Sized"},
+		{"trigger": "ValuesView\tcollections", "contents": "ValuesView"}
+	]
+}

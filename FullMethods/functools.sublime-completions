@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-args()\tfunctools*", "contents": "functools.args()"},
+		{"trigger": "y-cmp_to_key()\tfunctools*", "contents": "functools.cmp_to_key(${1:func})"},
+		{"trigger": "y-func()\tfunctools*", "contents": "functools.func()"},
+		{"trigger": "y-keywords()\tfunctools*", "contents": "functools.keywords()"},
+		{"trigger": "y-lru_cache()\tfunctools*", "contents": "functools.lru_cache(${1:maxsize=128}, ${2:typed=False})"},
+		{"trigger": "y-partial()\tfunctools*", "contents": "functools.partial(${1:func}, ${2:*args}, ${3:**keywords})"},
+		{"trigger": "y-partialmethod()\tfunctools*", "contents": "functools.partialmethod(${1:func}, ${2:*args}, ${3:**keywords})"},
+		{"trigger": "y-reduce()\tfunctools*", "contents": "functools.reduce(${1:function}, ${2:iterable[}, ${3:initializer]})"},
+		{"trigger": "y-singledispatch()\tfunctools*", "contents": "functools.singledispatch(${1:default})"},
+		{"trigger": "y-total_ordering()\tfunctools*", "contents": "functools.total_ordering()"},
+		{"trigger": "y-update_wrapper()\tfunctools*", "contents": "functools.update_wrapper(${1:wrapper}, ${2:wrapped}, ${3:assigned=WRAPPER_ASSIGNMENTS}, ${4:updated=WRAPPER_UPDATES})"},
+		{"trigger": "y-wraps()\tfunctools*", "contents": "functools.wraps(${1:wrapped}, ${2:assigned=WRAPPER_ASSIGNMENTS}, ${3:updated=WRAPPER_UPDATES})"}
+	]
+}

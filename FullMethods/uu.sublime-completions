@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Error\tuu*", "contents": "uu.Error"},
+		{"trigger": "y-decode()\tuu*", "contents": "uu.decode(${1:in_file}, ${2:out_file=None}, ${3:mode=None}, ${4:quiet=False})"},
+		{"trigger": "y-encode()\tuu*", "contents": "uu.encode(${1:in_file}, ${2:out_file}, ${3:name=None}, ${4:mode=None})"}
+	]
+}

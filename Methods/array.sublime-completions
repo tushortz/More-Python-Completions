@@ -1,0 +1,30 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "append()\tarray", "contents": "append(${1:x})"},
+		{"trigger": "array()\tarray", "contents": "array(${1:typecode[}, ${2:initializer]})"},
+		{"trigger": "buffer_info()\tarray", "contents": "buffer_info(${1:})"},
+		{"trigger": "byteswap()\tarray", "contents": "byteswap(${1:})"},
+		{"trigger": "count()\tarray", "contents": "count(${1:x})"},
+		{"trigger": "extend()\tarray", "contents": "extend(${1:iterable})"},
+		{"trigger": "frombytes()\tarray", "contents": "frombytes(${1:s})"},
+		{"trigger": "fromfile()\tarray", "contents": "fromfile(${1:f}, ${2:n})"},
+		{"trigger": "fromlist()\tarray", "contents": "fromlist(${1:list})"},
+		{"trigger": "fromstring()\tarray", "contents": "fromstring(${1:})"},
+		{"trigger": "fromunicode()\tarray", "contents": "fromunicode(${1:s})"},
+		{"trigger": "index()\tarray", "contents": "index(${1:x})"},
+		{"trigger": "insert()\tarray", "contents": "insert(${1:i}, ${2:x})"},
+		{"trigger": "itemsize()\tarray", "contents": "itemsize()"},
+		{"trigger": "pop()\tarray", "contents": "pop(${1:[i]})"},
+		{"trigger": "remove()\tarray", "contents": "remove(${1:x})"},
+		{"trigger": "reverse()\tarray", "contents": "reverse(${1:})"},
+		{"trigger": "tobytes()\tarray", "contents": "tobytes(${1:})"},
+		{"trigger": "tofile()\tarray", "contents": "tofile(${1:f})"},
+		{"trigger": "tolist()\tarray", "contents": "tolist(${1:})"},
+		{"trigger": "tostring()\tarray", "contents": "tostring(${1:})"},
+		{"trigger": "tounicode()\tarray", "contents": "tounicode(${1:})"},
+		{"trigger": "typecode()\tarray", "contents": "typecode()"},
+		{"trigger": "typecodes()\tarray", "contents": "typecodes()"}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-ANY\tunittest*", "contents": "unittest.mock.ANY"},
+		{"trigger": "y-DEFAULT\tunittest*", "contents": "unittest.mock.DEFAULT"},
+		{"trigger": "y-FILTER_DIR\tunittest*", "contents": "unittest.mock.FILTER_DIR"},
+		{"trigger": "y-MagicMock\tunittest*", "contents": "unittest.mock.MagicMock(${1:*args}, ${2:**kw})"},
+		{"trigger": "y-Mock\tunittest*", "contents": "unittest.mock.Mock(${1:spec=None}, ${2:side_effect=None}, ${3:return_value=DEFAULT}, ${4:wraps=None}, ${5:name=None}, ${6:spec_set=None}, ${7:unsafe=False}, ${8:**kwargs})"},
+		{"trigger": "y-NonCallableMagicMock\tunittest*", "contents": "unittest.mock.NonCallableMagicMock(${1:*args}, ${2:**kw})"},
+		{"trigger": "y-NonCallableMock\tunittest*", "contents": "unittest.mock.NonCallableMock(${1:spec=None}, ${2:wraps=None}, ${3:name=None}, ${4:spec_set=None}, ${5:**kwargs})"},
+		{"trigger": "y-PropertyMock\tunittest*", "contents": "unittest.mock.PropertyMock(${1:*args}, ${2:**kwargs})"},
+		{"trigger": "y-call()\tunittest*", "contents": "unittest.mock.call(${1:*args}, ${2:**kwargs})"},
+		{"trigger": "y-call_list()\tunittest*", "contents": "unittest.mock.call_list(${1:})"},
+		{"trigger": "y-create_autospec()\tunittest*", "contents": "unittest.mock.create_autospec(${1:spec}, ${2:spec_set=False}, ${3:instance=False}, ${4:**kwargs})"},
+		{"trigger": "y-dict()\tunittest*", "contents": "unittest.mock.dict(${1:in_dict}, ${2:values=}, ${3:})"},
+		{"trigger": "y-mock_open()\tunittest*", "contents": "unittest.mock.mock_open(${1:mock=None}, ${2:read_data=None})"},
+		{"trigger": "y-multiple()\tunittest*", "contents": "unittest.mock.multiple(${1:target}, ${2:spec=None}, ${3:create=False}, ${4:spec_set=None}, ${5:autospec=None}, ${6:new_callable=None}, ${7:**kwargs})"},
+		{"trigger": "y-object()\tunittest*", "contents": "unittest.mock.object(${1:target}, ${2:attribute}, ${3:new=DEFAULT}, ${4:spec=None}, ${5:create=False}, ${6:spec_set=None}, ${7:autospec=None}, ${8:new_callable=None}, ${9:**kwargs})"},
+		{"trigger": "y-patch()\tunittest*", "contents": "unittest.mock.patch(${1:target}, ${2:new=DEFAULT}, ${3:spec=None}, ${4:create=False}, ${5:spec_set=None}, ${6:autospec=None}, ${7:new_callable=None}, ${8:**kwargs})"},
+		{"trigger": "y-sentinel()\tunittest*", "contents": "unittest.mock.sentinel()"},
+		{"trigger": "y-stopall()\tunittest*", "contents": "unittest.mock.stopall(${1:})"}
+	]
+}

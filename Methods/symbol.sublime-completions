@@ -1,0 +1,7 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "sym_name()\tsymbol", "contents": "sym_name()"}
+	]
+}

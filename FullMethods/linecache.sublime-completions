@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-checkcache()\tlinecache*", "contents": "linecache.checkcache(${1:filename=None})"},
+		{"trigger": "y-clearcache()\tlinecache*", "contents": "linecache.clearcache(${1:})"},
+		{"trigger": "y-getline()\tlinecache*", "contents": "linecache.getline(${1:filename}, ${2:lineno}, ${3:module_globals=None})"},
+		{"trigger": "y-lazycache()\tlinecache*", "contents": "linecache.lazycache(${1:filename}, ${2:module_globals})"}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-BaseCookie\thttp*", "contents": "http.cookies.BaseCookie(${1:[input]})"},
+		{"trigger": "y-CookieError\thttp*", "contents": "http.cookies.CookieError"},
+		{"trigger": "y-Morsel\thttp*", "contents": "http.cookies.Morsel"},
+		{"trigger": "y-OutputString\thttp*", "contents": "http.cookies.OutputString(${1:attrs=None})"},
+		{"trigger": "y-SimpleCookie\thttp*", "contents": "http.cookies.SimpleCookie(${1:[input]})"},
+		{"trigger": "y-coded_value()\thttp*", "contents": "http.cookies.coded_value()"},
+		{"trigger": "y-copy()\thttp*", "contents": "http.cookies.copy(${1:value})"},
+		{"trigger": "y-isReservedKey()\thttp*", "contents": "http.cookies.isReservedKey(${1:K})"},
+		{"trigger": "y-js_output()\thttp*", "contents": "http.cookies.js_output(${1:attrs=None})"},
+		{"trigger": "y-key()\thttp*", "contents": "http.cookies.key()"},
+		{"trigger": "y-load()\thttp*", "contents": "http.cookies.load(${1:rawdata})"},
+		{"trigger": "y-output()\thttp*", "contents": "http.cookies.output(${1:attrs=None}, ${2:header='Set-Cookie:'}, ${3:sep='\\ '})"},
+		{"trigger": "y-output()\thttp*", "contents": "http.cookies.output(${1:attrs=None}, ${2:header='Set-Cookie:'})"},
+		{"trigger": "y-set()\thttp*", "contents": "http.cookies.set(${1:key}, ${2:value}, ${3:coded_value})"},
+		{"trigger": "y-setdefault()\thttp*", "contents": "http.cookies.setdefault(${1:key}, ${2:value=None})"},
+		{"trigger": "y-update()\thttp*", "contents": "http.cookies.update(${1:values})"},
+		{"trigger": "y-value()\thttp*", "contents": "http.cookies.value()"},
+		{"trigger": "y-value_decode()\thttp*", "contents": "http.cookies.value_decode(${1:val})"},
+		{"trigger": "y-value_encode()\thttp*", "contents": "http.cookies.value_encode(${1:val})"}
+	]
+}

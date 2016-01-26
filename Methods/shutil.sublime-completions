@@ -1,0 +1,31 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Error\tshutil", "contents": "Error"},
+		{"trigger": "SameFileError\tshutil", "contents": "SameFileError"},
+		{"trigger": "avoids_symlink_attacks()\tshutil", "contents": "avoids_symlink_attacks()"},
+		{"trigger": "chown()\tshutil", "contents": "chown(${1:path}, ${2:user=None}, ${3:group=None})"},
+		{"trigger": "copy2()\tshutil", "contents": "copy2(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "copy()\tshutil", "contents": "copy(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "copyfile()\tshutil", "contents": "copyfile(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "copyfileobj()\tshutil", "contents": "copyfileobj(${1:fsrc}, ${2:fdst[}, ${3:length]})"},
+		{"trigger": "copymode()\tshutil", "contents": "copymode(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "copystat()\tshutil", "contents": "copystat(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "copytree()\tshutil", "contents": "copytree(${1:src}, ${2:dst}, ${3:symlinks=False}, ${4:ignore=None}, ${5:copy_function=copy2}, ${6:ignore_dangling_symlinks=False})"},
+		{"trigger": "disk_usage()\tshutil", "contents": "disk_usage(${1:path})"},
+		{"trigger": "get_archive_formats()\tshutil", "contents": "get_archive_formats(${1:})"},
+		{"trigger": "get_terminal_size()\tshutil", "contents": "get_terminal_size(${1:fallback=}, ${2:columns}, ${3:lines})"},
+		{"trigger": "get_unpack_formats()\tshutil", "contents": "get_unpack_formats(${1:})"},
+		{"trigger": "ignore_patterns()\tshutil", "contents": "ignore_patterns(${1:*patterns})"},
+		{"trigger": "make_archive()\tshutil", "contents": "make_archive(${1:base_name}, ${2:format[}, ${3:root_dir[}, ${4:base_dir[}, ${5:verbose[}, ${6:dry_run[}, ${7:owner[}, ${8:group[}, ${9:logger]]]]]]]})"},
+		{"trigger": "move()\tshutil", "contents": "move(${1:src}, ${2:dst}, ${3:copy_function=copy2})"},
+		{"trigger": "register_archive_format()\tshutil", "contents": "register_archive_format(${1:name}, ${2:function[}, ${3:extra_args[}, ${4:description]]})"},
+		{"trigger": "register_unpack_format()\tshutil", "contents": "register_unpack_format(${1:name}, ${2:extensions}, ${3:function[}, ${4:extra_args[}, ${5:description]]})"},
+		{"trigger": "rmtree()\tshutil", "contents": "rmtree(${1:path}, ${2:ignore_errors=False}, ${3:onerror=None})"},
+		{"trigger": "unpack_archive()\tshutil", "contents": "unpack_archive(${1:filename[}, ${2:extract_dir[}, ${3:format]]})"},
+		{"trigger": "unregister_archive_format()\tshutil", "contents": "unregister_archive_format(${1:name})"},
+		{"trigger": "unregister_unpack_format()\tshutil", "contents": "unregister_unpack_format(${1:name})"},
+		{"trigger": "which()\tshutil", "contents": "which(${1:cmd}, ${2:mode=os.F_OK | os.X_OK}, ${3:path=None})"}
+	]
+}

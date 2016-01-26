@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BaseCookie\thttp", "contents": "BaseCookie(${1:[input]})"},
+		{"trigger": "CookieError\thttp", "contents": "CookieError"},
+		{"trigger": "Morsel\thttp", "contents": "Morsel"},
+		{"trigger": "OutputString\thttp", "contents": "OutputString(${1:attrs=None})"},
+		{"trigger": "SimpleCookie\thttp", "contents": "SimpleCookie(${1:[input]})"},
+		{"trigger": "coded_value()\thttp", "contents": "coded_value()"},
+		{"trigger": "copy()\thttp", "contents": "copy(${1:value})"},
+		{"trigger": "isReservedKey()\thttp", "contents": "isReservedKey(${1:K})"},
+		{"trigger": "js_output()\thttp", "contents": "js_output(${1:attrs=None})"},
+		{"trigger": "key()\thttp", "contents": "key()"},
+		{"trigger": "load()\thttp", "contents": "load(${1:rawdata})"},
+		{"trigger": "output()\thttp", "contents": "output(${1:attrs=None}, ${2:header='Set-Cookie:'}, ${3:sep='\\ '})"},
+		{"trigger": "output()\thttp", "contents": "output(${1:attrs=None}, ${2:header='Set-Cookie:'})"},
+		{"trigger": "set()\thttp", "contents": "set(${1:key}, ${2:value}, ${3:coded_value})"},
+		{"trigger": "setdefault()\thttp", "contents": "setdefault(${1:key}, ${2:value=None})"},
+		{"trigger": "update()\thttp", "contents": "update(${1:values})"},
+		{"trigger": "value()\thttp", "contents": "value()"},
+		{"trigger": "value_decode()\thttp", "contents": "value_decode(${1:val})"},
+		{"trigger": "value_encode()\thttp", "contents": "value_encode(${1:val})"}
+	]
+}

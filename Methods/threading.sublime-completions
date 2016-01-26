@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Barrier\tthreading", "contents": "Barrier(${1:parties}, ${2:action=None}, ${3:timeout=None})"},
+		{"trigger": "BoundedSemaphore\tthreading", "contents": "BoundedSemaphore(${1:value=1})"},
+		{"trigger": "BrokenBarrierError\tthreading", "contents": "BrokenBarrierError"},
+		{"trigger": "Condition\tthreading", "contents": "Condition(${1:lock=None})"},
+		{"trigger": "Event\tthreading", "contents": "Event"},
+		{"trigger": "Lock\tthreading", "contents": "Lock"},
+		{"trigger": "RLock\tthreading", "contents": "RLock"},
+		{"trigger": "Semaphore\tthreading", "contents": "Semaphore(${1:value=1})"},
+		{"trigger": "TIMEOUT_MAX\tthreading", "contents": "TIMEOUT_MAX"},
+		{"trigger": "Thread\tthreading", "contents": "Thread(${1:group=None}, ${2:target=None}, ${3:name=None}, ${4:args=}, ${5:})"},
+		{"trigger": "Timer\tthreading", "contents": "Timer(${1:interval}, ${2:function}, ${3:args=None}, ${4:kwargs=None})"},
+		{"trigger": "active_count()\tthreading", "contents": "active_count(${1:})"},
+		{"trigger": "current_thread()\tthreading", "contents": "current_thread(${1:})"},
+		{"trigger": "enumerate()\tthreading", "contents": "enumerate(${1:})"},
+		{"trigger": "get_ident()\tthreading", "contents": "get_ident(${1:})"},
+		{"trigger": "local()\tthreading", "contents": "local()"},
+		{"trigger": "main_thread()\tthreading", "contents": "main_thread(${1:})"},
+		{"trigger": "setprofile()\tthreading", "contents": "setprofile(${1:func})"},
+		{"trigger": "settrace()\tthreading", "contents": "settrace(${1:func})"},
+		{"trigger": "stack_size()\tthreading", "contents": "stack_size(${1:[size]})"}
+	]
+}

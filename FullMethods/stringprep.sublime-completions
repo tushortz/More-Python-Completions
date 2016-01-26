@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-in_table_a1()\tstringprep*", "contents": "stringprep.in_table_a1(${1:code})"},
+		{"trigger": "y-in_table_b1()\tstringprep*", "contents": "stringprep.in_table_b1(${1:code})"},
+		{"trigger": "y-in_table_c11()\tstringprep*", "contents": "stringprep.in_table_c11(${1:code})"},
+		{"trigger": "y-in_table_c11_c12()\tstringprep*", "contents": "stringprep.in_table_c11_c12(${1:code})"},
+		{"trigger": "y-in_table_c12()\tstringprep*", "contents": "stringprep.in_table_c12(${1:code})"},
+		{"trigger": "y-in_table_c21()\tstringprep*", "contents": "stringprep.in_table_c21(${1:code})"},
+		{"trigger": "y-in_table_c21_c22()\tstringprep*", "contents": "stringprep.in_table_c21_c22(${1:code})"},
+		{"trigger": "y-in_table_c22()\tstringprep*", "contents": "stringprep.in_table_c22(${1:code})"},
+		{"trigger": "y-in_table_c3()\tstringprep*", "contents": "stringprep.in_table_c3(${1:code})"},
+		{"trigger": "y-in_table_c4()\tstringprep*", "contents": "stringprep.in_table_c4(${1:code})"},
+		{"trigger": "y-in_table_c5()\tstringprep*", "contents": "stringprep.in_table_c5(${1:code})"},
+		{"trigger": "y-in_table_c6()\tstringprep*", "contents": "stringprep.in_table_c6(${1:code})"},
+		{"trigger": "y-in_table_c7()\tstringprep*", "contents": "stringprep.in_table_c7(${1:code})"},
+		{"trigger": "y-in_table_c8()\tstringprep*", "contents": "stringprep.in_table_c8(${1:code})"},
+		{"trigger": "y-in_table_c9()\tstringprep*", "contents": "stringprep.in_table_c9(${1:code})"},
+		{"trigger": "y-in_table_d1()\tstringprep*", "contents": "stringprep.in_table_d1(${1:code})"},
+		{"trigger": "y-in_table_d2()\tstringprep*", "contents": "stringprep.in_table_d2(${1:code})"},
+		{"trigger": "y-map_table_b2()\tstringprep*", "contents": "stringprep.map_table_b2(${1:code})"},
+		{"trigger": "y-map_table_b3()\tstringprep*", "contents": "stringprep.map_table_b3(${1:code})"}
+	]
+}

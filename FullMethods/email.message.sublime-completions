@@ -1,0 +1,7 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Message\temail*", "contents": "email.message.Message(${1:policy=compat32})"}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "setcbreak()\ttty", "contents": "setcbreak(${1:fd}, ${2:when=termios.TCSAFLUSH})"},
+		{"trigger": "setraw()\ttty", "contents": "setraw(${1:fd}, ${2:when=termios.TCSAFLUSH})"}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Error\tbinascii*", "contents": "binascii.Error"},
+		{"trigger": "y-Incomplete\tbinascii*", "contents": "binascii.Incomplete"},
+		{"trigger": "y-a2b_base64()\tbinascii*", "contents": "binascii.a2b_base64(${1:string})"},
+		{"trigger": "y-a2b_hex()\tbinascii*", "contents": "binascii.a2b_hex(${1:hexstr})"},
+		{"trigger": "y-a2b_hqx()\tbinascii*", "contents": "binascii.a2b_hqx(${1:string})"},
+		{"trigger": "y-a2b_qp()\tbinascii*", "contents": "binascii.a2b_qp(${1:data}, ${2:header=False})"},
+		{"trigger": "y-a2b_uu()\tbinascii*", "contents": "binascii.a2b_uu(${1:string})"},
+		{"trigger": "y-b2a_base64()\tbinascii*", "contents": "binascii.b2a_base64(${1:data})"},
+		{"trigger": "y-b2a_hex()\tbinascii*", "contents": "binascii.b2a_hex(${1:data})"},
+		{"trigger": "y-b2a_hqx()\tbinascii*", "contents": "binascii.b2a_hqx(${1:data})"},
+		{"trigger": "y-b2a_qp()\tbinascii*", "contents": "binascii.b2a_qp(${1:data}, ${2:quotetabs=False}, ${3:istext=True}, ${4:header=False})"},
+		{"trigger": "y-b2a_uu()\tbinascii*", "contents": "binascii.b2a_uu(${1:data})"},
+		{"trigger": "y-crc32()\tbinascii*", "contents": "binascii.crc32(${1:data[}, ${2:value]})"},
+		{"trigger": "y-crc_hqx()\tbinascii*", "contents": "binascii.crc_hqx(${1:data}, ${2:value})"},
+		{"trigger": "y-hexlify()\tbinascii*", "contents": "binascii.hexlify(${1:data})"},
+		{"trigger": "y-rlecode_hqx()\tbinascii*", "contents": "binascii.rlecode_hqx(${1:data})"},
+		{"trigger": "y-rledecode_hqx()\tbinascii*", "contents": "binascii.rledecode_hqx(${1:data})"},
+		{"trigger": "y-unhexlify()\tbinascii*", "contents": "binascii.unhexlify(${1:hexstr})"}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-frame()\ttkinter*", "contents": "tkinter.scrolledtext.frame()"},
+		{"trigger": "y-vbar()\ttkinter*", "contents": "tkinter.scrolledtext.vbar()"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Differ\tdifflib", "contents": "Differ"},
+		{"trigger": "Differ\tdifflib", "contents": "Differ(${1:linejunk=None}, ${2:charjunk=None})"},
+		{"trigger": "HtmlDiff\tdifflib", "contents": "HtmlDiff"},
+		{"trigger": "IS_CHARACTER_JUNK\tdifflib", "contents": "IS_CHARACTER_JUNK(${1:ch})"},
+		{"trigger": "IS_LINE_JUNK\tdifflib", "contents": "IS_LINE_JUNK(${1:line})"},
+		{"trigger": "SequenceMatcher\tdifflib", "contents": "SequenceMatcher"},
+		{"trigger": "SequenceMatcher\tdifflib", "contents": "SequenceMatcher(${1:isjunk=None}, ${2:a=''}, ${3:b=''}, ${4:autojunk=True})"},
+		{"trigger": "context_diff()\tdifflib", "contents": "context_diff(${1:a}, ${2:b}, ${3:fromfile=''}, ${4:tofile=''}, ${5:fromfiledate=''}, ${6:tofiledate=''}, ${7:n=3}, ${8:lineterm='\ '})"},
+		{"trigger": "diff_bytes()\tdifflib", "contents": "diff_bytes(${1:dfunc}, ${2:a}, ${3:b}, ${4:fromfile=b''}, ${5:tofile=b''}, ${6:fromfiledate=b''}, ${7:tofiledate=b''}, ${8:n=3}, ${9:lineterm=b'\ '})"},
+		{"trigger": "get_close_matches()\tdifflib", "contents": "get_close_matches(${1:word}, ${2:possibilities}, ${3:n=3}, ${4:cutoff=0.6})"},
+		{"trigger": "ndiff()\tdifflib", "contents": "ndiff(${1:a}, ${2:b}, ${3:linejunk=None}, ${4:charjunk=IS_CHARACTER_JUNK})"},
+		{"trigger": "restore()\tdifflib", "contents": "restore(${1:sequence}, ${2:which})"},
+		{"trigger": "unified_diff()\tdifflib", "contents": "unified_diff(${1:a}, ${2:b}, ${3:fromfile=''}, ${4:tofile=''}, ${5:fromfiledate=''}, ${6:tofiledate=''}, ${7:n=3}, ${8:lineterm='\ '})"}
+	]
+}

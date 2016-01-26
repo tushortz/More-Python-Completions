@@ -1,0 +1,33 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-add()\taudioop*", "contents": "audioop.add(${1:fragment1}, ${2:fragment2}, ${3:width})"},
+		{"trigger": "y-adpcm2lin()\taudioop*", "contents": "audioop.adpcm2lin(${1:adpcmfragment}, ${2:width}, ${3:state})"},
+		{"trigger": "y-alaw2lin()\taudioop*", "contents": "audioop.alaw2lin(${1:fragment}, ${2:width})"},
+		{"trigger": "y-avg()\taudioop*", "contents": "audioop.avg(${1:fragment}, ${2:width})"},
+		{"trigger": "y-avgpp()\taudioop*", "contents": "audioop.avgpp(${1:fragment}, ${2:width})"},
+		{"trigger": "y-bias()\taudioop*", "contents": "audioop.bias(${1:fragment}, ${2:width}, ${3:bias})"},
+		{"trigger": "y-byteswap()\taudioop*", "contents": "audioop.byteswap(${1:fragment}, ${2:width})"},
+		{"trigger": "y-cross()\taudioop*", "contents": "audioop.cross(${1:fragment}, ${2:width})"},
+		{"trigger": "y-error()\taudioop*", "contents": "audioop.error()"},
+		{"trigger": "y-findfactor()\taudioop*", "contents": "audioop.findfactor(${1:fragment}, ${2:reference})"},
+		{"trigger": "y-findfit()\taudioop*", "contents": "audioop.findfit(${1:fragment}, ${2:reference})"},
+		{"trigger": "y-findmax()\taudioop*", "contents": "audioop.findmax(${1:fragment}, ${2:length})"},
+		{"trigger": "y-getsample()\taudioop*", "contents": "audioop.getsample(${1:fragment}, ${2:width}, ${3:index})"},
+		{"trigger": "y-lin2adpcm()\taudioop*", "contents": "audioop.lin2adpcm(${1:fragment}, ${2:width}, ${3:state})"},
+		{"trigger": "y-lin2alaw()\taudioop*", "contents": "audioop.lin2alaw(${1:fragment}, ${2:width})"},
+		{"trigger": "y-lin2lin()\taudioop*", "contents": "audioop.lin2lin(${1:fragment}, ${2:width}, ${3:newwidth})"},
+		{"trigger": "y-lin2ulaw()\taudioop*", "contents": "audioop.lin2ulaw(${1:fragment}, ${2:width})"},
+		{"trigger": "y-max()\taudioop*", "contents": "audioop.max(${1:fragment}, ${2:width})"},
+		{"trigger": "y-maxpp()\taudioop*", "contents": "audioop.maxpp(${1:fragment}, ${2:width})"},
+		{"trigger": "y-minmax()\taudioop*", "contents": "audioop.minmax(${1:fragment}, ${2:width})"},
+		{"trigger": "y-mul()\taudioop*", "contents": "audioop.mul(${1:fragment}, ${2:width}, ${3:factor})"},
+		{"trigger": "y-ratecv()\taudioop*", "contents": "audioop.ratecv(${1:fragment}, ${2:width}, ${3:nchannels}, ${4:inrate}, ${5:outrate}, ${6:state[}, ${7:weightA[}, ${8:weightB]]})"},
+		{"trigger": "y-reverse()\taudioop*", "contents": "audioop.reverse(${1:fragment}, ${2:width})"},
+		{"trigger": "y-rms()\taudioop*", "contents": "audioop.rms(${1:fragment}, ${2:width})"},
+		{"trigger": "y-tomono()\taudioop*", "contents": "audioop.tomono(${1:fragment}, ${2:width}, ${3:lfactor}, ${4:rfactor})"},
+		{"trigger": "y-tostereo()\taudioop*", "contents": "audioop.tostereo(${1:fragment}, ${2:width}, ${3:lfactor}, ${4:rfactor})"},
+		{"trigger": "y-ulaw2lin()\taudioop*", "contents": "audioop.ulaw2lin(${1:fragment}, ${2:width})"}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "filter()\tfnmatch", "contents": "filter(${1:names}, ${2:pattern})"},
+		{"trigger": "fnmatch()\tfnmatch", "contents": "fnmatch(${1:filename}, ${2:pattern})"},
+		{"trigger": "fnmatchcase()\tfnmatch", "contents": "fnmatchcase(${1:filename}, ${2:pattern})"},
+		{"trigger": "translate()\tfnmatch", "contents": "translate(${1:pattern})"}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "dictConfig()\tlogging", "contents": "dictConfig(${1:config})"},
+		{"trigger": "fileConfig()\tlogging", "contents": "fileConfig(${1:fname}, ${2:defaults=None}, ${3:disable_existing_loggers=True})"},
+		{"trigger": "listen()\tlogging", "contents": "listen(${1:port=DEFAULT_LOGGING_CONFIG_PORT}, ${2:verify=None})"},
+		{"trigger": "stopListening()\tlogging", "contents": "stopListening(${1:})"}
+	]
+}

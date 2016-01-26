@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "iskeyword()\tkeyword", "contents": "iskeyword(${1:s})"},
+		{"trigger": "kwlist()\tkeyword", "contents": "kwlist()"}
+	]
+}

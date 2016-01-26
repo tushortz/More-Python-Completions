@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-alt()\tcurses*", "contents": "curses.ascii.alt(${1:c})"},
+		{"trigger": "y-ascii()\tcurses*", "contents": "curses.ascii.ascii(${1:c})"},
+		{"trigger": "y-controlnames()\tcurses*", "contents": "curses.ascii.controlnames()"},
+		{"trigger": "y-ctrl()\tcurses*", "contents": "curses.ascii.ctrl(${1:c})"},
+		{"trigger": "y-isalnum()\tcurses*", "contents": "curses.ascii.isalnum(${1:c})"},
+		{"trigger": "y-isalpha()\tcurses*", "contents": "curses.ascii.isalpha(${1:c})"},
+		{"trigger": "y-isascii()\tcurses*", "contents": "curses.ascii.isascii(${1:c})"},
+		{"trigger": "y-isblank()\tcurses*", "contents": "curses.ascii.isblank(${1:c})"},
+		{"trigger": "y-iscntrl()\tcurses*", "contents": "curses.ascii.iscntrl(${1:c})"},
+		{"trigger": "y-isctrl()\tcurses*", "contents": "curses.ascii.isctrl(${1:c})"},
+		{"trigger": "y-isdigit()\tcurses*", "contents": "curses.ascii.isdigit(${1:c})"},
+		{"trigger": "y-isgraph()\tcurses*", "contents": "curses.ascii.isgraph(${1:c})"},
+		{"trigger": "y-islower()\tcurses*", "contents": "curses.ascii.islower(${1:c})"},
+		{"trigger": "y-ismeta()\tcurses*", "contents": "curses.ascii.ismeta(${1:c})"},
+		{"trigger": "y-isprint()\tcurses*", "contents": "curses.ascii.isprint(${1:c})"},
+		{"trigger": "y-ispunct()\tcurses*", "contents": "curses.ascii.ispunct(${1:c})"},
+		{"trigger": "y-isspace()\tcurses*", "contents": "curses.ascii.isspace(${1:c})"},
+		{"trigger": "y-isupper()\tcurses*", "contents": "curses.ascii.isupper(${1:c})"},
+		{"trigger": "y-isxdigit()\tcurses*", "contents": "curses.ascii.isxdigit(${1:c})"},
+		{"trigger": "y-unctrl()\tcurses*", "contents": "curses.ascii.unctrl(${1:c})"}
+	]
+}

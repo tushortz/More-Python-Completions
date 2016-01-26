@@ -1,0 +1,24 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ANY\tunittest", "contents": "ANY"},
+		{"trigger": "DEFAULT\tunittest", "contents": "DEFAULT"},
+		{"trigger": "FILTER_DIR\tunittest", "contents": "FILTER_DIR"},
+		{"trigger": "MagicMock\tunittest", "contents": "MagicMock(${1:*args}, ${2:**kw})"},
+		{"trigger": "Mock\tunittest", "contents": "Mock(${1:spec=None}, ${2:side_effect=None}, ${3:return_value=DEFAULT}, ${4:wraps=None}, ${5:name=None}, ${6:spec_set=None}, ${7:unsafe=False}, ${8:**kwargs})"},
+		{"trigger": "NonCallableMagicMock\tunittest", "contents": "NonCallableMagicMock(${1:*args}, ${2:**kw})"},
+		{"trigger": "NonCallableMock\tunittest", "contents": "NonCallableMock(${1:spec=None}, ${2:wraps=None}, ${3:name=None}, ${4:spec_set=None}, ${5:**kwargs})"},
+		{"trigger": "PropertyMock\tunittest", "contents": "PropertyMock(${1:*args}, ${2:**kwargs})"},
+		{"trigger": "call()\tunittest", "contents": "call(${1:*args}, ${2:**kwargs})"},
+		{"trigger": "call_list()\tunittest", "contents": "call_list(${1:})"},
+		{"trigger": "create_autospec()\tunittest", "contents": "create_autospec(${1:spec}, ${2:spec_set=False}, ${3:instance=False}, ${4:**kwargs})"},
+		{"trigger": "dict()\tunittest", "contents": "dict(${1:in_dict}, ${2:values=}, ${3:})"},
+		{"trigger": "mock_open()\tunittest", "contents": "mock_open(${1:mock=None}, ${2:read_data=None})"},
+		{"trigger": "multiple()\tunittest", "contents": "multiple(${1:target}, ${2:spec=None}, ${3:create=False}, ${4:spec_set=None}, ${5:autospec=None}, ${6:new_callable=None}, ${7:**kwargs})"},
+		{"trigger": "object()\tunittest", "contents": "object(${1:target}, ${2:attribute}, ${3:new=DEFAULT}, ${4:spec=None}, ${5:create=False}, ${6:spec_set=None}, ${7:autospec=None}, ${8:new_callable=None}, ${9:**kwargs})"},
+		{"trigger": "patch()\tunittest", "contents": "patch(${1:target}, ${2:new=DEFAULT}, ${3:spec=None}, ${4:create=False}, ${5:spec_set=None}, ${6:autospec=None}, ${7:new_callable=None}, ${8:**kwargs})"},
+		{"trigger": "sentinel()\tunittest", "contents": "sentinel()"},
+		{"trigger": "stopall()\tunittest", "contents": "stopall(${1:})"}
+	]
+}

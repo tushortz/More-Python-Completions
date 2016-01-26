@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "escape()\tcgi", "contents": "escape(${1:s}, ${2:quote=False})"},
+		{"trigger": "getfirst()\tcgi", "contents": "getfirst(${1:name}, ${2:default=None})"},
+		{"trigger": "getlist()\tcgi", "contents": "getlist(${1:name})"},
+		{"trigger": "parse()\tcgi", "contents": "parse(${1:fp=None}, ${2:environ=os.environ}, ${3:keep_blank_values=False}, ${4:strict_parsing=False})"},
+		{"trigger": "parse_header()\tcgi", "contents": "parse_header(${1:string})"},
+		{"trigger": "parse_multipart()\tcgi", "contents": "parse_multipart(${1:fp}, ${2:pdict})"},
+		{"trigger": "parse_qs()\tcgi", "contents": "parse_qs(${1:qs}, ${2:keep_blank_values=False}, ${3:strict_parsing=False})"},
+		{"trigger": "parse_qsl()\tcgi", "contents": "parse_qsl(${1:qs}, ${2:keep_blank_values=False}, ${3:strict_parsing=False})"},
+		{"trigger": "print_directory()\tcgi", "contents": "print_directory(${1:})"},
+		{"trigger": "print_environ()\tcgi", "contents": "print_environ(${1:})"},
+		{"trigger": "print_environ_usage()\tcgi", "contents": "print_environ_usage(${1:})"},
+		{"trigger": "print_form()\tcgi", "contents": "print_form(${1:form})"},
+		{"trigger": "test()\tcgi", "contents": "test(${1:})"}
+	]
+}

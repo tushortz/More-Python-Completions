@@ -1,0 +1,28 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "NAMESPACE_DNS\tuuid", "contents": "NAMESPACE_DNS"},
+		{"trigger": "NAMESPACE_OID\tuuid", "contents": "NAMESPACE_OID"},
+		{"trigger": "NAMESPACE_URL\tuuid", "contents": "NAMESPACE_URL"},
+		{"trigger": "NAMESPACE_X500\tuuid", "contents": "NAMESPACE_X500"},
+		{"trigger": "RESERVED_FUTURE\tuuid", "contents": "RESERVED_FUTURE"},
+		{"trigger": "RESERVED_MICROSOFT\tuuid", "contents": "RESERVED_MICROSOFT"},
+		{"trigger": "RESERVED_NCS\tuuid", "contents": "RESERVED_NCS"},
+		{"trigger": "RFC_4122\tuuid", "contents": "RFC_4122"},
+		{"trigger": "UUID\tuuid", "contents": "UUID(${1:hex=None}, ${2:bytes=None}, ${3:bytes_le=None}, ${4:fields=None}, ${5:int=None}, ${6:version=None})"},
+		{"trigger": "bytes()\tuuid", "contents": "bytes()"},
+		{"trigger": "bytes_le()\tuuid", "contents": "bytes_le()"},
+		{"trigger": "fields()\tuuid", "contents": "fields()"},
+		{"trigger": "getnode()\tuuid", "contents": "getnode(${1:})"},
+		{"trigger": "hex()\tuuid", "contents": "hex()"},
+		{"trigger": "int()\tuuid", "contents": "int()"},
+		{"trigger": "urn()\tuuid", "contents": "urn()"},
+		{"trigger": "uuid1()\tuuid", "contents": "uuid1(${1:node=None}, ${2:clock_seq=None})"},
+		{"trigger": "uuid3()\tuuid", "contents": "uuid3(${1:namespace}, ${2:name})"},
+		{"trigger": "uuid4()\tuuid", "contents": "uuid4(${1:})"},
+		{"trigger": "uuid5()\tuuid", "contents": "uuid5(${1:namespace}, ${2:name})"},
+		{"trigger": "variant()\tuuid", "contents": "variant()"},
+		{"trigger": "version()\tuuid", "contents": "version()"}
+	]
+}

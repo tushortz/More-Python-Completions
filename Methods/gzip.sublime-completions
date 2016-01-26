@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "GzipFile\tgzip", "contents": "GzipFile(${1:filename=None}, ${2:mode=None}, ${3:compresslevel=9}, ${4:fileobj=None}, ${5:mtime=None})"},
+		{"trigger": "compress()\tgzip", "contents": "compress(${1:data}, ${2:compresslevel=9})"},
+		{"trigger": "decompress()\tgzip", "contents": "decompress(${1:data})"},
+		{"trigger": "open()\tgzip", "contents": "open(${1:filename}, ${2:mode='rb'}, ${3:compresslevel=9}, ${4:encoding=None}, ${5:errors=None}, ${6:newline=None})"}
+	]
+}

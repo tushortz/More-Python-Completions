@@ -1,0 +1,16 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ImpImporter\tpkgutil", "contents": "ImpImporter(${1:dirname=None})"},
+		{"trigger": "ImpLoader\tpkgutil", "contents": "ImpLoader(${1:fullname}, ${2:file}, ${3:filename}, ${4:etc})"},
+		{"trigger": "extend_path()\tpkgutil", "contents": "extend_path(${1:path}, ${2:name})"},
+		{"trigger": "find_loader()\tpkgutil", "contents": "find_loader(${1:fullname})"},
+		{"trigger": "get_data()\tpkgutil", "contents": "get_data(${1:package}, ${2:resource})"},
+		{"trigger": "get_importer()\tpkgutil", "contents": "get_importer(${1:path_item})"},
+		{"trigger": "get_loader()\tpkgutil", "contents": "get_loader(${1:module_or_name})"},
+		{"trigger": "iter_importers()\tpkgutil", "contents": "iter_importers(${1:fullname=''})"},
+		{"trigger": "iter_modules()\tpkgutil", "contents": "iter_modules(${1:path=None}, ${2:prefix=''})"},
+		{"trigger": "walk_packages()\tpkgutil", "contents": "walk_packages(${1:path=None}, ${2:prefix=''}, ${3:onerror=None})"}
+	]
+}

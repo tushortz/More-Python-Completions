@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Profile\tprofile", "contents": "Profile(${1:timer=None}, ${2:timeunit=0.0}, ${3:subcalls=True}, ${4:builtins=True})"},
+		{"trigger": "Stats\tprofile", "contents": "Stats(${1:*filenames or profile}, ${2:stream=sys.stdout})"},
+		{"trigger": "run()\tprofile", "contents": "run(${1:command}, ${2:filename=None}, ${3:sort=-1})"},
+		{"trigger": "runctx()\tprofile", "contents": "runctx(${1:command}, ${2:globals}, ${3:locals}, ${4:filename=None})"}
+	]
+}

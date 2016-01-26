@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "file()\tpyclbr", "contents": "file()"},
+		{"trigger": "lineno()\tpyclbr", "contents": "lineno()"},
+		{"trigger": "methods()\tpyclbr", "contents": "methods()"},
+		{"trigger": "module()\tpyclbr", "contents": "module()"},
+		{"trigger": "name()\tpyclbr", "contents": "name()"},
+		{"trigger": "readmodule()\tpyclbr", "contents": "readmodule(${1:module}, ${2:path=None})"},
+		{"trigger": "readmodule_ex()\tpyclbr", "contents": "readmodule_ex(${1:module}, ${2:path=None})"},
+		{"trigger": "super()\tpyclbr", "contents": "super()"}
+	]
+}

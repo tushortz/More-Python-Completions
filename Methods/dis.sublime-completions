@@ -1,0 +1,28 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Bytecode\tdis", "contents": "Bytecode(${1:x}, ${2:*}, ${3:first_line=None}, ${4:current_offset=None})"},
+		{"trigger": "Instruction\tdis", "contents": "Instruction"},
+		{"trigger": "cmp_op()\tdis", "contents": "cmp_op()"},
+		{"trigger": "code_info()\tdis", "contents": "code_info(${1:x})"},
+		{"trigger": "dis()\tdis", "contents": "dis(${1:x=None}, ${2:*}, ${3:file=None})"},
+		{"trigger": "disassemble()\tdis", "contents": "disassemble(${1:code}, ${2:lasti=-1}, ${3:*}, ${4:file=None})"},
+		{"trigger": "disco()\tdis", "contents": "disco(${1:code}, ${2:lasti=-1}, ${3:*}, ${4:file=None})"},
+		{"trigger": "distb()\tdis", "contents": "distb(${1:tb=None}, ${2:*}, ${3:file=None})"},
+		{"trigger": "findlabels()\tdis", "contents": "findlabels(${1:code})"},
+		{"trigger": "findlinestarts()\tdis", "contents": "findlinestarts(${1:code})"},
+		{"trigger": "get_instructions()\tdis", "contents": "get_instructions(${1:x}, ${2:*}, ${3:first_line=None})"},
+		{"trigger": "hascompare()\tdis", "contents": "hascompare()"},
+		{"trigger": "hasconst()\tdis", "contents": "hasconst()"},
+		{"trigger": "hasfree()\tdis", "contents": "hasfree()"},
+		{"trigger": "hasjabs()\tdis", "contents": "hasjabs()"},
+		{"trigger": "hasjrel()\tdis", "contents": "hasjrel()"},
+		{"trigger": "haslocal()\tdis", "contents": "haslocal()"},
+		{"trigger": "hasname()\tdis", "contents": "hasname()"},
+		{"trigger": "opmap()\tdis", "contents": "opmap()"},
+		{"trigger": "opname()\tdis", "contents": "opname()"},
+		{"trigger": "show_code()\tdis", "contents": "show_code(${1:x}, ${2:*}, ${3:file=None})"},
+		{"trigger": "stack_effect()\tdis", "contents": "stack_effect(${1:opcode[}, ${2:oparg]})"}
+	]
+}

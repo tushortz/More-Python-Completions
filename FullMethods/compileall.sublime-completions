@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-compile_dir()\tcompileall*", "contents": "compileall.compile_dir(${1:dir}, ${2:maxlevels=10}, ${3:ddir=None}, ${4:force=False}, ${5:rx=None}, ${6:quiet=0}, ${7:legacy=False}, ${8:optimize=-1}, ${9:workers=1})"},
+		{"trigger": "y-compile_file()\tcompileall*", "contents": "compileall.compile_file(${1:fullname}, ${2:ddir=None}, ${3:force=False}, ${4:rx=None}, ${5:quiet=0}, ${6:legacy=False}, ${7:optimize=-1})"},
+		{"trigger": "y-compile_path()\tcompileall*", "contents": "compileall.compile_path(${1:skip_curdir=True}, ${2:maxlevels=0}, ${3:force=False}, ${4:quiet=0}, ${5:legacy=False}, ${6:optimize=-1})"}
+	]
+}

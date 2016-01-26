@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BaseSelector\tselectors", "contents": "BaseSelector"},
+		{"trigger": "DefaultSelector\tselectors", "contents": "DefaultSelector"},
+		{"trigger": "DevpollSelector\tselectors", "contents": "DevpollSelector"},
+		{"trigger": "EpollSelector\tselectors", "contents": "EpollSelector"},
+		{"trigger": "KqueueSelector\tselectors", "contents": "KqueueSelector"},
+		{"trigger": "PollSelector\tselectors", "contents": "PollSelector"},
+		{"trigger": "SelectSelector\tselectors", "contents": "SelectSelector"},
+		{"trigger": "SelectorKey\tselectors", "contents": "SelectorKey"}
+	]
+}

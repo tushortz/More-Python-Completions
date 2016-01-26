@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BOOLEAN_STATES\tconfigparser", "contents": "BOOLEAN_STATES"},
+		{"trigger": "BasicInterpolation\tconfigparser", "contents": "BasicInterpolation"},
+		{"trigger": "ConfigParser\tconfigparser", "contents": "ConfigParser(${1:defaults=None}, ${2:dict_type=collections.OrderedDict}, ${3:allow_no_value=False}, ${4:delimiters=}, ${5:'='}, ${6:':'})"},
+		{"trigger": "DuplicateOptionError\tconfigparser", "contents": "DuplicateOptionError"},
+		{"trigger": "DuplicateSectionError\tconfigparser", "contents": "DuplicateSectionError"},
+		{"trigger": "Error\tconfigparser", "contents": "Error"},
+		{"trigger": "ExtendedInterpolation\tconfigparser", "contents": "ExtendedInterpolation"},
+		{"trigger": "InterpolationDepthError\tconfigparser", "contents": "InterpolationDepthError"},
+		{"trigger": "InterpolationError\tconfigparser", "contents": "InterpolationError"},
+		{"trigger": "InterpolationMissingOptionError\tconfigparser", "contents": "InterpolationMissingOptionError"},
+		{"trigger": "InterpolationSyntaxError\tconfigparser", "contents": "InterpolationSyntaxError"},
+		{"trigger": "MAX_INTERPOLATION_DEPTH\tconfigparser", "contents": "MAX_INTERPOLATION_DEPTH"},
+		{"trigger": "MissingSectionHeaderError\tconfigparser", "contents": "MissingSectionHeaderError"},
+		{"trigger": "NoOptionError\tconfigparser", "contents": "NoOptionError"},
+		{"trigger": "NoSectionError\tconfigparser", "contents": "NoSectionError"},
+		{"trigger": "ParsingError\tconfigparser", "contents": "ParsingError"},
+		{"trigger": "RawConfigParser\tconfigparser", "contents": "RawConfigParser(${1:defaults=None}, ${2:dict_type=collections.OrderedDict}, ${3:allow_no_value=False}, ${4:*}, ${5:delimiters=}, ${6:'='}, ${7:':'})"},
+		{"trigger": "SECTCRE\tconfigparser", "contents": "SECTCRE"},
+		{"trigger": "optionxform()\tconfigparser", "contents": "optionxform(${1:option})"}
+	]
+}

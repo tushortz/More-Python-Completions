@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-DebuggingServer\tsmtpd*", "contents": "smtpd.DebuggingServer(${1:localaddr}, ${2:remoteaddr})"},
+		{"trigger": "y-MailmanProxy\tsmtpd*", "contents": "smtpd.MailmanProxy(${1:localaddr}, ${2:remoteaddr})"},
+		{"trigger": "y-PureProxy\tsmtpd*", "contents": "smtpd.PureProxy(${1:localaddr}, ${2:remoteaddr})"},
+		{"trigger": "y-SMTPChannel\tsmtpd*", "contents": "smtpd.SMTPChannel(${1:server}, ${2:conn}, ${3:addr}, ${4:data_size_limit=33554432}, ${5:map=None}, ${6:enable_SMTPUTF8=False}, ${7:decode_data=True})"},
+		{"trigger": "y-SMTPServer\tsmtpd*", "contents": "smtpd.SMTPServer(${1:localaddr}, ${2:remoteaddr}, ${3:data_size_limit=33554432}, ${4:map=None}, ${5:enable_SMTPUTF8=False}, ${6:decode_data=True})"}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-get_config_h_filename()\tsysconfig*", "contents": "sysconfig.get_config_h_filename(${1:})"},
+		{"trigger": "y-get_config_var()\tsysconfig*", "contents": "sysconfig.get_config_var(${1:name})"},
+		{"trigger": "y-get_config_vars()\tsysconfig*", "contents": "sysconfig.get_config_vars(${1:*args})"},
+		{"trigger": "y-get_makefile_filename()\tsysconfig*", "contents": "sysconfig.get_makefile_filename(${1:})"},
+		{"trigger": "y-get_path()\tsysconfig*", "contents": "sysconfig.get_path(${1:name[}, ${2:scheme[}, ${3:vars[}, ${4:expand]]]})"},
+		{"trigger": "y-get_path_names()\tsysconfig*", "contents": "sysconfig.get_path_names(${1:})"},
+		{"trigger": "y-get_paths()\tsysconfig*", "contents": "sysconfig.get_paths(${1:[scheme[}, ${2:vars[}, ${3:expand]]]})"},
+		{"trigger": "y-get_platform()\tsysconfig*", "contents": "sysconfig.get_platform(${1:})"},
+		{"trigger": "y-get_python_version()\tsysconfig*", "contents": "sysconfig.get_python_version(${1:})"},
+		{"trigger": "y-get_scheme_names()\tsysconfig*", "contents": "sysconfig.get_scheme_names(${1:})"},
+		{"trigger": "y-is_python_build()\tsysconfig*", "contents": "sysconfig.is_python_build(${1:})"},
+		{"trigger": "y-parse_config_h()\tsysconfig*", "contents": "sysconfig.parse_config_h(${1:fp[}, ${2:vars]})"}
+	]
+}

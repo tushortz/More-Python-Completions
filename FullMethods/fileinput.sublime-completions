@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-FileInput\tfileinput*", "contents": "fileinput.FileInput(${1:files=None}, ${2:inplace=False}, ${3:backup=''}, ${4:bufsize=0}, ${5:mode='r'}, ${6:openhook=None})"},
+		{"trigger": "y-close()\tfileinput*", "contents": "fileinput.close(${1:})"},
+		{"trigger": "y-filelineno()\tfileinput*", "contents": "fileinput.filelineno(${1:})"},
+		{"trigger": "y-filename()\tfileinput*", "contents": "fileinput.filename(${1:})"},
+		{"trigger": "y-fileno()\tfileinput*", "contents": "fileinput.fileno(${1:})"},
+		{"trigger": "y-hook_compressed()\tfileinput*", "contents": "fileinput.hook_compressed(${1:filename}, ${2:mode})"},
+		{"trigger": "y-hook_encoded()\tfileinput*", "contents": "fileinput.hook_encoded(${1:encoding})"},
+		{"trigger": "y-input()\tfileinput*", "contents": "fileinput.input(${1:files=None}, ${2:inplace=False}, ${3:backup=''}, ${4:bufsize=0}, ${5:mode='r'}, ${6:openhook=None})"},
+		{"trigger": "y-isfirstline()\tfileinput*", "contents": "fileinput.isfirstline(${1:})"},
+		{"trigger": "y-isstdin()\tfileinput*", "contents": "fileinput.isstdin(${1:})"},
+		{"trigger": "y-lineno()\tfileinput*", "contents": "fileinput.lineno(${1:})"},
+		{"trigger": "y-nextfile()\tfileinput*", "contents": "fileinput.nextfile(${1:})"}
+	]
+}

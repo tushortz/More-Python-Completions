@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Cmd\tcmd", "contents": "Cmd(${1:completekey='tab'}, ${2:stdin=None}, ${3:stdout=None})"},
+		{"trigger": "cmdloop()\tcmd", "contents": "cmdloop(${1:intro=None})"},
+		{"trigger": "cmdqueue()\tcmd", "contents": "cmdqueue()"},
+		{"trigger": "completedefault()\tcmd", "contents": "completedefault(${1:text}, ${2:line}, ${3:begidx}, ${4:endidx})"},
+		{"trigger": "default()\tcmd", "contents": "default(${1:line})"},
+		{"trigger": "doc_header()\tcmd", "contents": "doc_header()"},
+		{"trigger": "emptyline()\tcmd", "contents": "emptyline(${1:})"},
+		{"trigger": "identchars()\tcmd", "contents": "identchars()"},
+		{"trigger": "intro()\tcmd", "contents": "intro()"},
+		{"trigger": "lastcmd()\tcmd", "contents": "lastcmd()"},
+		{"trigger": "misc_header()\tcmd", "contents": "misc_header()"},
+		{"trigger": "onecmd()\tcmd", "contents": "onecmd(${1:str})"},
+		{"trigger": "postcmd()\tcmd", "contents": "postcmd(${1:stop}, ${2:line})"},
+		{"trigger": "postloop()\tcmd", "contents": "postloop(${1:})"},
+		{"trigger": "precmd()\tcmd", "contents": "precmd(${1:line})"},
+		{"trigger": "preloop()\tcmd", "contents": "preloop(${1:})"},
+		{"trigger": "prompt()\tcmd", "contents": "prompt()"},
+		{"trigger": "ruler()\tcmd", "contents": "ruler()"},
+		{"trigger": "undoc_header()\tcmd", "contents": "undoc_header()"},
+		{"trigger": "use_rawinput()\tcmd", "contents": "use_rawinput()"}
+	]
+}

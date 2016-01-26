@@ -1,0 +1,7 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "HTTPStatus\thttp", "contents": "HTTPStatus"}
+	]
+}

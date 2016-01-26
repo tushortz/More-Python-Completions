@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "AddPackagePath\tmodulefinder", "contents": "AddPackagePath(${1:pkg_name}, ${2:path})"},
+		{"trigger": "ModuleFinder\tmodulefinder", "contents": "ModuleFinder(${1:path=None}, ${2:debug=0}, ${3:excludes=[]}, ${4:replace_paths=[]})"},
+		{"trigger": "ReplacePackage\tmodulefinder", "contents": "ReplacePackage(${1:oldname}, ${2:newname})"}
+	]
+}

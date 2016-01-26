@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-FrameSummary\ttraceback*", "contents": "traceback.FrameSummary(${1:filename}, ${2:lineno}, ${3:name}, ${4:lookup_line=True}, ${5:locals=None}, ${6:line=None})"},
+		{"trigger": "y-StackSummary\ttraceback*", "contents": "traceback.StackSummary"},
+		{"trigger": "y-TracebackException\ttraceback*", "contents": "traceback.TracebackException(${1:exc_type}, ${2:exc_value}, ${3:exc_traceback}, ${4:*}, ${5:limit=None}, ${6:lookup_lines=True}, ${7:capture_locals=False})"},
+		{"trigger": "y-clear_frames()\ttraceback*", "contents": "traceback.clear_frames(${1:tb})"},
+		{"trigger": "y-extract_stack()\ttraceback*", "contents": "traceback.extract_stack(${1:f=None}, ${2:limit=None})"},
+		{"trigger": "y-extract_tb()\ttraceback*", "contents": "traceback.extract_tb(${1:tb}, ${2:limit=None})"},
+		{"trigger": "y-format_exc()\ttraceback*", "contents": "traceback.format_exc(${1:limit=None}, ${2:chain=True})"},
+		{"trigger": "y-format_exception()\ttraceback*", "contents": "traceback.format_exception(${1:etype}, ${2:value}, ${3:tb}, ${4:limit=None}, ${5:chain=True})"},
+		{"trigger": "y-format_exception_only()\ttraceback*", "contents": "traceback.format_exception_only(${1:etype}, ${2:value})"},
+		{"trigger": "y-format_list()\ttraceback*", "contents": "traceback.format_list(${1:extracted_list})"},
+		{"trigger": "y-format_stack()\ttraceback*", "contents": "traceback.format_stack(${1:f=None}, ${2:limit=None})"},
+		{"trigger": "y-format_tb()\ttraceback*", "contents": "traceback.format_tb(${1:tb}, ${2:limit=None})"},
+		{"trigger": "y-print_exc()\ttraceback*", "contents": "traceback.print_exc(${1:limit=None}, ${2:file=None}, ${3:chain=True})"},
+		{"trigger": "y-print_exception()\ttraceback*", "contents": "traceback.print_exception(${1:etype}, ${2:value}, ${3:tb}, ${4:limit=None}, ${5:file=None}, ${6:chain=True})"},
+		{"trigger": "y-print_last()\ttraceback*", "contents": "traceback.print_last(${1:limit=None}, ${2:file=None}, ${3:chain=True})"},
+		{"trigger": "y-print_stack()\ttraceback*", "contents": "traceback.print_stack(${1:f=None}, ${2:limit=None}, ${3:file=None})"},
+		{"trigger": "y-print_tb()\ttraceback*", "contents": "traceback.print_tb(${1:tb}, ${2:limit=None}, ${3:file=None})"},
+		{"trigger": "y-walk_stack()\ttraceback*", "contents": "traceback.walk_stack(${1:f})"},
+		{"trigger": "y-walk_tb()\ttraceback*", "contents": "traceback.walk_tb(${1:tb})"}
+	]
+}

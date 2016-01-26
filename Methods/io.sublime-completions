@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BlockingIOError\tio", "contents": "BlockingIOError"},
+		{"trigger": "BufferedIOBase\tio", "contents": "BufferedIOBase"},
+		{"trigger": "BufferedRWPair\tio", "contents": "BufferedRWPair(${1:reader}, ${2:writer}, ${3:buffer_size=DEFAULT_BUFFER_SIZE})"},
+		{"trigger": "BufferedRandom\tio", "contents": "BufferedRandom(${1:raw}, ${2:buffer_size=DEFAULT_BUFFER_SIZE})"},
+		{"trigger": "BufferedReader\tio", "contents": "BufferedReader(${1:raw}, ${2:buffer_size=DEFAULT_BUFFER_SIZE})"},
+		{"trigger": "BufferedWriter\tio", "contents": "BufferedWriter(${1:raw}, ${2:buffer_size=DEFAULT_BUFFER_SIZE})"},
+		{"trigger": "BytesIO\tio", "contents": "BytesIO(${1:[initial_bytes]})"},
+		{"trigger": "DEFAULT_BUFFER_SIZE\tio", "contents": "DEFAULT_BUFFER_SIZE"},
+		{"trigger": "FileIO\tio", "contents": "FileIO(${1:name}, ${2:mode='r'}, ${3:closefd=True}, ${4:opener=None})"},
+		{"trigger": "IOBase\tio", "contents": "IOBase"},
+		{"trigger": "IncrementalNewlineDecoder\tio", "contents": "IncrementalNewlineDecoder"},
+		{"trigger": "RawIOBase\tio", "contents": "RawIOBase"},
+		{"trigger": "StringIO\tio", "contents": "StringIO(${1:initial_value=''}, ${2:newline='\ '})"},
+		{"trigger": "TextIOBase\tio", "contents": "TextIOBase"},
+		{"trigger": "TextIOWrapper\tio", "contents": "TextIOWrapper(${1:buffer}, ${2:encoding=None}, ${3:errors=None}, ${4:newline=None}, ${5:line_buffering=False}, ${6:write_through=False})"},
+		{"trigger": "UnsupportedOperation\tio", "contents": "UnsupportedOperation"},
+		{"trigger": "open()\tio", "contents": "open(${1:file}, ${2:mode='r'}, ${3:buffering=-1}, ${4:encoding=None}, ${5:errors=None}, ${6:newline=None}, ${7:closefd=True}, ${8:opener=None})"}
+	]
+}

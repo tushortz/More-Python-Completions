@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Timer\ttimeit*", "contents": "timeit.Timer(${1:stmt='pass'}, ${2:setup='pass'}, ${3:timer=}, ${4:globals=None})"},
+		{"trigger": "y-default_timer()\ttimeit*", "contents": "timeit.default_timer(${1:})"},
+		{"trigger": "y-repeat()\ttimeit*", "contents": "timeit.repeat(${1:stmt='pass'}, ${2:setup='pass'}, ${3:timer=}, ${4:repeat=3}, ${5:number=1000000}, ${6:globals=None})"},
+		{"trigger": "y-timeit()\ttimeit*", "contents": "timeit.timeit(${1:stmt='pass'}, ${2:setup='pass'}, ${3:timer=}, ${4:number=1000000}, ${5:globals=None})"}
+	]
+}

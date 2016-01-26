@@ -1,0 +1,17 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "StatisticsError\tstatistics", "contents": "StatisticsError"},
+		{"trigger": "mean()\tstatistics", "contents": "mean(${1:data})"},
+		{"trigger": "median()\tstatistics", "contents": "median(${1:data})"},
+		{"trigger": "median_grouped()\tstatistics", "contents": "median_grouped(${1:data}, ${2:interval=1})"},
+		{"trigger": "median_high()\tstatistics", "contents": "median_high(${1:data})"},
+		{"trigger": "median_low()\tstatistics", "contents": "median_low(${1:data})"},
+		{"trigger": "mode()\tstatistics", "contents": "mode(${1:data})"},
+		{"trigger": "pstdev()\tstatistics", "contents": "pstdev(${1:data}, ${2:mu=None})"},
+		{"trigger": "pvariance()\tstatistics", "contents": "pvariance(${1:data}, ${2:mu=None})"},
+		{"trigger": "stdev()\tstatistics", "contents": "stdev(${1:data}, ${2:xbar=None})"},
+		{"trigger": "variance()\tstatistics", "contents": "variance(${1:data}, ${2:xbar=None})"}
+	]
+}

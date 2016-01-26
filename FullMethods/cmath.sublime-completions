@@ -1,0 +1,31 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-acos()\tcmath*", "contents": "cmath.acos(${1:x})"},
+		{"trigger": "y-acosh()\tcmath*", "contents": "cmath.acosh(${1:x})"},
+		{"trigger": "y-asin()\tcmath*", "contents": "cmath.asin(${1:x})"},
+		{"trigger": "y-asinh()\tcmath*", "contents": "cmath.asinh(${1:x})"},
+		{"trigger": "y-atan()\tcmath*", "contents": "cmath.atan(${1:x})"},
+		{"trigger": "y-atanh()\tcmath*", "contents": "cmath.atanh(${1:x})"},
+		{"trigger": "y-cos()\tcmath*", "contents": "cmath.cos(${1:x})"},
+		{"trigger": "y-cosh()\tcmath*", "contents": "cmath.cosh(${1:x})"},
+		{"trigger": "y-e()\tcmath*", "contents": "cmath.e()"},
+		{"trigger": "y-exp()\tcmath*", "contents": "cmath.exp(${1:x})"},
+		{"trigger": "y-isclose()\tcmath*", "contents": "cmath.isclose(${1:a}, ${2:b}, ${3:*}, ${4:rel_tol=1e-09}, ${5:abs_tol=0.0})"},
+		{"trigger": "y-isfinite()\tcmath*", "contents": "cmath.isfinite(${1:x})"},
+		{"trigger": "y-isinf()\tcmath*", "contents": "cmath.isinf(${1:x})"},
+		{"trigger": "y-isnan()\tcmath*", "contents": "cmath.isnan(${1:x})"},
+		{"trigger": "y-log10()\tcmath*", "contents": "cmath.log10(${1:x})"},
+		{"trigger": "y-log()\tcmath*", "contents": "cmath.log(${1:x[}, ${2:base]})"},
+		{"trigger": "y-phase()\tcmath*", "contents": "cmath.phase(${1:x})"},
+		{"trigger": "y-pi()\tcmath*", "contents": "cmath.pi()"},
+		{"trigger": "y-polar()\tcmath*", "contents": "cmath.polar(${1:x})"},
+		{"trigger": "y-rect()\tcmath*", "contents": "cmath.rect(${1:r}, ${2:phi})"},
+		{"trigger": "y-sin()\tcmath*", "contents": "cmath.sin(${1:x})"},
+		{"trigger": "y-sinh()\tcmath*", "contents": "cmath.sinh(${1:x})"},
+		{"trigger": "y-sqrt()\tcmath*", "contents": "cmath.sqrt(${1:x})"},
+		{"trigger": "y-tan()\tcmath*", "contents": "cmath.tan(${1:x})"},
+		{"trigger": "y-tanh()\tcmath*", "contents": "cmath.tanh(${1:x})"}
+	]
+}

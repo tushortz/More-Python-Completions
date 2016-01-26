@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Formatter\tstring*", "contents": "string.Formatter"},
+		{"trigger": "y-Template\tstring*", "contents": "string.Template(${1:template})"},
+		{"trigger": "y-ascii_letters()\tstring*", "contents": "string.ascii_letters()"},
+		{"trigger": "y-ascii_lowercase()\tstring*", "contents": "string.ascii_lowercase()"},
+		{"trigger": "y-ascii_uppercase()\tstring*", "contents": "string.ascii_uppercase()"},
+		{"trigger": "y-capwords()\tstring*", "contents": "string.capwords(${1:s}, ${2:sep=None})"},
+		{"trigger": "y-digits()\tstring*", "contents": "string.digits()"},
+		{"trigger": "y-hexdigits()\tstring*", "contents": "string.hexdigits()"},
+		{"trigger": "y-octdigits()\tstring*", "contents": "string.octdigits()"},
+		{"trigger": "y-printable()\tstring*", "contents": "string.printable()"},
+		{"trigger": "y-punctuation()\tstring*", "contents": "string.punctuation()"},
+		{"trigger": "y-whitespace()\tstring*", "contents": "string.whitespace()"}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-abspath()\tos*", "contents": "os.path.abspath(${1:path})"},
+		{"trigger": "y-basename()\tos*", "contents": "os.path.basename(${1:path})"},
+		{"trigger": "y-commonpath()\tos*", "contents": "os.path.commonpath(${1:paths})"},
+		{"trigger": "y-commonprefix()\tos*", "contents": "os.path.commonprefix(${1:list})"},
+		{"trigger": "y-dirname()\tos*", "contents": "os.path.dirname(${1:path})"},
+		{"trigger": "y-exists()\tos*", "contents": "os.path.exists(${1:path})"},
+		{"trigger": "y-expanduser()\tos*", "contents": "os.path.expanduser(${1:path})"},
+		{"trigger": "y-expandvars()\tos*", "contents": "os.path.expandvars(${1:path})"},
+		{"trigger": "y-getatime()\tos*", "contents": "os.path.getatime(${1:path})"},
+		{"trigger": "y-getctime()\tos*", "contents": "os.path.getctime(${1:path})"},
+		{"trigger": "y-getmtime()\tos*", "contents": "os.path.getmtime(${1:path})"},
+		{"trigger": "y-getsize()\tos*", "contents": "os.path.getsize(${1:path})"},
+		{"trigger": "y-isabs()\tos*", "contents": "os.path.isabs(${1:path})"},
+		{"trigger": "y-isdir()\tos*", "contents": "os.path.isdir(${1:path})"},
+		{"trigger": "y-isfile()\tos*", "contents": "os.path.isfile(${1:path})"},
+		{"trigger": "y-islink()\tos*", "contents": "os.path.islink(${1:path})"},
+		{"trigger": "y-ismount()\tos*", "contents": "os.path.ismount(${1:path})"},
+		{"trigger": "y-join()\tos*", "contents": "os.path.join(${1:path}, ${2:*paths})"},
+		{"trigger": "y-lexists()\tos*", "contents": "os.path.lexists(${1:path})"},
+		{"trigger": "y-normcase()\tos*", "contents": "os.path.normcase(${1:path})"},
+		{"trigger": "y-normpath()\tos*", "contents": "os.path.normpath(${1:path})"},
+		{"trigger": "y-realpath()\tos*", "contents": "os.path.realpath(${1:path})"},
+		{"trigger": "y-relpath()\tos*", "contents": "os.path.relpath(${1:path}, ${2:start=os.curdir})"},
+		{"trigger": "y-samefile()\tos*", "contents": "os.path.samefile(${1:path1}, ${2:path2})"},
+		{"trigger": "y-sameopenfile()\tos*", "contents": "os.path.sameopenfile(${1:fp1}, ${2:fp2})"},
+		{"trigger": "y-samestat()\tos*", "contents": "os.path.samestat(${1:stat1}, ${2:stat2})"},
+		{"trigger": "y-split()\tos*", "contents": "os.path.split(${1:path})"},
+		{"trigger": "y-splitdrive()\tos*", "contents": "os.path.splitdrive(${1:path})"},
+		{"trigger": "y-splitext()\tos*", "contents": "os.path.splitext(${1:path})"},
+		{"trigger": "y-splitunc()\tos*", "contents": "os.path.splitunc(${1:path})"},
+		{"trigger": "y-supports_unicode_filenames()\tos*", "contents": "os.path.supports_unicode_filenames()"}
+	]
+}

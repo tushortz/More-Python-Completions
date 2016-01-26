@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-BytesFeedParser\temail*", "contents": "email.parser.BytesFeedParser(${1:_factory=email.message.Message})"},
+		{"trigger": "y-BytesParser\temail*", "contents": "email.parser.BytesParser(${1:_class=email.message.Message}, ${2:*}, ${3:policy=policy.compat32})"},
+		{"trigger": "y-FeedParser\temail*", "contents": "email.parser.FeedParser(${1:_factory=email.message.Message}, ${2:*}, ${3:policy=policy.compat32})"},
+		{"trigger": "y-Parser\temail*", "contents": "email.parser.Parser(${1:_class=email.message.Message}, ${2:*}, ${3:policy=policy.compat32})"},
+		{"trigger": "y-message_from_binary_file()\temail*", "contents": "email.parser.message_from_binary_file(${1:fp}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"},
+		{"trigger": "y-message_from_bytes()\temail*", "contents": "email.parser.message_from_bytes(${1:s}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"},
+		{"trigger": "y-message_from_file()\temail*", "contents": "email.parser.message_from_file(${1:fp}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"},
+		{"trigger": "y-message_from_string()\temail*", "contents": "email.parser.message_from_string(${1:s}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"}
+	]
+}

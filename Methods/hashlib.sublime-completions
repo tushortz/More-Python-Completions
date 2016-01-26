@@ -1,0 +1,17 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "algorithms_available()\thashlib", "contents": "algorithms_available()"},
+		{"trigger": "algorithms_guaranteed()\thashlib", "contents": "algorithms_guaranteed()"},
+		{"trigger": "block_size()\thashlib", "contents": "block_size()"},
+		{"trigger": "copy()\thashlib", "contents": "copy(${1:})"},
+		{"trigger": "digest()\thashlib", "contents": "digest(${1:})"},
+		{"trigger": "digest_size()\thashlib", "contents": "digest_size()"},
+		{"trigger": "hexdigest()\thashlib", "contents": "hexdigest(${1:})"},
+		{"trigger": "name()\thashlib", "contents": "name()"},
+		{"trigger": "new()\thashlib", "contents": "new(${1:name[}, ${2:data]})"},
+		{"trigger": "pbkdf2_hmac()\thashlib", "contents": "pbkdf2_hmac(${1:name}, ${2:password}, ${3:salt}, ${4:rounds}, ${5:dklen=None})"},
+		{"trigger": "update()\thashlib", "contents": "update(${1:arg})"}
+	]
+}

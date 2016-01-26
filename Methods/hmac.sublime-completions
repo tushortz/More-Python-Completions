@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "block_size()\thmac", "contents": "block_size()"},
+		{"trigger": "compare_digest()\thmac", "contents": "compare_digest(${1:a}, ${2:b})"},
+		{"trigger": "copy()\thmac", "contents": "copy(${1:})"},
+		{"trigger": "digest()\thmac", "contents": "digest(${1:})"},
+		{"trigger": "digest_size()\thmac", "contents": "digest_size()"},
+		{"trigger": "hexdigest()\thmac", "contents": "hexdigest(${1:})"},
+		{"trigger": "name()\thmac", "contents": "name()"},
+		{"trigger": "new()\thmac", "contents": "new(${1:key}, ${2:msg=None}, ${3:digestmod=None})"},
+		{"trigger": "update()\thmac", "contents": "update(${1:msg})"}
+	]
+}

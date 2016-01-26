@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-bisect()\tbisect*", "contents": "bisect.bisect(${1:a}, ${2:x}, ${3:lo=0}, ${4:hi=len}, ${5:a})"},
+		{"trigger": "y-bisect_left()\tbisect*", "contents": "bisect.bisect_left(${1:a}, ${2:x}, ${3:lo=0}, ${4:hi=len}, ${5:a})"},
+		{"trigger": "y-bisect_right()\tbisect*", "contents": "bisect.bisect_right(${1:a}, ${2:x}, ${3:lo=0}, ${4:hi=len}, ${5:a})"},
+		{"trigger": "y-insort()\tbisect*", "contents": "bisect.insort(${1:a}, ${2:x}, ${3:lo=0}, ${4:hi=len}, ${5:a})"},
+		{"trigger": "y-insort_left()\tbisect*", "contents": "bisect.insort_left(${1:a}, ${2:x}, ${3:lo=0}, ${4:hi=len}, ${5:a})"},
+		{"trigger": "y-insort_right()\tbisect*", "contents": "bisect.insort_right(${1:a}, ${2:x}, ${3:lo=0}, ${4:hi=len}, ${5:a})"}
+	]
+}

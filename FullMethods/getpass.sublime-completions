@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-GetPassWarning\tgetpass*", "contents": "getpass.GetPassWarning"},
+		{"trigger": "y-getpass()\tgetpass*", "contents": "getpass.getpass(${1:prompt='Password: '}, ${2:stream=None})"},
+		{"trigger": "y-getuser()\tgetpass*", "contents": "getpass.getuser(${1:})"}
+	]
+}

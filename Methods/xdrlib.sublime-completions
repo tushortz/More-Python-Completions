@@ -1,0 +1,36 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ConversionError\txdrlib", "contents": "ConversionError"},
+		{"trigger": "Error\txdrlib", "contents": "Error"},
+		{"trigger": "Packer\txdrlib", "contents": "Packer"},
+		{"trigger": "Unpacker\txdrlib", "contents": "Unpacker(${1:data})"},
+		{"trigger": "done()\txdrlib", "contents": "done(${1:})"},
+		{"trigger": "get_buffer()\txdrlib", "contents": "get_buffer(${1:})"},
+		{"trigger": "get_position()\txdrlib", "contents": "get_position(${1:})"},
+		{"trigger": "pack_array()\txdrlib", "contents": "pack_array(${1:list}, ${2:pack_item})"},
+		{"trigger": "pack_bytes()\txdrlib", "contents": "pack_bytes(${1:bytes})"},
+		{"trigger": "pack_double()\txdrlib", "contents": "pack_double(${1:value})"},
+		{"trigger": "pack_farray()\txdrlib", "contents": "pack_farray(${1:n}, ${2:array}, ${3:pack_item})"},
+		{"trigger": "pack_float()\txdrlib", "contents": "pack_float(${1:value})"},
+		{"trigger": "pack_fopaque()\txdrlib", "contents": "pack_fopaque(${1:n}, ${2:data})"},
+		{"trigger": "pack_fstring()\txdrlib", "contents": "pack_fstring(${1:n}, ${2:s})"},
+		{"trigger": "pack_list()\txdrlib", "contents": "pack_list(${1:list}, ${2:pack_item})"},
+		{"trigger": "pack_opaque()\txdrlib", "contents": "pack_opaque(${1:data})"},
+		{"trigger": "pack_string()\txdrlib", "contents": "pack_string(${1:s})"},
+		{"trigger": "reset()\txdrlib", "contents": "reset(${1:data})"},
+		{"trigger": "reset()\txdrlib", "contents": "reset(${1:})"},
+		{"trigger": "set_position()\txdrlib", "contents": "set_position(${1:position})"},
+		{"trigger": "unpack_array()\txdrlib", "contents": "unpack_array(${1:unpack_item})"},
+		{"trigger": "unpack_bytes()\txdrlib", "contents": "unpack_bytes(${1:})"},
+		{"trigger": "unpack_double()\txdrlib", "contents": "unpack_double(${1:})"},
+		{"trigger": "unpack_farray()\txdrlib", "contents": "unpack_farray(${1:n}, ${2:unpack_item})"},
+		{"trigger": "unpack_float()\txdrlib", "contents": "unpack_float(${1:})"},
+		{"trigger": "unpack_fopaque()\txdrlib", "contents": "unpack_fopaque(${1:n})"},
+		{"trigger": "unpack_fstring()\txdrlib", "contents": "unpack_fstring(${1:n})"},
+		{"trigger": "unpack_list()\txdrlib", "contents": "unpack_list(${1:unpack_item})"},
+		{"trigger": "unpack_opaque()\txdrlib", "contents": "unpack_opaque(${1:})"},
+		{"trigger": "unpack_string()\txdrlib", "contents": "unpack_string(${1:})"}
+	]
+}

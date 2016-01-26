@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-LK_LOCK\tmsvcrt*", "contents": "msvcrt.LK_LOCK"},
+		{"trigger": "y-LK_NBLCK\tmsvcrt*", "contents": "msvcrt.LK_NBLCK"},
+		{"trigger": "y-LK_NBRLCK\tmsvcrt*", "contents": "msvcrt.LK_NBRLCK"},
+		{"trigger": "y-LK_RLCK\tmsvcrt*", "contents": "msvcrt.LK_RLCK"},
+		{"trigger": "y-LK_UNLCK\tmsvcrt*", "contents": "msvcrt.LK_UNLCK"},
+		{"trigger": "y-get_osfhandle()\tmsvcrt*", "contents": "msvcrt.get_osfhandle(${1:fd})"},
+		{"trigger": "y-getch()\tmsvcrt*", "contents": "msvcrt.getch(${1:})"},
+		{"trigger": "y-getche()\tmsvcrt*", "contents": "msvcrt.getche(${1:})"},
+		{"trigger": "y-getwch()\tmsvcrt*", "contents": "msvcrt.getwch(${1:})"},
+		{"trigger": "y-getwche()\tmsvcrt*", "contents": "msvcrt.getwche(${1:})"},
+		{"trigger": "y-heapmin()\tmsvcrt*", "contents": "msvcrt.heapmin(${1:})"},
+		{"trigger": "y-kbhit()\tmsvcrt*", "contents": "msvcrt.kbhit(${1:})"},
+		{"trigger": "y-locking()\tmsvcrt*", "contents": "msvcrt.locking(${1:fd}, ${2:mode}, ${3:nbytes})"},
+		{"trigger": "y-open_osfhandle()\tmsvcrt*", "contents": "msvcrt.open_osfhandle(${1:handle}, ${2:flags})"},
+		{"trigger": "y-putch()\tmsvcrt*", "contents": "msvcrt.putch(${1:char})"},
+		{"trigger": "y-putwch()\tmsvcrt*", "contents": "msvcrt.putwch(${1:unicode_char})"},
+		{"trigger": "y-setmode()\tmsvcrt*", "contents": "msvcrt.setmode(${1:fd}, ${2:flags})"},
+		{"trigger": "y-ungetch()\tmsvcrt*", "contents": "msvcrt.ungetch(${1:char})"},
+		{"trigger": "y-ungetwch()\tmsvcrt*", "contents": "msvcrt.ungetwch(${1:unicode_char})"}
+	]
+}

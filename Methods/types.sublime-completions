@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BuiltinFunctionType\ttypes", "contents": "BuiltinFunctionType"},
+		{"trigger": "BuiltinMethodType\ttypes", "contents": "BuiltinMethodType"},
+		{"trigger": "CodeType\ttypes", "contents": "CodeType"},
+		{"trigger": "CoroutineType\ttypes", "contents": "CoroutineType"},
+		{"trigger": "DynamicClassAttribute\ttypes", "contents": "DynamicClassAttribute(${1:fget=None}, ${2:fset=None}, ${3:fdel=None}, ${4:doc=None})"},
+		{"trigger": "FrameType\ttypes", "contents": "FrameType"},
+		{"trigger": "FunctionType\ttypes", "contents": "FunctionType"},
+		{"trigger": "GeneratorType\ttypes", "contents": "GeneratorType"},
+		{"trigger": "GetSetDescriptorType\ttypes", "contents": "GetSetDescriptorType"},
+		{"trigger": "LambdaType\ttypes", "contents": "LambdaType"},
+		{"trigger": "MappingProxyType\ttypes", "contents": "MappingProxyType(${1:mapping})"},
+		{"trigger": "MemberDescriptorType\ttypes", "contents": "MemberDescriptorType"},
+		{"trigger": "MethodType\ttypes", "contents": "MethodType"},
+		{"trigger": "ModuleType\ttypes", "contents": "ModuleType(${1:name}, ${2:doc=None})"},
+		{"trigger": "SimpleNamespace\ttypes", "contents": "SimpleNamespace"},
+		{"trigger": "TracebackType\ttypes", "contents": "TracebackType"},
+		{"trigger": "coroutine()\ttypes", "contents": "coroutine(${1:gen_func})"},
+		{"trigger": "new_class()\ttypes", "contents": "new_class(${1:name}, ${2:bases=}, ${3:})"},
+		{"trigger": "prepare_class()\ttypes", "contents": "prepare_class(${1:name}, ${2:bases=}, ${3:})"}
+	]
+}

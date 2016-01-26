@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-dump()\tmarshal*", "contents": "marshal.dump(${1:value}, ${2:file[}, ${3:version]})"},
+		{"trigger": "y-dumps()\tmarshal*", "contents": "marshal.dumps(${1:value[}, ${2:version]})"},
+		{"trigger": "y-load()\tmarshal*", "contents": "marshal.load(${1:file})"},
+		{"trigger": "y-loads()\tmarshal*", "contents": "marshal.loads(${1:string})"},
+		{"trigger": "y-version()\tmarshal*", "contents": "marshal.version()"}
+	]
+}

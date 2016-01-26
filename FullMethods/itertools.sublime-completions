@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-accumulate()\titertools*", "contents": "itertools.accumulate(${1:iterable[}, ${2:func]})"},
+		{"trigger": "y-chain()\titertools*", "contents": "itertools.chain(${1:*iterables})"},
+		{"trigger": "y-combinations()\titertools*", "contents": "itertools.combinations(${1:iterable}, ${2:r})"},
+		{"trigger": "y-combinations_with_replacement()\titertools*", "contents": "itertools.combinations_with_replacement(${1:iterable}, ${2:r})"},
+		{"trigger": "y-compress()\titertools*", "contents": "itertools.compress(${1:data}, ${2:selectors})"},
+		{"trigger": "y-count()\titertools*", "contents": "itertools.count(${1:start=0}, ${2:step=1})"},
+		{"trigger": "y-cycle()\titertools*", "contents": "itertools.cycle(${1:iterable})"},
+		{"trigger": "y-dropwhile()\titertools*", "contents": "itertools.dropwhile(${1:predicate}, ${2:iterable})"},
+		{"trigger": "y-filterfalse()\titertools*", "contents": "itertools.filterfalse(${1:predicate}, ${2:iterable})"},
+		{"trigger": "y-from_iterable()\titertools*", "contents": "itertools.from_iterable(${1:iterable})"},
+		{"trigger": "y-groupby()\titertools*", "contents": "itertools.groupby(${1:iterable}, ${2:key=None})"},
+		{"trigger": "y-islice()\titertools*", "contents": "itertools.islice(${1:iterable}, ${2:start}, ${3:stop[}, ${4:step]})"},
+		{"trigger": "y-islice()\titertools*", "contents": "itertools.islice(${1:iterable}, ${2:stop})"},
+		{"trigger": "y-permutations()\titertools*", "contents": "itertools.permutations(${1:iterable}, ${2:r=None})"},
+		{"trigger": "y-product()\titertools*", "contents": "itertools.product(${1:*iterables}, ${2:repeat=1})"},
+		{"trigger": "y-repeat()\titertools*", "contents": "itertools.repeat(${1:object[}, ${2:times]})"},
+		{"trigger": "y-starmap()\titertools*", "contents": "itertools.starmap(${1:function}, ${2:iterable})"},
+		{"trigger": "y-takewhile()\titertools*", "contents": "itertools.takewhile(${1:predicate}, ${2:iterable})"},
+		{"trigger": "y-tee()\titertools*", "contents": "itertools.tee(${1:iterable}, ${2:n=2})"},
+		{"trigger": "y-zip_longest()\titertools*", "contents": "itertools.zip_longest(${1:*iterables}, ${2:fillvalue=None})"}
+	]
+}

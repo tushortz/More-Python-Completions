@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "COMMENT\ttokenize", "contents": "COMMENT"},
+		{"trigger": "ENCODING\ttokenize", "contents": "ENCODING"},
+		{"trigger": "NL\ttokenize", "contents": "NL"},
+		{"trigger": "TokenError\ttokenize", "contents": "TokenError"},
+		{"trigger": "detect_encoding()\ttokenize", "contents": "detect_encoding(${1:readline})"},
+		{"trigger": "open()\ttokenize", "contents": "open(${1:filename})"},
+		{"trigger": "tokenize()\ttokenize", "contents": "tokenize(${1:readline})"},
+		{"trigger": "untokenize()\ttokenize", "contents": "untokenize(${1:iterable})"}
+	]
+}

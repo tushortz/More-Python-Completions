@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-ContentTooShortError\turllib*", "contents": "urllib.error.ContentTooShortError(${1:msg}, ${2:content})"},
+		{"trigger": "y-HTTPError\turllib*", "contents": "urllib.error.HTTPError"},
+		{"trigger": "y-URLError\turllib*", "contents": "urllib.error.URLError"}
+	]
+}

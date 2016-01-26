@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "tcdrain()\ttermios", "contents": "tcdrain(${1:fd})"},
+		{"trigger": "tcflow()\ttermios", "contents": "tcflow(${1:fd}, ${2:action})"},
+		{"trigger": "tcflush()\ttermios", "contents": "tcflush(${1:fd}, ${2:queue})"},
+		{"trigger": "tcgetattr()\ttermios", "contents": "tcgetattr(${1:fd})"},
+		{"trigger": "tcsendbreak()\ttermios", "contents": "tcsendbreak(${1:fd}, ${2:duration})"},
+		{"trigger": "tcsetattr()\ttermios", "contents": "tcsetattr(${1:fd}, ${2:when}, ${3:attributes})"}
+	]
+}

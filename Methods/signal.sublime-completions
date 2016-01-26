@@ -1,0 +1,32 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "CTRL_BREAK_EVENT\tsignal", "contents": "CTRL_BREAK_EVENT"},
+		{"trigger": "CTRL_C_EVENT\tsignal", "contents": "CTRL_C_EVENT"},
+		{"trigger": "ITIMER_PROF\tsignal", "contents": "ITIMER_PROF"},
+		{"trigger": "ITIMER_REAL\tsignal", "contents": "ITIMER_REAL"},
+		{"trigger": "ITIMER_VIRTUAL\tsignal", "contents": "ITIMER_VIRTUAL"},
+		{"trigger": "ItimerError\tsignal", "contents": "ItimerError"},
+		{"trigger": "NSIG\tsignal", "contents": "NSIG"},
+		{"trigger": "SIG_BLOCK\tsignal", "contents": "SIG_BLOCK"},
+		{"trigger": "SIG_DFL\tsignal", "contents": "SIG_DFL"},
+		{"trigger": "SIG_IGN\tsignal", "contents": "SIG_IGN"},
+		{"trigger": "SIG_SETMASK\tsignal", "contents": "SIG_SETMASK"},
+		{"trigger": "SIG_UNBLOCK\tsignal", "contents": "SIG_UNBLOCK"},
+		{"trigger": "alarm()\tsignal", "contents": "alarm(${1:time})"},
+		{"trigger": "getitimer()\tsignal", "contents": "getitimer(${1:which})"},
+		{"trigger": "getsignal()\tsignal", "contents": "getsignal(${1:signalnum})"},
+		{"trigger": "pause()\tsignal", "contents": "pause(${1:})"},
+		{"trigger": "pthread_kill()\tsignal", "contents": "pthread_kill(${1:thread_id}, ${2:signalnum})"},
+		{"trigger": "pthread_sigmask()\tsignal", "contents": "pthread_sigmask(${1:how}, ${2:mask})"},
+		{"trigger": "set_wakeup_fd()\tsignal", "contents": "set_wakeup_fd(${1:fd})"},
+		{"trigger": "setitimer()\tsignal", "contents": "setitimer(${1:which}, ${2:seconds[}, ${3:interval]})"},
+		{"trigger": "siginterrupt()\tsignal", "contents": "siginterrupt(${1:signalnum}, ${2:flag})"},
+		{"trigger": "signal()\tsignal", "contents": "signal(${1:signalnum}, ${2:handler})"},
+		{"trigger": "sigpending()\tsignal", "contents": "sigpending(${1:})"},
+		{"trigger": "sigtimedwait()\tsignal", "contents": "sigtimedwait(${1:sigset}, ${2:timeout})"},
+		{"trigger": "sigwait()\tsignal", "contents": "sigwait(${1:sigset})"},
+		{"trigger": "sigwaitinfo()\tsignal", "contents": "sigwaitinfo(${1:sigset})"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-escape()\tcgi*", "contents": "cgi.escape(${1:s}, ${2:quote=False})"},
+		{"trigger": "y-getfirst()\tcgi*", "contents": "cgi.getfirst(${1:name}, ${2:default=None})"},
+		{"trigger": "y-getlist()\tcgi*", "contents": "cgi.getlist(${1:name})"},
+		{"trigger": "y-parse()\tcgi*", "contents": "cgi.parse(${1:fp=None}, ${2:environ=os.environ}, ${3:keep_blank_values=False}, ${4:strict_parsing=False})"},
+		{"trigger": "y-parse_header()\tcgi*", "contents": "cgi.parse_header(${1:string})"},
+		{"trigger": "y-parse_multipart()\tcgi*", "contents": "cgi.parse_multipart(${1:fp}, ${2:pdict})"},
+		{"trigger": "y-parse_qs()\tcgi*", "contents": "cgi.parse_qs(${1:qs}, ${2:keep_blank_values=False}, ${3:strict_parsing=False})"},
+		{"trigger": "y-parse_qsl()\tcgi*", "contents": "cgi.parse_qsl(${1:qs}, ${2:keep_blank_values=False}, ${3:strict_parsing=False})"},
+		{"trigger": "y-print_directory()\tcgi*", "contents": "cgi.print_directory(${1:})"},
+		{"trigger": "y-print_environ()\tcgi*", "contents": "cgi.print_environ(${1:})"},
+		{"trigger": "y-print_environ_usage()\tcgi*", "contents": "cgi.print_environ_usage(${1:})"},
+		{"trigger": "y-print_form()\tcgi*", "contents": "cgi.print_form(${1:form})"},
+		{"trigger": "y-test()\tcgi*", "contents": "cgi.test(${1:})"}
+	]
+}

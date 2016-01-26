@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Combobox\ttkinter", "contents": "Combobox"},
+		{"trigger": "Notebook\ttkinter", "contents": "Notebook"},
+		{"trigger": "Progressbar\ttkinter", "contents": "Progressbar"},
+		{"trigger": "Style\ttkinter", "contents": "Style"},
+		{"trigger": "Treeview\ttkinter", "contents": "Treeview"},
+		{"trigger": "Widget\ttkinter", "contents": "Widget"}
+	]
+}

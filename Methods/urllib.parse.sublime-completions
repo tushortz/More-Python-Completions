@@ -1,0 +1,28 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "DefragResult\turllib", "contents": "DefragResult(${1:url}, ${2:fragment})"},
+		{"trigger": "DefragResultBytes\turllib", "contents": "DefragResultBytes(${1:url}, ${2:fragment})"},
+		{"trigger": "ParseResult\turllib", "contents": "ParseResult(${1:scheme}, ${2:netloc}, ${3:path}, ${4:params}, ${5:query}, ${6:fragment})"},
+		{"trigger": "ParseResultBytes\turllib", "contents": "ParseResultBytes(${1:scheme}, ${2:netloc}, ${3:path}, ${4:params}, ${5:query}, ${6:fragment})"},
+		{"trigger": "SplitResult\turllib", "contents": "SplitResult(${1:scheme}, ${2:netloc}, ${3:path}, ${4:query}, ${5:fragment})"},
+		{"trigger": "SplitResultBytes\turllib", "contents": "SplitResultBytes(${1:scheme}, ${2:netloc}, ${3:path}, ${4:query}, ${5:fragment})"},
+		{"trigger": "geturl()\turllib", "contents": "geturl(${1:})"},
+		{"trigger": "parse_qs()\turllib", "contents": "parse_qs(${1:qs}, ${2:keep_blank_values=False}, ${3:strict_parsing=False}, ${4:encoding='utf-8'}, ${5:errors='replace'})"},
+		{"trigger": "parse_qsl()\turllib", "contents": "parse_qsl(${1:qs}, ${2:keep_blank_values=False}, ${3:strict_parsing=False}, ${4:encoding='utf-8'}, ${5:errors='replace'})"},
+		{"trigger": "quote()\turllib", "contents": "quote(${1:string}, ${2:safe='/'}, ${3:encoding=None}, ${4:errors=None})"},
+		{"trigger": "quote_from_bytes()\turllib", "contents": "quote_from_bytes(${1:bytes}, ${2:safe='/'})"},
+		{"trigger": "quote_plus()\turllib", "contents": "quote_plus(${1:string}, ${2:safe=''}, ${3:encoding=None}, ${4:errors=None})"},
+		{"trigger": "unquote()\turllib", "contents": "unquote(${1:string}, ${2:encoding='utf-8'}, ${3:errors='replace'})"},
+		{"trigger": "unquote_plus()\turllib", "contents": "unquote_plus(${1:string}, ${2:encoding='utf-8'}, ${3:errors='replace'})"},
+		{"trigger": "unquote_to_bytes()\turllib", "contents": "unquote_to_bytes(${1:string})"},
+		{"trigger": "urldefrag()\turllib", "contents": "urldefrag(${1:url})"},
+		{"trigger": "urlencode()\turllib", "contents": "urlencode(${1:query}, ${2:doseq=False}, ${3:safe=''}, ${4:encoding=None}, ${5:errors=None}, ${6:quote_via=quote_plus})"},
+		{"trigger": "urljoin()\turllib", "contents": "urljoin(${1:base}, ${2:url}, ${3:allow_fragments=True})"},
+		{"trigger": "urlparse()\turllib", "contents": "urlparse(${1:urlstring}, ${2:scheme=''}, ${3:allow_fragments=True})"},
+		{"trigger": "urlsplit()\turllib", "contents": "urlsplit(${1:urlstring}, ${2:scheme=''}, ${3:allow_fragments=True})"},
+		{"trigger": "urlunparse()\turllib", "contents": "urlunparse(${1:parts})"},
+		{"trigger": "urlunsplit()\turllib", "contents": "urlunsplit(${1:parts})"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Address\temail*", "contents": "email.headerregistry.Address(${1:display_name=''}, ${2:username=''}, ${3:domain=''}, ${4:addr_spec=None})"},
+		{"trigger": "y-AddressHeader\temail*", "contents": "email.headerregistry.AddressHeader"},
+		{"trigger": "y-BaseHeader\temail*", "contents": "email.headerregistry.BaseHeader(${1:name}, ${2:value})"},
+		{"trigger": "y-ContentDispositionHeader\temail*", "contents": "email.headerregistry.ContentDispositionHeader"},
+		{"trigger": "y-ContentTransferEncoding\temail*", "contents": "email.headerregistry.ContentTransferEncoding"},
+		{"trigger": "y-ContentTypeHeader\temail*", "contents": "email.headerregistry.ContentTypeHeader"},
+		{"trigger": "y-DateHeader\temail*", "contents": "email.headerregistry.DateHeader"},
+		{"trigger": "y-Group\temail*", "contents": "email.headerregistry.Group(${1:display_name=None}, ${2:addresses=None})"},
+		{"trigger": "y-HeaderRegistry\temail*", "contents": "email.headerregistry.HeaderRegistry(${1:base_class=BaseHeader}, ${2:default_class=UnstructuredHeader}, ${3:use_default_map=True})"},
+		{"trigger": "y-MIMEVersionHeader\temail*", "contents": "email.headerregistry.MIMEVersionHeader"},
+		{"trigger": "y-ParameterizedMIMEHeader\temail*", "contents": "email.headerregistry.ParameterizedMIMEHeader"},
+		{"trigger": "y-SingleAddressHeader\temail*", "contents": "email.headerregistry.SingleAddressHeader"},
+		{"trigger": "y-UnstructuredHeader\temail*", "contents": "email.headerregistry.UnstructuredHeader"}
+	]
+}

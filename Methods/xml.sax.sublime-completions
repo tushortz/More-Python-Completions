@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "SAXException\txml", "contents": "SAXException(${1:msg}, ${2:exception=None})"},
+		{"trigger": "SAXNotRecognizedException\txml", "contents": "SAXNotRecognizedException(${1:msg}, ${2:exception=None})"},
+		{"trigger": "SAXNotSupportedException\txml", "contents": "SAXNotSupportedException(${1:msg}, ${2:exception=None})"},
+		{"trigger": "SAXParseException\txml", "contents": "SAXParseException(${1:msg}, ${2:exception}, ${3:locator})"},
+		{"trigger": "getException()\txml", "contents": "getException(${1:})"},
+		{"trigger": "getMessage()\txml", "contents": "getMessage(${1:})"},
+		{"trigger": "make_parser()\txml", "contents": "make_parser(${1:parser_list=[]})"},
+		{"trigger": "parse()\txml", "contents": "parse(${1:filename_or_stream}, ${2:handler}, ${3:error_handler=handler.ErrorHandler}, ${4:})"},
+		{"trigger": "parseString()\txml", "contents": "parseString(${1:string}, ${2:handler}, ${3:error_handler=handler.ErrorHandler}, ${4:})"}
+	]
+}

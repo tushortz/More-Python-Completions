@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "PrettyPrinter\tpprint", "contents": "PrettyPrinter(${1:indent=1}, ${2:width=80}, ${3:depth=None}, ${4:stream=None}, ${5:*}, ${6:compact=False})"},
+		{"trigger": "format()\tpprint", "contents": "format(${1:object}, ${2:context}, ${3:maxlevels}, ${4:level})"},
+		{"trigger": "isreadable()\tpprint", "contents": "isreadable(${1:object})"},
+		{"trigger": "isrecursive()\tpprint", "contents": "isrecursive(${1:object})"},
+		{"trigger": "pformat()\tpprint", "contents": "pformat(${1:object}, ${2:indent=1}, ${3:width=80}, ${4:depth=None}, ${5:*}, ${6:compact=False})"},
+		{"trigger": "pformat()\tpprint", "contents": "pformat(${1:object})"},
+		{"trigger": "pprint()\tpprint", "contents": "pprint(${1:object}, ${2:stream=None}, ${3:indent=1}, ${4:width=80}, ${5:depth=None}, ${6:*}, ${7:compact=False})"},
+		{"trigger": "pprint()\tpprint", "contents": "pprint(${1:object})"},
+		{"trigger": "saferepr()\tpprint", "contents": "saferepr(${1:object})"}
+	]
+}

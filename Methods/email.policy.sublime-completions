@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Compat32\temail", "contents": "Compat32(${1:**kw})"},
+		{"trigger": "EmailPolicy\temail", "contents": "EmailPolicy(${1:**kw})"},
+		{"trigger": "HTTP\temail", "contents": "HTTP"},
+		{"trigger": "Policy\temail", "contents": "Policy(${1:**kw})"},
+		{"trigger": "SMTP\temail", "contents": "SMTP"},
+		{"trigger": "SMTPUTF8\temail", "contents": "SMTPUTF8"},
+		{"trigger": "compat32()\temail", "contents": "compat32()"},
+		{"trigger": "default()\temail", "contents": "default()"},
+		{"trigger": "strict()\temail", "contents": "strict()"}
+	]
+}

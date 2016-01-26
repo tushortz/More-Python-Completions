@@ -1,0 +1,30 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "commenters()\tshlex", "contents": "commenters()"},
+		{"trigger": "debug()\tshlex", "contents": "debug()"},
+		{"trigger": "eof()\tshlex", "contents": "eof()"},
+		{"trigger": "error_leader()\tshlex", "contents": "error_leader(${1:infile=None}, ${2:lineno=None})"},
+		{"trigger": "escape()\tshlex", "contents": "escape()"},
+		{"trigger": "escapedquotes()\tshlex", "contents": "escapedquotes()"},
+		{"trigger": "get_token()\tshlex", "contents": "get_token(${1:})"},
+		{"trigger": "infile()\tshlex", "contents": "infile()"},
+		{"trigger": "instream()\tshlex", "contents": "instream()"},
+		{"trigger": "lineno()\tshlex", "contents": "lineno()"},
+		{"trigger": "pop_source()\tshlex", "contents": "pop_source(${1:})"},
+		{"trigger": "push_source()\tshlex", "contents": "push_source(${1:newstream}, ${2:newfile=None})"},
+		{"trigger": "push_token()\tshlex", "contents": "push_token(${1:str})"},
+		{"trigger": "quote()\tshlex", "contents": "quote(${1:s})"},
+		{"trigger": "quotes()\tshlex", "contents": "quotes()"},
+		{"trigger": "read_token()\tshlex", "contents": "read_token(${1:})"},
+		{"trigger": "shlex()\tshlex", "contents": "shlex(${1:instream=None}, ${2:infile=None}, ${3:posix=False})"},
+		{"trigger": "source()\tshlex", "contents": "source()"},
+		{"trigger": "sourcehook()\tshlex", "contents": "sourcehook(${1:filename})"},
+		{"trigger": "split()\tshlex", "contents": "split(${1:s}, ${2:comments=False}, ${3:posix=True})"},
+		{"trigger": "token()\tshlex", "contents": "token()"},
+		{"trigger": "whitespace()\tshlex", "contents": "whitespace()"},
+		{"trigger": "whitespace_split()\tshlex", "contents": "whitespace_split()"},
+		{"trigger": "wordchars()\tshlex", "contents": "wordchars()"}
+	]
+}

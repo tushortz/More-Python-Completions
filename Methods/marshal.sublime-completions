@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "dump()\tmarshal", "contents": "dump(${1:value}, ${2:file[}, ${3:version]})"},
+		{"trigger": "dumps()\tmarshal", "contents": "dumps(${1:value[}, ${2:version]})"},
+		{"trigger": "load()\tmarshal", "contents": "load(${1:file})"},
+		{"trigger": "loads()\tmarshal", "contents": "loads(${1:string})"},
+		{"trigger": "version()\tmarshal", "contents": "version()"}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "NullTranslations\tgettext", "contents": "NullTranslations(${1:fp=None})"},
+		{"trigger": "bind_textdomain_codeset()\tgettext", "contents": "bind_textdomain_codeset(${1:domain}, ${2:codeset=None})"},
+		{"trigger": "bindtextdomain()\tgettext", "contents": "bindtextdomain(${1:domain}, ${2:localedir=None})"},
+		{"trigger": "dgettext()\tgettext", "contents": "dgettext(${1:domain}, ${2:message})"},
+		{"trigger": "dngettext()\tgettext", "contents": "dngettext(${1:domain}, ${2:singular}, ${3:plural}, ${4:n})"},
+		{"trigger": "find()\tgettext", "contents": "find(${1:domain}, ${2:localedir=None}, ${3:languages=None}, ${4:all=False})"},
+		{"trigger": "gettext()\tgettext", "contents": "gettext(${1:message})"},
+		{"trigger": "install()\tgettext", "contents": "install(${1:domain}, ${2:localedir=None}, ${3:codeset=None}, ${4:names=None})"},
+		{"trigger": "ldgettext()\tgettext", "contents": "ldgettext(${1:domain}, ${2:message})"},
+		{"trigger": "ldngettext()\tgettext", "contents": "ldngettext(${1:domain}, ${2:singular}, ${3:plural}, ${4:n})"},
+		{"trigger": "lgettext()\tgettext", "contents": "lgettext(${1:message})"},
+		{"trigger": "lngettext()\tgettext", "contents": "lngettext(${1:singular}, ${2:plural}, ${3:n})"},
+		{"trigger": "ngettext()\tgettext", "contents": "ngettext(${1:singular}, ${2:plural}, ${3:n})"},
+		{"trigger": "textdomain()\tgettext", "contents": "textdomain(${1:domain=None})"},
+		{"trigger": "translation()\tgettext", "contents": "translation(${1:domain}, ${2:localedir=None}, ${3:languages=None}, ${4:class_=None}, ${5:fallback=False}, ${6:codeset=None})"}
+	]
+}

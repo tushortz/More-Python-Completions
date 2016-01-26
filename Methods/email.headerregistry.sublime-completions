@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Address\temail", "contents": "Address(${1:display_name=''}, ${2:username=''}, ${3:domain=''}, ${4:addr_spec=None})"},
+		{"trigger": "AddressHeader\temail", "contents": "AddressHeader"},
+		{"trigger": "BaseHeader\temail", "contents": "BaseHeader(${1:name}, ${2:value})"},
+		{"trigger": "ContentDispositionHeader\temail", "contents": "ContentDispositionHeader"},
+		{"trigger": "ContentTransferEncoding\temail", "contents": "ContentTransferEncoding"},
+		{"trigger": "ContentTypeHeader\temail", "contents": "ContentTypeHeader"},
+		{"trigger": "DateHeader\temail", "contents": "DateHeader"},
+		{"trigger": "Group\temail", "contents": "Group(${1:display_name=None}, ${2:addresses=None})"},
+		{"trigger": "HeaderRegistry\temail", "contents": "HeaderRegistry(${1:base_class=BaseHeader}, ${2:default_class=UnstructuredHeader}, ${3:use_default_map=True})"},
+		{"trigger": "MIMEVersionHeader\temail", "contents": "MIMEVersionHeader"},
+		{"trigger": "ParameterizedMIMEHeader\temail", "contents": "ParameterizedMIMEHeader"},
+		{"trigger": "SingleAddressHeader\temail", "contents": "SingleAddressHeader"},
+		{"trigger": "UnstructuredHeader\temail", "contents": "UnstructuredHeader"}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-StatisticsError\tstatistics*", "contents": "statistics.StatisticsError"},
+		{"trigger": "y-mean()\tstatistics*", "contents": "statistics.mean(${1:data})"},
+		{"trigger": "y-median()\tstatistics*", "contents": "statistics.median(${1:data})"},
+		{"trigger": "y-median_grouped()\tstatistics*", "contents": "statistics.median_grouped(${1:data}, ${2:interval=1})"},
+		{"trigger": "y-median_high()\tstatistics*", "contents": "statistics.median_high(${1:data})"},
+		{"trigger": "y-median_low()\tstatistics*", "contents": "statistics.median_low(${1:data})"},
+		{"trigger": "y-mode()\tstatistics*", "contents": "statistics.mode(${1:data})"},
+		{"trigger": "y-pstdev()\tstatistics*", "contents": "statistics.pstdev(${1:data}, ${2:mu=None})"},
+		{"trigger": "y-pvariance()\tstatistics*", "contents": "statistics.pvariance(${1:data}, ${2:mu=None})"},
+		{"trigger": "y-stdev()\tstatistics*", "contents": "statistics.stdev(${1:data}, ${2:xbar=None})"},
+		{"trigger": "y-variance()\tstatistics*", "contents": "statistics.variance(${1:data}, ${2:xbar=None})"}
+	]
+}

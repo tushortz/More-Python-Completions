@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "GetoptError\tgetopt", "contents": "GetoptError"},
+		{"trigger": "error()\tgetopt", "contents": "error()"},
+		{"trigger": "getopt()\tgetopt", "contents": "getopt(${1:args}, ${2:shortopts}, ${3:longopts=[]})"},
+		{"trigger": "gnu_getopt()\tgetopt", "contents": "gnu_getopt(${1:args}, ${2:shortopts}, ${3:longopts=[]})"}
+	]
+}

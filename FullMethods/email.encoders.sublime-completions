@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-encode_7or8bit()\temail*", "contents": "email.encoders.encode_7or8bit(${1:msg})"},
+		{"trigger": "y-encode_base64()\temail*", "contents": "email.encoders.encode_base64(${1:msg})"},
+		{"trigger": "y-encode_noop()\temail*", "contents": "email.encoders.encode_noop(${1:msg})"},
+		{"trigger": "y-encode_quopri()\temail*", "contents": "email.encoders.encode_quopri(${1:msg})"}
+	]
+}

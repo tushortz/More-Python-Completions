@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Error\tuu", "contents": "Error"},
+		{"trigger": "decode()\tuu", "contents": "decode(${1:in_file}, ${2:out_file=None}, ${3:mode=None}, ${4:quiet=False})"},
+		{"trigger": "encode()\tuu", "contents": "encode(${1:in_file}, ${2:out_file}, ${3:name=None}, ${4:mode=None})"}
+	]
+}

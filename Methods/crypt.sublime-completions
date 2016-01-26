@@ -1,0 +1,13 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "METHOD_CRYPT\tcrypt", "contents": "METHOD_CRYPT"},
+		{"trigger": "METHOD_MD5\tcrypt", "contents": "METHOD_MD5"},
+		{"trigger": "METHOD_SHA256\tcrypt", "contents": "METHOD_SHA256"},
+		{"trigger": "METHOD_SHA512\tcrypt", "contents": "METHOD_SHA512"},
+		{"trigger": "crypt()\tcrypt", "contents": "crypt(${1:word}, ${2:salt=None})"},
+		{"trigger": "methods()\tcrypt", "contents": "methods()"},
+		{"trigger": "mksalt()\tcrypt", "contents": "mksalt(${1:method=None})"}
+	]
+}

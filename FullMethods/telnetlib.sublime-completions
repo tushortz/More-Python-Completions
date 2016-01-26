@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Telnet\ttelnetlib*", "contents": "telnetlib.Telnet(${1:host=None}, ${2:port=0[}, ${3:timeout]})"},
+		{"trigger": "y-close()\ttelnetlib*", "contents": "telnetlib.close(${1:})"},
+		{"trigger": "y-expect()\ttelnetlib*", "contents": "telnetlib.expect(${1:list}, ${2:timeout=None})"},
+		{"trigger": "y-fileno()\ttelnetlib*", "contents": "telnetlib.fileno(${1:})"},
+		{"trigger": "y-get_socket()\ttelnetlib*", "contents": "telnetlib.get_socket(${1:})"},
+		{"trigger": "y-interact()\ttelnetlib*", "contents": "telnetlib.interact(${1:})"},
+		{"trigger": "y-msg()\ttelnetlib*", "contents": "telnetlib.msg(${0:msg}, ${2:*args})"},
+		{"trigger": "y-mt_interact()\ttelnetlib*", "contents": "telnetlib.mt_interact(${1:})"},
+		{"trigger": "y-open()\ttelnetlib*", "contents": "telnetlib.open(${1:host}, ${2:port=0[}, ${3:timeout]})"},
+		{"trigger": "y-read_all()\ttelnetlib*", "contents": "telnetlib.read_all(${1:})"},
+		{"trigger": "y-read_eager()\ttelnetlib*", "contents": "telnetlib.read_eager(${1:})"},
+		{"trigger": "y-read_lazy()\ttelnetlib*", "contents": "telnetlib.read_lazy(${1:})"},
+		{"trigger": "y-read_sb_data()\ttelnetlib*", "contents": "telnetlib.read_sb_data(${1:})"},
+		{"trigger": "y-read_some()\ttelnetlib*", "contents": "telnetlib.read_some(${1:})"},
+		{"trigger": "y-read_until()\ttelnetlib*", "contents": "telnetlib.read_until(${1:expected}, ${2:timeout=None})"},
+		{"trigger": "y-read_very_eager()\ttelnetlib*", "contents": "telnetlib.read_very_eager(${1:})"},
+		{"trigger": "y-read_very_lazy()\ttelnetlib*", "contents": "telnetlib.read_very_lazy(${1:})"},
+		{"trigger": "y-set_debuglevel()\ttelnetlib*", "contents": "telnetlib.set_debuglevel(${1:debuglevel})"},
+		{"trigger": "y-set_option_negotiation_callback()\ttelnetlib*", "contents": "telnetlib.set_option_negotiation_callback(${1:callback})"},
+		{"trigger": "y-write()\ttelnetlib*", "contents": "telnetlib.write(${1:buffer})"}
+	]
+}

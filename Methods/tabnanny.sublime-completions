@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "NannyNag\ttabnanny", "contents": "NannyNag"},
+		{"trigger": "check()\ttabnanny", "contents": "check(${1:file_or_dir})"},
+		{"trigger": "filename_only()\ttabnanny", "contents": "filename_only()"},
+		{"trigger": "tokeneater()\ttabnanny", "contents": "tokeneater(${1:type}, ${2:token}, ${3:start}, ${4:end}, ${5:line})"},
+		{"trigger": "verbose()\ttabnanny", "contents": "verbose()"}
+	]
+}

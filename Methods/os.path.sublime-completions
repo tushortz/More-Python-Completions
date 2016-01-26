@@ -1,0 +1,37 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "abspath()\tos", "contents": "abspath(${1:path})"},
+		{"trigger": "basename()\tos", "contents": "basename(${1:path})"},
+		{"trigger": "commonpath()\tos", "contents": "commonpath(${1:paths})"},
+		{"trigger": "commonprefix()\tos", "contents": "commonprefix(${1:list})"},
+		{"trigger": "dirname()\tos", "contents": "dirname(${1:path})"},
+		{"trigger": "exists()\tos", "contents": "exists(${1:path})"},
+		{"trigger": "expanduser()\tos", "contents": "expanduser(${1:path})"},
+		{"trigger": "expandvars()\tos", "contents": "expandvars(${1:path})"},
+		{"trigger": "getatime()\tos", "contents": "getatime(${1:path})"},
+		{"trigger": "getctime()\tos", "contents": "getctime(${1:path})"},
+		{"trigger": "getmtime()\tos", "contents": "getmtime(${1:path})"},
+		{"trigger": "getsize()\tos", "contents": "getsize(${1:path})"},
+		{"trigger": "isabs()\tos", "contents": "isabs(${1:path})"},
+		{"trigger": "isdir()\tos", "contents": "isdir(${1:path})"},
+		{"trigger": "isfile()\tos", "contents": "isfile(${1:path})"},
+		{"trigger": "islink()\tos", "contents": "islink(${1:path})"},
+		{"trigger": "ismount()\tos", "contents": "ismount(${1:path})"},
+		{"trigger": "join()\tos", "contents": "join(${1:path}, ${2:*paths})"},
+		{"trigger": "lexists()\tos", "contents": "lexists(${1:path})"},
+		{"trigger": "normcase()\tos", "contents": "normcase(${1:path})"},
+		{"trigger": "normpath()\tos", "contents": "normpath(${1:path})"},
+		{"trigger": "realpath()\tos", "contents": "realpath(${1:path})"},
+		{"trigger": "relpath()\tos", "contents": "relpath(${1:path}, ${2:start=os.curdir})"},
+		{"trigger": "samefile()\tos", "contents": "samefile(${1:path1}, ${2:path2})"},
+		{"trigger": "sameopenfile()\tos", "contents": "sameopenfile(${1:fp1}, ${2:fp2})"},
+		{"trigger": "samestat()\tos", "contents": "samestat(${1:stat1}, ${2:stat2})"},
+		{"trigger": "split()\tos", "contents": "split(${1:path})"},
+		{"trigger": "splitdrive()\tos", "contents": "splitdrive(${1:path})"},
+		{"trigger": "splitext()\tos", "contents": "splitext(${1:path})"},
+		{"trigger": "splitunc()\tos", "contents": "splitunc(${1:path})"},
+		{"trigger": "supports_unicode_filenames()\tos", "contents": "supports_unicode_filenames()"}
+	]
+}

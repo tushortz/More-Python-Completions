@@ -1,0 +1,37 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "RLIMIT_AS\tresource", "contents": "RLIMIT_AS"},
+		{"trigger": "RLIMIT_CORE\tresource", "contents": "RLIMIT_CORE"},
+		{"trigger": "RLIMIT_CPU\tresource", "contents": "RLIMIT_CPU"},
+		{"trigger": "RLIMIT_DATA\tresource", "contents": "RLIMIT_DATA"},
+		{"trigger": "RLIMIT_FSIZE\tresource", "contents": "RLIMIT_FSIZE"},
+		{"trigger": "RLIMIT_MEMLOCK\tresource", "contents": "RLIMIT_MEMLOCK"},
+		{"trigger": "RLIMIT_MSGQUEUE\tresource", "contents": "RLIMIT_MSGQUEUE"},
+		{"trigger": "RLIMIT_NICE\tresource", "contents": "RLIMIT_NICE"},
+		{"trigger": "RLIMIT_NOFILE\tresource", "contents": "RLIMIT_NOFILE"},
+		{"trigger": "RLIMIT_NPROC\tresource", "contents": "RLIMIT_NPROC"},
+		{"trigger": "RLIMIT_NPTS\tresource", "contents": "RLIMIT_NPTS"},
+		{"trigger": "RLIMIT_OFILE\tresource", "contents": "RLIMIT_OFILE"},
+		{"trigger": "RLIMIT_RSS\tresource", "contents": "RLIMIT_RSS"},
+		{"trigger": "RLIMIT_RTPRIO\tresource", "contents": "RLIMIT_RTPRIO"},
+		{"trigger": "RLIMIT_RTTIME\tresource", "contents": "RLIMIT_RTTIME"},
+		{"trigger": "RLIMIT_SBSIZE\tresource", "contents": "RLIMIT_SBSIZE"},
+		{"trigger": "RLIMIT_SIGPENDING\tresource", "contents": "RLIMIT_SIGPENDING"},
+		{"trigger": "RLIMIT_STACK\tresource", "contents": "RLIMIT_STACK"},
+		{"trigger": "RLIMIT_SWAP\tresource", "contents": "RLIMIT_SWAP"},
+		{"trigger": "RLIMIT_VMEM\tresource", "contents": "RLIMIT_VMEM"},
+		{"trigger": "RLIM_INFINITY\tresource", "contents": "RLIM_INFINITY"},
+		{"trigger": "RUSAGE_BOTH\tresource", "contents": "RUSAGE_BOTH"},
+		{"trigger": "RUSAGE_CHILDREN\tresource", "contents": "RUSAGE_CHILDREN"},
+		{"trigger": "RUSAGE_SELF\tresource", "contents": "RUSAGE_SELF"},
+		{"trigger": "RUSAGE_THREAD\tresource", "contents": "RUSAGE_THREAD"},
+		{"trigger": "error()\tresource", "contents": "error()"},
+		{"trigger": "getpagesize()\tresource", "contents": "getpagesize(${1:})"},
+		{"trigger": "getrlimit()\tresource", "contents": "getrlimit(${1:resource})"},
+		{"trigger": "getrusage()\tresource", "contents": "getrusage(${1:who})"},
+		{"trigger": "prlimit()\tresource", "contents": "prlimit(${1:pid}, ${2:resource[}, ${3:limits]})"},
+		{"trigger": "setrlimit()\tresource", "contents": "setrlimit(${1:resource}, ${2:limits})"}
+	]
+}

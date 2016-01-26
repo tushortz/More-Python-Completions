@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "AST\tast", "contents": "AST"},
+		{"trigger": "NodeTransformer\tast", "contents": "NodeTransformer"},
+		{"trigger": "NodeVisitor\tast", "contents": "NodeVisitor"},
+		{"trigger": "copy_location()\tast", "contents": "copy_location(${1:new_node}, ${2:old_node})"},
+		{"trigger": "dump()\tast", "contents": "dump(${1:node}, ${2:annotate_fields=True}, ${3:include_attributes=False})"},
+		{"trigger": "fix_missing_locations()\tast", "contents": "fix_missing_locations(${1:node})"},
+		{"trigger": "get_docstring()\tast", "contents": "get_docstring(${1:node}, ${2:clean=True})"},
+		{"trigger": "increment_lineno()\tast", "contents": "increment_lineno(${1:node}, ${2:n=1})"},
+		{"trigger": "iter_child_nodes()\tast", "contents": "iter_child_nodes(${1:node})"},
+		{"trigger": "iter_fields()\tast", "contents": "iter_fields(${1:node})"},
+		{"trigger": "literal_eval()\tast", "contents": "literal_eval(${1:node_or_string})"},
+		{"trigger": "parse()\tast", "contents": "parse(${1:source}, ${2:filename=''}, ${3:mode='exec'})"},
+		{"trigger": "walk()\tast", "contents": "walk(${1:node})"}
+	]
+}

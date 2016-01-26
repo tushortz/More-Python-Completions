@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Enum\tenum", "contents": "Enum"},
+		{"trigger": "IntEnum\tenum", "contents": "IntEnum"},
+		{"trigger": "unique   A ()\tenum", "contents": "unique   A ()"},
+		{"trigger": "unique()\tenum", "contents": "unique(${1:})"}
+	]
+}

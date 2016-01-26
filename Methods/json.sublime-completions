@@ -1,0 +1,13 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "JSONDecodeError\tjson", "contents": "JSONDecodeError(${1:msg}, ${2:doc}, ${3:pos}, ${4:end=None})"},
+		{"trigger": "JSONDecoder\tjson", "contents": "JSONDecoder(${1:object_hook=None}, ${2:parse_float=None}, ${3:parse_int=None}, ${4:parse_constant=None}, ${5:strict=True}, ${6:object_pairs_hook=None})"},
+		{"trigger": "JSONEncoder\tjson", "contents": "JSONEncoder(${1:skipkeys=False}, ${2:ensure_ascii=True}, ${3:check_circular=True}, ${4:allow_nan=True}, ${5:sort_keys=False}, ${6:indent=None}, ${7:separators=None}, ${8:default=None})"},
+		{"trigger": "dump()\tjson", "contents": "dump(${1:obj}, ${2:fp}, ${3:skipkeys=False}, ${4:ensure_ascii=True}, ${5:check_circular=True}, ${6:allow_nan=True}, ${7:cls=None}, ${8:indent=None}, ${9:separators=None}, ${10:default=None}, ${11:sort_keys=False}, ${12:**kw})"},
+		{"trigger": "dumps()\tjson", "contents": "dumps(${1:obj}, ${2:skipkeys=False}, ${3:ensure_ascii=True}, ${4:check_circular=True}, ${5:allow_nan=True}, ${6:cls=None}, ${7:indent=None}, ${8:separators=None}, ${9:default=None}, ${10:sort_keys=False}, ${11:**kw})"},
+		{"trigger": "load()\tjson", "contents": "load(${1:fp}, ${2:cls=None}, ${3:object_hook=None}, ${4:parse_float=None}, ${5:parse_int=None}, ${6:parse_constant=None}, ${7:object_pairs_hook=None}, ${8:**kw})"},
+		{"trigger": "loads()\tjson", "contents": "loads(${1:s}, ${2:encoding=None}, ${3:cls=None}, ${4:object_hook=None}, ${5:parse_float=None}, ${6:parse_int=None}, ${7:parse_constant=None}, ${8:object_pairs_hook=None}, ${9:**kw})"}
+	]
+}

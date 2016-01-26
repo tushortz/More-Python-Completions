@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BytesFeedParser\temail", "contents": "BytesFeedParser(${1:_factory=email.message.Message})"},
+		{"trigger": "BytesParser\temail", "contents": "BytesParser(${1:_class=email.message.Message}, ${2:*}, ${3:policy=policy.compat32})"},
+		{"trigger": "FeedParser\temail", "contents": "FeedParser(${1:_factory=email.message.Message}, ${2:*}, ${3:policy=policy.compat32})"},
+		{"trigger": "Parser\temail", "contents": "Parser(${1:_class=email.message.Message}, ${2:*}, ${3:policy=policy.compat32})"},
+		{"trigger": "message_from_binary_file()\temail", "contents": "message_from_binary_file(${1:fp}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"},
+		{"trigger": "message_from_bytes()\temail", "contents": "message_from_bytes(${1:s}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"},
+		{"trigger": "message_from_file()\temail", "contents": "message_from_file(${1:fp}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"},
+		{"trigger": "message_from_string()\temail", "contents": "message_from_string(${1:s}, ${2:_class=email.message.Message}, ${3:*}, ${4:policy=policy.compat32})"}
+	]
+}

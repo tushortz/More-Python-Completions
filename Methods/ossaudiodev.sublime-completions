@@ -1,0 +1,37 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "OSSAudioError\tossaudiodev", "contents": "OSSAudioError"},
+		{"trigger": "bufsize()\tossaudiodev", "contents": "bufsize(${1:})"},
+		{"trigger": "channels()\tossaudiodev", "contents": "channels(${1:nchannels})"},
+		{"trigger": "close()\tossaudiodev", "contents": "close(${1:})"},
+		{"trigger": "closed()\tossaudiodev", "contents": "closed()"},
+		{"trigger": "controls()\tossaudiodev", "contents": "controls(${1:})"},
+		{"trigger": "fileno()\tossaudiodev", "contents": "fileno(${1:})"},
+		{"trigger": "get()\tossaudiodev", "contents": "get(${1:control})"},
+		{"trigger": "get_recsrc()\tossaudiodev", "contents": "get_recsrc(${1:})"},
+		{"trigger": "getfmts()\tossaudiodev", "contents": "getfmts(${1:})"},
+		{"trigger": "mode()\tossaudiodev", "contents": "mode()"},
+		{"trigger": "name()\tossaudiodev", "contents": "name()"},
+		{"trigger": "nonblock()\tossaudiodev", "contents": "nonblock(${1:})"},
+		{"trigger": "obufcount()\tossaudiodev", "contents": "obufcount(${1:})"},
+		{"trigger": "obuffree()\tossaudiodev", "contents": "obuffree(${1:})"},
+		{"trigger": "open()\tossaudiodev", "contents": "open(${1:device}, ${2:mode})"},
+		{"trigger": "open()\tossaudiodev", "contents": "open(${1:mode})"},
+		{"trigger": "openmixer()\tossaudiodev", "contents": "openmixer(${1:[device]})"},
+		{"trigger": "post()\tossaudiodev", "contents": "post(${1:})"},
+		{"trigger": "read()\tossaudiodev", "contents": "read(${1:size})"},
+		{"trigger": "reccontrols()\tossaudiodev", "contents": "reccontrols(${1:})"},
+		{"trigger": "reset()\tossaudiodev", "contents": "reset(${1:})"},
+		{"trigger": "set()\tossaudiodev", "contents": "set(${1:control}, ${2:}, ${3:left}, ${4:right})"},
+		{"trigger": "set_recsrc()\tossaudiodev", "contents": "set_recsrc(${1:bitmask})"},
+		{"trigger": "setfmt()\tossaudiodev", "contents": "setfmt(${1:format})"},
+		{"trigger": "setparameters()\tossaudiodev", "contents": "setparameters(${1:format}, ${2:nchannels}, ${3:samplerate[}, ${4:strict=False]})"},
+		{"trigger": "speed()\tossaudiodev", "contents": "speed(${1:samplerate})"},
+		{"trigger": "stereocontrols()\tossaudiodev", "contents": "stereocontrols(${1:})"},
+		{"trigger": "sync()\tossaudiodev", "contents": "sync(${1:})"},
+		{"trigger": "write()\tossaudiodev", "contents": "write(${1:data})"},
+		{"trigger": "writeall()\tossaudiodev", "contents": "writeall(${1:data})"}
+	]
+}

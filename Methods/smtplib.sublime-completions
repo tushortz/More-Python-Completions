@@ -1,0 +1,33 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "LMTP\tsmtplib", "contents": "LMTP(${1:host=''}, ${2:port=LMTP_PORT}, ${3:local_hostname=None}, ${4:source_address=None})"},
+		{"trigger": "SMTP\tsmtplib", "contents": "SMTP(${1:host=''}, ${2:port=0}, ${3:local_hostname=None}, ${4:[timeout}, ${5:]source_address=None})"},
+		{"trigger": "SMTPAuthenticationError\tsmtplib", "contents": "SMTPAuthenticationError"},
+		{"trigger": "SMTPConnectError\tsmtplib", "contents": "SMTPConnectError"},
+		{"trigger": "SMTPDataError\tsmtplib", "contents": "SMTPDataError"},
+		{"trigger": "SMTPException\tsmtplib", "contents": "SMTPException"},
+		{"trigger": "SMTPHeloError\tsmtplib", "contents": "SMTPHeloError"},
+		{"trigger": "SMTPNotSupportedError\tsmtplib", "contents": "SMTPNotSupportedError"},
+		{"trigger": "SMTPRecipientsRefused\tsmtplib", "contents": "SMTPRecipientsRefused"},
+		{"trigger": "SMTPResponseException\tsmtplib", "contents": "SMTPResponseException"},
+		{"trigger": "SMTPSenderRefused\tsmtplib", "contents": "SMTPSenderRefused"},
+		{"trigger": "SMTPServerDisconnected\tsmtplib", "contents": "SMTPServerDisconnected"},
+		{"trigger": "SMTP_SSL\tsmtplib", "contents": "SMTP_SSL(${1:host=''}, ${2:port=0}, ${3:local_hostname=None}, ${4:keyfile=None}, ${5:certfile=None}, ${6:[timeout}, ${7:]context=None}, ${8:source_address=None})"},
+		{"trigger": "auth()\tsmtplib", "contents": "auth(${1:mechanism}, ${2:authobject}, ${3:*}, ${4:initial_response_ok=True})"},
+		{"trigger": "connect()\tsmtplib", "contents": "connect(${1:host='localhost'}, ${2:port=0})"},
+		{"trigger": "docmd()\tsmtplib", "contents": "docmd(${1:cmd}, ${2:args=''})"},
+		{"trigger": "ehlo()\tsmtplib", "contents": "ehlo(${1:name=''})"},
+		{"trigger": "ehlo_or_helo_if_needed()\tsmtplib", "contents": "ehlo_or_helo_if_needed(${1:})"},
+		{"trigger": "has_extn()\tsmtplib", "contents": "has_extn(${1:name})"},
+		{"trigger": "helo()\tsmtplib", "contents": "helo(${1:name=''})"},
+		{"trigger": "login()\tsmtplib", "contents": "login(${1:user}, ${2:password}, ${3:*}, ${4:initial_response_ok=True})"},
+		{"trigger": "quit()\tsmtplib", "contents": "quit(${1:})"},
+		{"trigger": "send_message()\tsmtplib", "contents": "send_message(${1:msg}, ${2:from_addr=None}, ${3:to_addrs=None}, ${4:mail_options=[]}, ${5:rcpt_options=[]})"},
+		{"trigger": "sendmail()\tsmtplib", "contents": "sendmail(${1:from_addr}, ${2:to_addrs}, ${3:msg}, ${4:mail_options=[]}, ${5:rcpt_options=[]})"},
+		{"trigger": "set_debuglevel()\tsmtplib", "contents": "set_debuglevel(${1:level})"},
+		{"trigger": "starttls()\tsmtplib", "contents": "starttls(${1:keyfile=None}, ${2:certfile=None}, ${3:context=None})"},
+		{"trigger": "verify()\tsmtplib", "contents": "verify(${1:address})"}
+	]
+}

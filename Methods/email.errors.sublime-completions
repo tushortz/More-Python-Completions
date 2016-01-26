@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BoundaryError\temail", "contents": "BoundaryError"},
+		{"trigger": "HeaderParseError\temail", "contents": "HeaderParseError"},
+		{"trigger": "MessageError\temail", "contents": "MessageError"},
+		{"trigger": "MessageParseError\temail", "contents": "MessageParseError"},
+		{"trigger": "MultipartConversionError\temail", "contents": "MultipartConversionError"}
+	]
+}

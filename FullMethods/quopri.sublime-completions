@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-decode()\tquopri*", "contents": "quopri.decode(${1:input}, ${2:output}, ${3:header=False})"},
+		{"trigger": "y-decodestring()\tquopri*", "contents": "quopri.decodestring(${1:s}, ${2:header=False})"},
+		{"trigger": "y-encode()\tquopri*", "contents": "quopri.encode(${1:input}, ${2:output}, ${3:quotetabs}, ${4:header=False})"},
+		{"trigger": "y-encodestring()\tquopri*", "contents": "quopri.encodestring(${1:s}, ${2:quotetabs=False}, ${3:header=False})"}
+	]
+}

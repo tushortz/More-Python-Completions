@@ -1,0 +1,33 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "aifc()\taifc", "contents": "aifc(${1:})"},
+		{"trigger": "aiff()\taifc", "contents": "aiff(${1:})"},
+		{"trigger": "close()\taifc", "contents": "close(${1:})"},
+		{"trigger": "getcompname()\taifc", "contents": "getcompname(${1:})"},
+		{"trigger": "getcomptype()\taifc", "contents": "getcomptype(${1:})"},
+		{"trigger": "getframerate()\taifc", "contents": "getframerate(${1:})"},
+		{"trigger": "getmark()\taifc", "contents": "getmark(${1:id})"},
+		{"trigger": "getmarkers()\taifc", "contents": "getmarkers(${1:})"},
+		{"trigger": "getnchannels()\taifc", "contents": "getnchannels(${1:})"},
+		{"trigger": "getnframes()\taifc", "contents": "getnframes(${1:})"},
+		{"trigger": "getparams()\taifc", "contents": "getparams(${1:})"},
+		{"trigger": "getsampwidth()\taifc", "contents": "getsampwidth(${1:})"},
+		{"trigger": "open()\taifc", "contents": "open(${1:file}, ${2:mode=None})"},
+		{"trigger": "readframes()\taifc", "contents": "readframes(${1:nframes})"},
+		{"trigger": "rewind()\taifc", "contents": "rewind(${1:})"},
+		{"trigger": "setcomptype()\taifc", "contents": "setcomptype(${1:type}, ${2:name})"},
+		{"trigger": "setframerate()\taifc", "contents": "setframerate(${1:rate})"},
+		{"trigger": "setmark()\taifc", "contents": "setmark(${1:id}, ${2:pos}, ${3:name})"},
+		{"trigger": "setnchannels()\taifc", "contents": "setnchannels(${1:nchannels})"},
+		{"trigger": "setnframes()\taifc", "contents": "setnframes(${1:nframes})"},
+		{"trigger": "setparams()\taifc", "contents": "setparams(${1:nchannels}, ${2:sampwidth}, ${3:framerate}, ${4:comptype}, ${5:compname})"},
+		{"trigger": "setpos()\taifc", "contents": "setpos(${1:pos})"},
+		{"trigger": "setsampwidth()\taifc", "contents": "setsampwidth(${1:width})"},
+		{"trigger": "tell()\taifc", "contents": "tell(${1:})"},
+		{"trigger": "tell()\taifc", "contents": "tell(${1:})"},
+		{"trigger": "writeframes()\taifc", "contents": "writeframes(${1:data})"},
+		{"trigger": "writeframesraw()\taifc", "contents": "writeframesraw(${1:data})"}
+	]
+}

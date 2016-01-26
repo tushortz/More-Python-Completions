@@ -1,0 +1,16 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-close()\tdbm*", "contents": "dbm.close(${1:})"},
+		{"trigger": "y-error()\tdbm*", "contents": "dbm.error()"},
+		{"trigger": "y-firstkey()\tdbm*", "contents": "dbm.firstkey(${1:})"},
+		{"trigger": "y-library()\tdbm*", "contents": "dbm.library()"},
+		{"trigger": "y-nextkey()\tdbm*", "contents": "dbm.nextkey(${1:key})"},
+		{"trigger": "y-open()\tdbm*", "contents": "dbm.open(${1:file}, ${2:flag='r'}, ${3:mode=0o666})"},
+		{"trigger": "y-open()\tdbm*", "contents": "dbm.open(${1:filename[}, ${2:flag[}, ${3:mode]]})"},
+		{"trigger": "y-reorganize()\tdbm*", "contents": "dbm.reorganize(${1:})"},
+		{"trigger": "y-sync()\tdbm*", "contents": "dbm.sync(${1:})"},
+		{"trigger": "y-whichdb()\tdbm*", "contents": "dbm.whichdb(${1:filename})"}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Bytecode\tdis*", "contents": "dis.Bytecode(${1:x}, ${2:*}, ${3:first_line=None}, ${4:current_offset=None})"},
+		{"trigger": "y-Instruction\tdis*", "contents": "dis.Instruction"},
+		{"trigger": "y-cmp_op()\tdis*", "contents": "dis.cmp_op()"},
+		{"trigger": "y-code_info()\tdis*", "contents": "dis.code_info(${1:x})"},
+		{"trigger": "y-dis()\tdis*", "contents": "dis.dis(${1:x=None}, ${2:*}, ${3:file=None})"},
+		{"trigger": "y-disassemble()\tdis*", "contents": "dis.disassemble(${1:code}, ${2:lasti=-1}, ${3:*}, ${4:file=None})"},
+		{"trigger": "y-disco()\tdis*", "contents": "dis.disco(${1:code}, ${2:lasti=-1}, ${3:*}, ${4:file=None})"},
+		{"trigger": "y-distb()\tdis*", "contents": "dis.distb(${1:tb=None}, ${2:*}, ${3:file=None})"},
+		{"trigger": "y-findlabels()\tdis*", "contents": "dis.findlabels(${1:code})"},
+		{"trigger": "y-findlinestarts()\tdis*", "contents": "dis.findlinestarts(${1:code})"},
+		{"trigger": "y-get_instructions()\tdis*", "contents": "dis.get_instructions(${1:x}, ${2:*}, ${3:first_line=None})"},
+		{"trigger": "y-hascompare()\tdis*", "contents": "dis.hascompare()"},
+		{"trigger": "y-hasconst()\tdis*", "contents": "dis.hasconst()"},
+		{"trigger": "y-hasfree()\tdis*", "contents": "dis.hasfree()"},
+		{"trigger": "y-hasjabs()\tdis*", "contents": "dis.hasjabs()"},
+		{"trigger": "y-hasjrel()\tdis*", "contents": "dis.hasjrel()"},
+		{"trigger": "y-haslocal()\tdis*", "contents": "dis.haslocal()"},
+		{"trigger": "y-hasname()\tdis*", "contents": "dis.hasname()"},
+		{"trigger": "y-opmap()\tdis*", "contents": "dis.opmap()"},
+		{"trigger": "y-opname()\tdis*", "contents": "dis.opname()"},
+		{"trigger": "y-show_code()\tdis*", "contents": "dis.show_code(${1:x}, ${2:*}, ${3:file=None})"},
+		{"trigger": "y-stack_effect()\tdis*", "contents": "dis.stack_effect(${1:opcode[}, ${2:oparg]})"}
+	]
+}

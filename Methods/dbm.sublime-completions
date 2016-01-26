@@ -1,0 +1,16 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "close()\tdbm", "contents": "close(${1:})"},
+		{"trigger": "error()\tdbm", "contents": "error()"},
+		{"trigger": "firstkey()\tdbm", "contents": "firstkey(${1:})"},
+		{"trigger": "library()\tdbm", "contents": "library()"},
+		{"trigger": "nextkey()\tdbm", "contents": "nextkey(${1:key})"},
+		{"trigger": "open()\tdbm", "contents": "open(${1:file}, ${2:flag='r'}, ${3:mode=0o666})"},
+		{"trigger": "open()\tdbm", "contents": "open(${1:filename[}, ${2:flag[}, ${3:mode]]})"},
+		{"trigger": "reorganize()\tdbm", "contents": "reorganize(${1:})"},
+		{"trigger": "sync()\tdbm", "contents": "sync(${1:})"},
+		{"trigger": "whichdb()\tdbm", "contents": "whichdb(${1:filename})"}
+	]
+}

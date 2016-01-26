@@ -1,0 +1,33 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-aifc()\taifc*", "contents": "aifc.aifc(${1:})"},
+		{"trigger": "y-aiff()\taifc*", "contents": "aifc.aiff(${1:})"},
+		{"trigger": "y-close()\taifc*", "contents": "aifc.close(${1:})"},
+		{"trigger": "y-getcompname()\taifc*", "contents": "aifc.getcompname(${1:})"},
+		{"trigger": "y-getcomptype()\taifc*", "contents": "aifc.getcomptype(${1:})"},
+		{"trigger": "y-getframerate()\taifc*", "contents": "aifc.getframerate(${1:})"},
+		{"trigger": "y-getmark()\taifc*", "contents": "aifc.getmark(${1:id})"},
+		{"trigger": "y-getmarkers()\taifc*", "contents": "aifc.getmarkers(${1:})"},
+		{"trigger": "y-getnchannels()\taifc*", "contents": "aifc.getnchannels(${1:})"},
+		{"trigger": "y-getnframes()\taifc*", "contents": "aifc.getnframes(${1:})"},
+		{"trigger": "y-getparams()\taifc*", "contents": "aifc.getparams(${1:})"},
+		{"trigger": "y-getsampwidth()\taifc*", "contents": "aifc.getsampwidth(${1:})"},
+		{"trigger": "y-open()\taifc*", "contents": "aifc.open(${1:file}, ${2:mode=None})"},
+		{"trigger": "y-readframes()\taifc*", "contents": "aifc.readframes(${1:nframes})"},
+		{"trigger": "y-rewind()\taifc*", "contents": "aifc.rewind(${1:})"},
+		{"trigger": "y-setcomptype()\taifc*", "contents": "aifc.setcomptype(${1:type}, ${2:name})"},
+		{"trigger": "y-setframerate()\taifc*", "contents": "aifc.setframerate(${1:rate})"},
+		{"trigger": "y-setmark()\taifc*", "contents": "aifc.setmark(${1:id}, ${2:pos}, ${3:name})"},
+		{"trigger": "y-setnchannels()\taifc*", "contents": "aifc.setnchannels(${1:nchannels})"},
+		{"trigger": "y-setnframes()\taifc*", "contents": "aifc.setnframes(${1:nframes})"},
+		{"trigger": "y-setparams()\taifc*", "contents": "aifc.setparams(${1:nchannels}, ${2:sampwidth}, ${3:framerate}, ${4:comptype}, ${5:compname})"},
+		{"trigger": "y-setpos()\taifc*", "contents": "aifc.setpos(${1:pos})"},
+		{"trigger": "y-setsampwidth()\taifc*", "contents": "aifc.setsampwidth(${1:width})"},
+		{"trigger": "y-tell()\taifc*", "contents": "aifc.tell(${1:})"},
+		{"trigger": "y-tell()\taifc*", "contents": "aifc.tell(${1:})"},
+		{"trigger": "y-writeframes()\taifc*", "contents": "aifc.writeframes(${1:data})"},
+		{"trigger": "y-writeframesraw()\taifc*", "contents": "aifc.writeframesraw(${1:data})"}
+	]
+}

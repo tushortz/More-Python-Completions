@@ -1,0 +1,36 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-ConversionError\txdrlib*", "contents": "xdrlib.ConversionError"},
+		{"trigger": "y-Error\txdrlib*", "contents": "xdrlib.Error"},
+		{"trigger": "y-Packer\txdrlib*", "contents": "xdrlib.Packer"},
+		{"trigger": "y-Unpacker\txdrlib*", "contents": "xdrlib.Unpacker(${1:data})"},
+		{"trigger": "y-done()\txdrlib*", "contents": "xdrlib.done(${1:})"},
+		{"trigger": "y-get_buffer()\txdrlib*", "contents": "xdrlib.get_buffer(${1:})"},
+		{"trigger": "y-get_position()\txdrlib*", "contents": "xdrlib.get_position(${1:})"},
+		{"trigger": "y-pack_array()\txdrlib*", "contents": "xdrlib.pack_array(${1:list}, ${2:pack_item})"},
+		{"trigger": "y-pack_bytes()\txdrlib*", "contents": "xdrlib.pack_bytes(${1:bytes})"},
+		{"trigger": "y-pack_double()\txdrlib*", "contents": "xdrlib.pack_double(${1:value})"},
+		{"trigger": "y-pack_farray()\txdrlib*", "contents": "xdrlib.pack_farray(${1:n}, ${2:array}, ${3:pack_item})"},
+		{"trigger": "y-pack_float()\txdrlib*", "contents": "xdrlib.pack_float(${1:value})"},
+		{"trigger": "y-pack_fopaque()\txdrlib*", "contents": "xdrlib.pack_fopaque(${1:n}, ${2:data})"},
+		{"trigger": "y-pack_fstring()\txdrlib*", "contents": "xdrlib.pack_fstring(${1:n}, ${2:s})"},
+		{"trigger": "y-pack_list()\txdrlib*", "contents": "xdrlib.pack_list(${1:list}, ${2:pack_item})"},
+		{"trigger": "y-pack_opaque()\txdrlib*", "contents": "xdrlib.pack_opaque(${1:data})"},
+		{"trigger": "y-pack_string()\txdrlib*", "contents": "xdrlib.pack_string(${1:s})"},
+		{"trigger": "y-reset()\txdrlib*", "contents": "xdrlib.reset(${1:data})"},
+		{"trigger": "y-reset()\txdrlib*", "contents": "xdrlib.reset(${1:})"},
+		{"trigger": "y-set_position()\txdrlib*", "contents": "xdrlib.set_position(${1:position})"},
+		{"trigger": "y-unpack_array()\txdrlib*", "contents": "xdrlib.unpack_array(${1:unpack_item})"},
+		{"trigger": "y-unpack_bytes()\txdrlib*", "contents": "xdrlib.unpack_bytes(${1:})"},
+		{"trigger": "y-unpack_double()\txdrlib*", "contents": "xdrlib.unpack_double(${1:})"},
+		{"trigger": "y-unpack_farray()\txdrlib*", "contents": "xdrlib.unpack_farray(${1:n}, ${2:unpack_item})"},
+		{"trigger": "y-unpack_float()\txdrlib*", "contents": "xdrlib.unpack_float(${1:})"},
+		{"trigger": "y-unpack_fopaque()\txdrlib*", "contents": "xdrlib.unpack_fopaque(${1:n})"},
+		{"trigger": "y-unpack_fstring()\txdrlib*", "contents": "xdrlib.unpack_fstring(${1:n})"},
+		{"trigger": "y-unpack_list()\txdrlib*", "contents": "xdrlib.unpack_list(${1:unpack_item})"},
+		{"trigger": "y-unpack_opaque()\txdrlib*", "contents": "xdrlib.unpack_opaque(${1:})"},
+		{"trigger": "y-unpack_string()\txdrlib*", "contents": "xdrlib.unpack_string(${1:})"}
+	]
+}

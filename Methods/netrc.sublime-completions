@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "NetrcParseError\tnetrc", "contents": "NetrcParseError"},
+		{"trigger": "__repr__()\tnetrc", "contents": "__repr__(${1:})"},
+		{"trigger": "authenticators()\tnetrc", "contents": "authenticators(${1:host})"},
+		{"trigger": "hosts()\tnetrc", "contents": "hosts()"},
+		{"trigger": "macros()\tnetrc", "contents": "macros()"},
+		{"trigger": "netrc()\tnetrc", "contents": "netrc(${1:[file]})"}
+	]
+}

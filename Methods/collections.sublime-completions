@@ -1,0 +1,20 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ChainMap\tcollections", "contents": "ChainMap(${1:*maps})"},
+		{"trigger": "Counter\tcollections", "contents": "Counter(${1:[iterable-or-mapping]})"},
+		{"trigger": "OrderedDict\tcollections", "contents": "OrderedDict(${1:[items]})"},
+		{"trigger": "UserDict\tcollections", "contents": "UserDict(${1:[initialdata]})"},
+		{"trigger": "UserList\tcollections", "contents": "UserList(${1:[list]})"},
+		{"trigger": "UserString\tcollections", "contents": "UserString(${1:[sequence]})"},
+		{"trigger": "_asdict()\tcollections", "contents": "_asdict(${1:})"},
+		{"trigger": "_fields()\tcollections", "contents": "_fields()"},
+		{"trigger": "_make()\tcollections", "contents": "_make(${1:iterable})"},
+		{"trigger": "_replace()\tcollections", "contents": "_replace(${1:kwargs})"},
+		{"trigger": "_source()\tcollections", "contents": "_source()"},
+		{"trigger": "defaultdict()\tcollections", "contents": "defaultdict(${1:[default_factory[}, ${2:...]]})"},
+		{"trigger": "deque()\tcollections", "contents": "deque(${1:[iterable[}, ${2:maxlen]]})"},
+		{"trigger": "namedtuple()\tcollections", "contents": "namedtuple(${1:typename}, ${2:field_names}, ${3:verbose=False}, ${4:rename=False})"}
+	]
+}

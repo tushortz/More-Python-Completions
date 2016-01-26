@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "_structure()\temail", "contents": "_structure(${1:msg}, ${2:fp=None}, ${3:level=0}, ${4:include_default=False})"},
+		{"trigger": "body_line_iterator()\temail", "contents": "body_line_iterator(${1:msg}, ${2:decode=False})"},
+		{"trigger": "typed_subpart_iterator()\temail", "contents": "typed_subpart_iterator(${1:msg}, ${2:maintype='text'}, ${3:subtype=None})"}
+	]
+}

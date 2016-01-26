@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-dispatcher()\tasyncore*", "contents": "asyncore.dispatcher()"},
+		{"trigger": "y-dispatcher_with_send()\tasyncore*", "contents": "asyncore.dispatcher_with_send()"},
+		{"trigger": "y-file_dispatcher()\tasyncore*", "contents": "asyncore.file_dispatcher()"},
+		{"trigger": "y-file_wrapper()\tasyncore*", "contents": "asyncore.file_wrapper()"},
+		{"trigger": "y-loop()\tasyncore*", "contents": "asyncore.loop(${1:[timeout[}, ${2:use_poll[}, ${3:map[}, ${4:count]]]]})"}
+	]
+}

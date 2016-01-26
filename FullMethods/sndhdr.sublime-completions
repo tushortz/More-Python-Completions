@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-what()\tsndhdr*", "contents": "sndhdr.what(${1:filename})"},
+		{"trigger": "y-whathdr()\tsndhdr*", "contents": "sndhdr.whathdr(${1:filename})"}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "add()\taudioop", "contents": "add(${1:fragment1}, ${2:fragment2}, ${3:width})"},
+		{"trigger": "adpcm2lin()\taudioop", "contents": "adpcm2lin(${1:adpcmfragment}, ${2:width}, ${3:state})"},
+		{"trigger": "alaw2lin()\taudioop", "contents": "alaw2lin(${1:fragment}, ${2:width})"},
+		{"trigger": "avg()\taudioop", "contents": "avg(${1:fragment}, ${2:width})"},
+		{"trigger": "avgpp()\taudioop", "contents": "avgpp(${1:fragment}, ${2:width})"},
+		{"trigger": "bias()\taudioop", "contents": "bias(${1:fragment}, ${2:width}, ${3:bias})"},
+		{"trigger": "byteswap()\taudioop", "contents": "byteswap(${1:fragment}, ${2:width})"},
+		{"trigger": "cross()\taudioop", "contents": "cross(${1:fragment}, ${2:width})"},
+		{"trigger": "error()\taudioop", "contents": "error()"},
+		{"trigger": "findfactor()\taudioop", "contents": "findfactor(${1:fragment}, ${2:reference})"},
+		{"trigger": "findfit()\taudioop", "contents": "findfit(${1:fragment}, ${2:reference})"},
+		{"trigger": "findmax()\taudioop", "contents": "findmax(${1:fragment}, ${2:length})"},
+		{"trigger": "getsample()\taudioop", "contents": "getsample(${1:fragment}, ${2:width}, ${3:index})"},
+		{"trigger": "lin2adpcm()\taudioop", "contents": "lin2adpcm(${1:fragment}, ${2:width}, ${3:state})"},
+		{"trigger": "lin2alaw()\taudioop", "contents": "lin2alaw(${1:fragment}, ${2:width})"},
+		{"trigger": "lin2lin()\taudioop", "contents": "lin2lin(${1:fragment}, ${2:width}, ${3:newwidth})"},
+		{"trigger": "lin2ulaw()\taudioop", "contents": "lin2ulaw(${1:fragment}, ${2:width})"},
+		{"trigger": "max()\taudioop", "contents": "max(${1:fragment}, ${2:width})"},
+		{"trigger": "maxpp()\taudioop", "contents": "maxpp(${1:fragment}, ${2:width})"},
+		{"trigger": "minmax()\taudioop", "contents": "minmax(${1:fragment}, ${2:width})"},
+		{"trigger": "mul()\taudioop", "contents": "mul(${1:fragment}, ${2:width}, ${3:factor})"},
+		{"trigger": "ratecv()\taudioop", "contents": "ratecv(${1:fragment}, ${2:width}, ${3:nchannels}, ${4:inrate}, ${5:outrate}, ${6:state[}, ${7:weightA[}, ${8:weightB]]})"},
+		{"trigger": "reverse()\taudioop", "contents": "reverse(${1:fragment}, ${2:width})"},
+		{"trigger": "rms()\taudioop", "contents": "rms(${1:fragment}, ${2:width})"},
+		{"trigger": "tomono()\taudioop", "contents": "tomono(${1:fragment}, ${2:width}, ${3:lfactor}, ${4:rfactor})"},
+		{"trigger": "tostereo()\taudioop", "contents": "tostereo(${1:fragment}, ${2:width}, ${3:lfactor}, ${4:rfactor})"},
+		{"trigger": "ulaw2lin()\taudioop", "contents": "ulaw2lin(${1:fragment}, ${2:width})"}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-algorithms_available()\thashlib*", "contents": "hashlib.algorithms_available()"},
+		{"trigger": "y-algorithms_guaranteed()\thashlib*", "contents": "hashlib.algorithms_guaranteed()"},
+		{"trigger": "y-block_size()\thashlib*", "contents": "hashlib.block_size()"},
+		{"trigger": "y-copy()\thashlib*", "contents": "hashlib.copy(${1:})"},
+		{"trigger": "y-digest()\thashlib*", "contents": "hashlib.digest(${1:})"},
+		{"trigger": "y-digest_size()\thashlib*", "contents": "hashlib.digest_size()"},
+		{"trigger": "y-hexdigest()\thashlib*", "contents": "hashlib.hexdigest(${1:})"},
+		{"trigger": "y-name()\thashlib*", "contents": "hashlib.name()"},
+		{"trigger": "y-new()\thashlib*", "contents": "hashlib.new(${1:name[}, ${2:data]})"},
+		{"trigger": "y-pbkdf2_hmac()\thashlib*", "contents": "hashlib.pbkdf2_hmac(${1:name}, ${2:password}, ${3:salt}, ${4:rounds}, ${5:dklen=None})"},
+		{"trigger": "y-update()\thashlib*", "contents": "hashlib.update(${1:arg})"}
+	]
+}

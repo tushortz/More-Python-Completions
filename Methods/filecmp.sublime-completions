@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "DEFAULT_IGNORES\tfilecmp", "contents": "DEFAULT_IGNORES"},
+		{"trigger": "clear_cache()\tfilecmp", "contents": "clear_cache(${1:})"},
+		{"trigger": "cmp()\tfilecmp", "contents": "cmp(${1:f1}, ${2:f2}, ${3:shallow=True})"},
+		{"trigger": "cmpfiles()\tfilecmp", "contents": "cmpfiles(${1:dir1}, ${2:dir2}, ${3:common}, ${4:shallow=True})"},
+		{"trigger": "dircmp()\tfilecmp", "contents": "dircmp(${1:a}, ${2:b}, ${3:ignore=None}, ${4:hide=None})"}
+	]
+}

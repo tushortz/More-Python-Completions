@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "C_BUILTIN\timp", "contents": "C_BUILTIN"},
+		{"trigger": "C_EXTENSION\timp", "contents": "C_EXTENSION"},
+		{"trigger": "NullImporter\timp", "contents": "NullImporter(${1:path_string})"},
+		{"trigger": "PKG_DIRECTORY\timp", "contents": "PKG_DIRECTORY"},
+		{"trigger": "PY_COMPILED\timp", "contents": "PY_COMPILED"},
+		{"trigger": "PY_FROZEN\timp", "contents": "PY_FROZEN"},
+		{"trigger": "PY_SOURCE\timp", "contents": "PY_SOURCE"},
+		{"trigger": "acquire_lock()\timp", "contents": "acquire_lock(${1:})"},
+		{"trigger": "cache_from_source()\timp", "contents": "cache_from_source(${1:path}, ${2:debug_override=None})"},
+		{"trigger": "find_module()\timp", "contents": "find_module(${1:name[}, ${2:path]})"},
+		{"trigger": "get_magic()\timp", "contents": "get_magic(${1:})"},
+		{"trigger": "get_suffixes()\timp", "contents": "get_suffixes(${1:})"},
+		{"trigger": "get_tag()\timp", "contents": "get_tag(${1:})"},
+		{"trigger": "load_module()\timp", "contents": "load_module(${1:name}, ${2:file}, ${3:pathname}, ${4:description})"},
+		{"trigger": "lock_held()\timp", "contents": "lock_held(${1:})"},
+		{"trigger": "new_module()\timp", "contents": "new_module(${1:name})"},
+		{"trigger": "release_lock()\timp", "contents": "release_lock(${1:})"},
+		{"trigger": "reload()\timp", "contents": "reload(${1:module})"},
+		{"trigger": "source_from_cache()\timp", "contents": "source_from_cache(${1:path})"}
+	]
+}

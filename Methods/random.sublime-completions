@@ -1,0 +1,29 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "SystemRandom\trandom", "contents": "SystemRandom(${1:[seed]})"},
+		{"trigger": "betavariate()\trandom", "contents": "betavariate(${1:alpha}, ${2:beta})"},
+		{"trigger": "choice()\trandom", "contents": "choice(${1:seq})"},
+		{"trigger": "expovariate()\trandom", "contents": "expovariate(${1:lambd})"},
+		{"trigger": "gammavariate()\trandom", "contents": "gammavariate(${1:alpha}, ${2:beta})"},
+		{"trigger": "gauss()\trandom", "contents": "gauss(${1:mu}, ${2:sigma})"},
+		{"trigger": "getrandbits()\trandom", "contents": "getrandbits(${1:k})"},
+		{"trigger": "getstate()\trandom", "contents": "getstate(${1:})"},
+		{"trigger": "lognormvariate()\trandom", "contents": "lognormvariate(${1:mu}, ${2:sigma})"},
+		{"trigger": "normalvariate()\trandom", "contents": "normalvariate(${1:mu}, ${2:sigma})"},
+		{"trigger": "paretovariate()\trandom", "contents": "paretovariate(${1:alpha})"},
+		{"trigger": "randint()\trandom", "contents": "randint(${1:a}, ${2:b})"},
+		{"trigger": "random()\trandom", "contents": "random(${1:})"},
+		{"trigger": "randrange()\trandom", "contents": "randrange(${1:start}, ${2:stop[}, ${3:step]})"},
+		{"trigger": "randrange()\trandom", "contents": "randrange(${1:stop})"},
+		{"trigger": "sample()\trandom", "contents": "sample(${1:population}, ${2:k})"},
+		{"trigger": "seed()\trandom", "contents": "seed(${1:a=None}, ${2:version=2})"},
+		{"trigger": "setstate()\trandom", "contents": "setstate(${1:state})"},
+		{"trigger": "shuffle()\trandom", "contents": "shuffle(${1:x[}, ${2:random]})"},
+		{"trigger": "triangular()\trandom", "contents": "triangular(${1:low}, ${2:high}, ${3:mode})"},
+		{"trigger": "uniform()\trandom", "contents": "uniform(${1:a}, ${2:b})"},
+		{"trigger": "vonmisesvariate()\trandom", "contents": "vonmisesvariate(${1:mu}, ${2:kappa})"},
+		{"trigger": "weibullvariate()\trandom", "contents": "weibullvariate(${1:alpha}, ${2:beta})"}
+	]
+}

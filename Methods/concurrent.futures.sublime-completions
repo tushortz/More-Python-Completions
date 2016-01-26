@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BrokenProcessPool\tconcurrent", "contents": "BrokenProcessPool"},
+		{"trigger": "CancelledError\tconcurrent", "contents": "CancelledError"},
+		{"trigger": "Executor\tconcurrent", "contents": "Executor"},
+		{"trigger": "Future\tconcurrent", "contents": "Future"},
+		{"trigger": "ProcessPoolExecutor\tconcurrent", "contents": "ProcessPoolExecutor(${1:max_workers=None})"},
+		{"trigger": "ThreadPoolExecutor\tconcurrent", "contents": "ThreadPoolExecutor(${1:max_workers=None})"},
+		{"trigger": "TimeoutError\tconcurrent", "contents": "TimeoutError"},
+		{"trigger": "as_completed()\tconcurrent", "contents": "as_completed(${1:fs}, ${2:timeout=None})"},
+		{"trigger": "wait()\tconcurrent", "contents": "wait(${1:fs}, ${2:timeout=None}, ${3:return_when=ALL_COMPLETED})"}
+	]
+}

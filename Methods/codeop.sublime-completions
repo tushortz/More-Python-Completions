@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "CommandCompiler\tcodeop", "contents": "CommandCompiler"},
+		{"trigger": "Compile\tcodeop", "contents": "Compile"},
+		{"trigger": "compile_command()\tcodeop", "contents": "compile_command(${1:source}, ${2:filename=\"\"}, ${3:symbol=\"single\"})"}
+	]
+}

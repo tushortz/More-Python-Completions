@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "get_config_h_filename()\tsysconfig", "contents": "get_config_h_filename(${1:})"},
+		{"trigger": "get_config_var()\tsysconfig", "contents": "get_config_var(${1:name})"},
+		{"trigger": "get_config_vars()\tsysconfig", "contents": "get_config_vars(${1:*args})"},
+		{"trigger": "get_makefile_filename()\tsysconfig", "contents": "get_makefile_filename(${1:})"},
+		{"trigger": "get_path()\tsysconfig", "contents": "get_path(${1:name[}, ${2:scheme[}, ${3:vars[}, ${4:expand]]]})"},
+		{"trigger": "get_path_names()\tsysconfig", "contents": "get_path_names(${1:})"},
+		{"trigger": "get_paths()\tsysconfig", "contents": "get_paths(${1:[scheme[}, ${2:vars[}, ${3:expand]]]})"},
+		{"trigger": "get_platform()\tsysconfig", "contents": "get_platform(${1:})"},
+		{"trigger": "get_python_version()\tsysconfig", "contents": "get_python_version(${1:})"},
+		{"trigger": "get_scheme_names()\tsysconfig", "contents": "get_scheme_names(${1:})"},
+		{"trigger": "is_python_build()\tsysconfig", "contents": "is_python_build(${1:})"},
+		{"trigger": "parse_config_h()\tsysconfig", "contents": "parse_config_h(${1:fp[}, ${2:vars]})"}
+	]
+}

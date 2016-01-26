@@ -1,0 +1,13 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ABC\tabc", "contents": "ABC"},
+		{"trigger": "ABCMeta\tabc", "contents": "ABCMeta"},
+		{"trigger": "abstractclassmethod()\tabc", "contents": "abstractclassmethod()"},
+		{"trigger": "abstractmethod()\tabc", "contents": "abstractmethod()"},
+		{"trigger": "abstractproperty()\tabc", "contents": "abstractproperty(${1:fget=None}, ${2:fset=None}, ${3:fdel=None}, ${4:doc=None})"},
+		{"trigger": "abstractstaticmethod()\tabc", "contents": "abstractstaticmethod()"},
+		{"trigger": "get_cache_token()\tabc", "contents": "get_cache_token(${1:})"}
+	]
+}

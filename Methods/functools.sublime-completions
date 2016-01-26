@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "args()\tfunctools", "contents": "args()"},
+		{"trigger": "cmp_to_key()\tfunctools", "contents": "cmp_to_key(${1:func})"},
+		{"trigger": "func()\tfunctools", "contents": "func()"},
+		{"trigger": "keywords()\tfunctools", "contents": "keywords()"},
+		{"trigger": "lru_cache()\tfunctools", "contents": "lru_cache(${1:maxsize=128}, ${2:typed=False})"},
+		{"trigger": "partial()\tfunctools", "contents": "partial(${1:func}, ${2:*args}, ${3:**keywords})"},
+		{"trigger": "partialmethod()\tfunctools", "contents": "partialmethod(${1:func}, ${2:*args}, ${3:**keywords})"},
+		{"trigger": "reduce()\tfunctools", "contents": "reduce(${1:function}, ${2:iterable[}, ${3:initializer]})"},
+		{"trigger": "singledispatch()\tfunctools", "contents": "singledispatch(${1:default})"},
+		{"trigger": "total_ordering()\tfunctools", "contents": "total_ordering()"},
+		{"trigger": "update_wrapper()\tfunctools", "contents": "update_wrapper(${1:wrapper}, ${2:wrapped}, ${3:assigned=WRAPPER_ASSIGNMENTS}, ${4:updated=WRAPPER_UPDATES})"},
+		{"trigger": "wraps()\tfunctools", "contents": "wraps(${1:wrapped}, ${2:assigned=WRAPPER_ASSIGNMENTS}, ${3:updated=WRAPPER_UPDATES})"}
+	]
+}

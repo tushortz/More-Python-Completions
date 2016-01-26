@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Fraction\tfractions*", "contents": "fractions.Fraction(${1:numerator=0}, ${2:denominator=1})"},
+		{"trigger": "y-Fraction\tfractions*", "contents": "fractions.Fraction(${1:other_fraction})"},
+		{"trigger": "y-gcd()\tfractions*", "contents": "fractions.gcd(${1:a}, ${2:b})"}
+	]
+}

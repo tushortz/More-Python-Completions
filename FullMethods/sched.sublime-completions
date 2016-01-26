@@ -1,0 +1,13 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-cancel()\tsched*", "contents": "sched.cancel(${1:event})"},
+		{"trigger": "y-empty()\tsched*", "contents": "sched.empty(${1:})"},
+		{"trigger": "y-enter()\tsched*", "contents": "sched.enter(${1:delay}, ${2:priority}, ${3:action}, ${4:argument=}, ${5:})"},
+		{"trigger": "y-enterabs()\tsched*", "contents": "sched.enterabs(${1:time}, ${2:priority}, ${3:action}, ${4:argument=}, ${5:})"},
+		{"trigger": "y-queue()\tsched*", "contents": "sched.queue()"},
+		{"trigger": "y-run()\tsched*", "contents": "sched.run(${1:blocking=True})"},
+		{"trigger": "y-scheduler()\tsched*", "contents": "sched.scheduler(${1:timefunc=time.monotonic}, ${2:delayfunc=time.sleep})"}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "dis()\tpickletools", "contents": "dis(${1:pickle}, ${2:out=None}, ${3:memo=None}, ${4:indentlevel=4}, ${5:annotate=0})"},
+		{"trigger": "genops()\tpickletools", "contents": "genops(${1:pickle})"},
+		{"trigger": "optimize()\tpickletools", "contents": "optimize(${1:picklestring})"}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Calendar\tcalendar", "contents": "Calendar(${1:firstweekday=0})"},
+		{"trigger": "HTMLCalendar\tcalendar", "contents": "HTMLCalendar(${1:firstweekday=0})"},
+		{"trigger": "LocaleHTMLCalendar\tcalendar", "contents": "LocaleHTMLCalendar(${1:firstweekday=0}, ${2:locale=None})"},
+		{"trigger": "LocaleTextCalendar\tcalendar", "contents": "LocaleTextCalendar(${1:firstweekday=0}, ${2:locale=None})"},
+		{"trigger": "TextCalendar\tcalendar", "contents": "TextCalendar(${1:firstweekday=0})"},
+		{"trigger": "calendar()\tcalendar", "contents": "calendar(${1:year}, ${2:w=2}, ${3:l=1}, ${4:c=6}, ${5:m=3})"},
+		{"trigger": "day_abbr()\tcalendar", "contents": "day_abbr()"},
+		{"trigger": "day_name()\tcalendar", "contents": "day_name()"},
+		{"trigger": "firstweekday()\tcalendar", "contents": "firstweekday(${1:})"},
+		{"trigger": "isleap()\tcalendar", "contents": "isleap(${1:year})"},
+		{"trigger": "leapdays()\tcalendar", "contents": "leapdays(${1:y1}, ${2:y2})"},
+		{"trigger": "month()\tcalendar", "contents": "month(${1:theyear}, ${2:themonth}, ${3:w=0}, ${4:l=0})"},
+		{"trigger": "month_abbr()\tcalendar", "contents": "month_abbr()"},
+		{"trigger": "month_name()\tcalendar", "contents": "month_name()"},
+		{"trigger": "monthcalendar()\tcalendar", "contents": "monthcalendar(${1:year}, ${2:month})"},
+		{"trigger": "monthrange()\tcalendar", "contents": "monthrange(${1:year}, ${2:month})"},
+		{"trigger": "prcal()\tcalendar", "contents": "prcal(${1:year}, ${2:w=0}, ${3:l=0}, ${4:c=6}, ${5:m=3})"},
+		{"trigger": "prmonth()\tcalendar", "contents": "prmonth(${1:theyear}, ${2:themonth}, ${3:w=0}, ${4:l=0})"},
+		{"trigger": "setfirstweekday()\tcalendar", "contents": "setfirstweekday(${1:weekday})"},
+		{"trigger": "timegm()\tcalendar", "contents": "timegm(${1:tuple})"},
+		{"trigger": "weekday()\tcalendar", "contents": "weekday(${1:year}, ${2:month}, ${3:day})"},
+		{"trigger": "weekheader()\tcalendar", "contents": "weekheader(${1:n})"}
+	]
+}

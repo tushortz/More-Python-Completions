@@ -1,0 +1,35 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-CLOCK_HIGHRES\ttime*", "contents": "time.CLOCK_HIGHRES"},
+		{"trigger": "y-CLOCK_MONOTONIC\ttime*", "contents": "time.CLOCK_MONOTONIC"},
+		{"trigger": "y-CLOCK_MONOTONIC_RAW\ttime*", "contents": "time.CLOCK_MONOTONIC_RAW"},
+		{"trigger": "y-CLOCK_PROCESS_CPUTIME_ID\ttime*", "contents": "time.CLOCK_PROCESS_CPUTIME_ID"},
+		{"trigger": "y-CLOCK_REALTIME\ttime*", "contents": "time.CLOCK_REALTIME"},
+		{"trigger": "y-CLOCK_THREAD_CPUTIME_ID\ttime*", "contents": "time.CLOCK_THREAD_CPUTIME_ID"},
+		{"trigger": "y-altzone()\ttime*", "contents": "time.altzone()"},
+		{"trigger": "y-asctime()\ttime*", "contents": "time.asctime(${1:[t]})"},
+		{"trigger": "y-clock()\ttime*", "contents": "time.clock(${1:})"},
+		{"trigger": "y-clock_getres()\ttime*", "contents": "time.clock_getres(${1:clk_id})"},
+		{"trigger": "y-clock_gettime()\ttime*", "contents": "time.clock_gettime(${1:clk_id})"},
+		{"trigger": "y-clock_settime()\ttime*", "contents": "time.clock_settime(${1:clk_id}, ${2:time})"},
+		{"trigger": "y-ctime()\ttime*", "contents": "time.ctime(${1:[secs]})"},
+		{"trigger": "y-daylight()\ttime*", "contents": "time.daylight()"},
+		{"trigger": "y-get_clock_info()\ttime*", "contents": "time.get_clock_info(${1:name})"},
+		{"trigger": "y-gmtime()\ttime*", "contents": "time.gmtime(${1:[secs]})"},
+		{"trigger": "y-localtime()\ttime*", "contents": "time.localtime(${1:[secs]})"},
+		{"trigger": "y-mktime()\ttime*", "contents": "time.mktime(${1:t})"},
+		{"trigger": "y-monotonic()\ttime*", "contents": "time.monotonic(${1:})"},
+		{"trigger": "y-perf_counter()\ttime*", "contents": "time.perf_counter(${1:})"},
+		{"trigger": "y-process_time()\ttime*", "contents": "time.process_time(${1:})"},
+		{"trigger": "y-sleep()\ttime*", "contents": "time.sleep(${1:secs})"},
+		{"trigger": "y-strftime()\ttime*", "contents": "time.strftime(${1:format[}, ${2:t]})"},
+		{"trigger": "y-strptime()\ttime*", "contents": "time.strptime(${1:string[}, ${2:format]})"},
+		{"trigger": "y-struct_time()\ttime*", "contents": "time.struct_time()"},
+		{"trigger": "y-time()\ttime*", "contents": "time.time(${1:})"},
+		{"trigger": "y-timezone()\ttime*", "contents": "time.timezone()"},
+		{"trigger": "y-tzname()\ttime*", "contents": "time.tzname()"},
+		{"trigger": "y-tzset()\ttime*", "contents": "time.tzset(${1:})"}
+	]
+}

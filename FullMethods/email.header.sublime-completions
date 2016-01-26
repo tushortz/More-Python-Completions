@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Header\temail*", "contents": "email.header.Header(${1:s=None}, ${2:charset=None}, ${3:maxlinelen=None}, ${4:header_name=None}, ${5:continuation_ws=' '}, ${6:errors='strict'})"},
+		{"trigger": "y-decode_header()\temail*", "contents": "email.header.decode_header(${1:header})"},
+		{"trigger": "y-make_header()\temail*", "contents": "email.header.make_header(${1:decoded_seq}, ${2:maxlinelen=None}, ${3:header_name=None}, ${4:continuation_ws=' '})"}
+	]
+}

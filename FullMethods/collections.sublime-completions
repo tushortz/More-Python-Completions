@@ -1,0 +1,20 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-ChainMap\tcollections*", "contents": "collections.ChainMap(${1:*maps})"},
+		{"trigger": "y-Counter\tcollections*", "contents": "collections.Counter(${1:[iterable-or-mapping]})"},
+		{"trigger": "y-OrderedDict\tcollections*", "contents": "collections.OrderedDict(${1:[items]})"},
+		{"trigger": "y-UserDict\tcollections*", "contents": "collections.UserDict(${1:[initialdata]})"},
+		{"trigger": "y-UserList\tcollections*", "contents": "collections.UserList(${1:[list]})"},
+		{"trigger": "y-UserString\tcollections*", "contents": "collections.UserString(${1:[sequence]})"},
+		{"trigger": "y-_asdict()\tcollections*", "contents": "collections._asdict(${1:})"},
+		{"trigger": "y-_fields()\tcollections*", "contents": "collections._fields()"},
+		{"trigger": "y-_make()\tcollections*", "contents": "collections._make(${1:iterable})"},
+		{"trigger": "y-_replace()\tcollections*", "contents": "collections._replace(${1:kwargs})"},
+		{"trigger": "y-_source()\tcollections*", "contents": "collections._source()"},
+		{"trigger": "y-defaultdict()\tcollections*", "contents": "collections.defaultdict(${1:[default_factory[}, ${2:...]]})"},
+		{"trigger": "y-deque()\tcollections*", "contents": "collections.deque(${1:[iterable[}, ${2:maxlen]]})"},
+		{"trigger": "y-namedtuple()\tcollections*", "contents": "collections.namedtuple(${1:typename}, ${2:field_names}, ${3:verbose=False}, ${4:rename=False})"}
+	]
+}

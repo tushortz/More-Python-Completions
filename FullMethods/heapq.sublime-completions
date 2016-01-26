@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-heapify()\theapq*", "contents": "heapq.heapify(${1:x})"},
+		{"trigger": "y-heappop()\theapq*", "contents": "heapq.heappop(${1:heap})"},
+		{"trigger": "y-heappush()\theapq*", "contents": "heapq.heappush(${1:heap}, ${2:item})"},
+		{"trigger": "y-heappushpop()\theapq*", "contents": "heapq.heappushpop(${1:heap}, ${2:item})"},
+		{"trigger": "y-heapreplace()\theapq*", "contents": "heapq.heapreplace(${1:heap}, ${2:item})"},
+		{"trigger": "y-merge()\theapq*", "contents": "heapq.merge(${1:*iterables}, ${2:key=None}, ${3:reverse=False})"},
+		{"trigger": "y-nlargest()\theapq*", "contents": "heapq.nlargest(${1:n}, ${2:iterable}, ${3:key=None})"},
+		{"trigger": "y-nsmallest()\theapq*", "contents": "heapq.nsmallest(${1:n}, ${2:iterable}, ${3:key=None})"}
+	]
+}

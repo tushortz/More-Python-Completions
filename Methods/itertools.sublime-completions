@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "accumulate()\titertools", "contents": "accumulate(${1:iterable[}, ${2:func]})"},
+		{"trigger": "chain()\titertools", "contents": "chain(${1:*iterables})"},
+		{"trigger": "combinations()\titertools", "contents": "combinations(${1:iterable}, ${2:r})"},
+		{"trigger": "combinations_with_replacement()\titertools", "contents": "combinations_with_replacement(${1:iterable}, ${2:r})"},
+		{"trigger": "compress()\titertools", "contents": "compress(${1:data}, ${2:selectors})"},
+		{"trigger": "count()\titertools", "contents": "count(${1:start=0}, ${2:step=1})"},
+		{"trigger": "cycle()\titertools", "contents": "cycle(${1:iterable})"},
+		{"trigger": "dropwhile()\titertools", "contents": "dropwhile(${1:predicate}, ${2:iterable})"},
+		{"trigger": "filterfalse()\titertools", "contents": "filterfalse(${1:predicate}, ${2:iterable})"},
+		{"trigger": "from_iterable()\titertools", "contents": "from_iterable(${1:iterable})"},
+		{"trigger": "groupby()\titertools", "contents": "groupby(${1:iterable}, ${2:key=None})"},
+		{"trigger": "islice()\titertools", "contents": "islice(${1:iterable}, ${2:start}, ${3:stop[}, ${4:step]})"},
+		{"trigger": "islice()\titertools", "contents": "islice(${1:iterable}, ${2:stop})"},
+		{"trigger": "permutations()\titertools", "contents": "permutations(${1:iterable}, ${2:r=None})"},
+		{"trigger": "product()\titertools", "contents": "product(${1:*iterables}, ${2:repeat=1})"},
+		{"trigger": "repeat()\titertools", "contents": "repeat(${1:object[}, ${2:times]})"},
+		{"trigger": "starmap()\titertools", "contents": "starmap(${1:function}, ${2:iterable})"},
+		{"trigger": "takewhile()\titertools", "contents": "takewhile(${1:predicate}, ${2:iterable})"},
+		{"trigger": "tee()\titertools", "contents": "tee(${1:iterable}, ${2:n=2})"},
+		{"trigger": "zip_longest()\titertools", "contents": "zip_longest(${1:*iterables}, ${2:fillvalue=None})"}
+	]
+}

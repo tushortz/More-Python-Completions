@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "parse()\txml", "contents": "parse(${1:filename_or_file}, ${2:parser=None}, ${3:bufsize=None})"},
+		{"trigger": "parseString()\txml", "contents": "parseString(${1:string}, ${2:parser=None})"},
+		{"trigger": "toprettyxml()\txml", "contents": "toprettyxml(${1:indent=\"\"}, ${2:newl=\"\"}, ${3:encoding=\"\"})"},
+		{"trigger": "toxml()\txml", "contents": "toxml(${1:encoding=None})"},
+		{"trigger": "unlink()\txml", "contents": "unlink(${1:})"},
+		{"trigger": "writexml()\txml", "contents": "writexml(${1:writer}, ${2:indent=\"\"}, ${3:addindent=\"\"}, ${4:newl=\"\"})"}
+	]
+}

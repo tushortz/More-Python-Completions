@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-BsdDbShelf\tshelve*", "contents": "shelve.BsdDbShelf(${1:dict}, ${2:protocol=None}, ${3:writeback=False}, ${4:keyencoding='utf-8'})"},
+		{"trigger": "y-DbfilenameShelf\tshelve*", "contents": "shelve.DbfilenameShelf(${1:filename}, ${2:flag='c'}, ${3:protocol=None}, ${4:writeback=False})"},
+		{"trigger": "y-Shelf\tshelve*", "contents": "shelve.Shelf(${1:dict}, ${2:protocol=None}, ${3:writeback=False}, ${4:keyencoding='utf-8'})"},
+		{"trigger": "y-close()\tshelve*", "contents": "shelve.close(${1:})"},
+		{"trigger": "y-open()\tshelve*", "contents": "shelve.open(${1:filename}, ${2:flag='c'}, ${3:protocol=None}, ${4:writeback=False})"},
+		{"trigger": "y-sync()\tshelve*", "contents": "shelve.sync(${1:})"}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Formatter\tstring", "contents": "Formatter"},
+		{"trigger": "Template\tstring", "contents": "Template(${1:template})"},
+		{"trigger": "ascii_letters()\tstring", "contents": "ascii_letters()"},
+		{"trigger": "ascii_lowercase()\tstring", "contents": "ascii_lowercase()"},
+		{"trigger": "ascii_uppercase()\tstring", "contents": "ascii_uppercase()"},
+		{"trigger": "capwords()\tstring", "contents": "capwords(${1:s}, ${2:sep=None})"},
+		{"trigger": "digits()\tstring", "contents": "digits()"},
+		{"trigger": "hexdigits()\tstring", "contents": "hexdigits()"},
+		{"trigger": "octdigits()\tstring", "contents": "octdigits()"},
+		{"trigger": "printable()\tstring", "contents": "printable()"},
+		{"trigger": "punctuation()\tstring", "contents": "punctuation()"},
+		{"trigger": "whitespace()\tstring", "contents": "whitespace()"}
+	]
+}

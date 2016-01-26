@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-above()\tcurses*", "contents": "curses.panel.above(${1:})"},
+		{"trigger": "y-below()\tcurses*", "contents": "curses.panel.below(${1:})"},
+		{"trigger": "y-bottom()\tcurses*", "contents": "curses.panel.bottom(${1:})"},
+		{"trigger": "y-bottom_panel()\tcurses*", "contents": "curses.panel.bottom_panel(${1:})"},
+		{"trigger": "y-hidden()\tcurses*", "contents": "curses.panel.hidden(${1:})"},
+		{"trigger": "y-hide()\tcurses*", "contents": "curses.panel.hide(${1:})"},
+		{"trigger": "y-move()\tcurses*", "contents": "curses.panel.move(${1:y}, ${2:x})"},
+		{"trigger": "y-new_panel()\tcurses*", "contents": "curses.panel.new_panel(${1:win})"},
+		{"trigger": "y-replace()\tcurses*", "contents": "curses.panel.replace(${1:win})"},
+		{"trigger": "y-set_userptr()\tcurses*", "contents": "curses.panel.set_userptr(${1:obj})"},
+		{"trigger": "y-show()\tcurses*", "contents": "curses.panel.show(${1:})"},
+		{"trigger": "y-top()\tcurses*", "contents": "curses.panel.top(${1:})"},
+		{"trigger": "y-top_panel()\tcurses*", "contents": "curses.panel.top_panel(${1:})"},
+		{"trigger": "y-update_panels()\tcurses*", "contents": "curses.panel.update_panels(${1:})"},
+		{"trigger": "y-userptr()\tcurses*", "contents": "curses.panel.userptr(${1:})"},
+		{"trigger": "y-window()\tcurses*", "contents": "curses.panel.window(${1:})"}
+	]
+}

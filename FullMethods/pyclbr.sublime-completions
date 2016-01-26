@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-file()\tpyclbr*", "contents": "pyclbr.file()"},
+		{"trigger": "y-lineno()\tpyclbr*", "contents": "pyclbr.lineno()"},
+		{"trigger": "y-methods()\tpyclbr*", "contents": "pyclbr.methods()"},
+		{"trigger": "y-module()\tpyclbr*", "contents": "pyclbr.module()"},
+		{"trigger": "y-name()\tpyclbr*", "contents": "pyclbr.name()"},
+		{"trigger": "y-readmodule()\tpyclbr*", "contents": "pyclbr.readmodule(${1:module}, ${2:path=None})"},
+		{"trigger": "y-readmodule_ex()\tpyclbr*", "contents": "pyclbr.readmodule_ex(${1:module}, ${2:path=None})"},
+		{"trigger": "y-super()\tpyclbr*", "contents": "pyclbr.super()"}
+	]
+}

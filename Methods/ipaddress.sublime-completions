@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "AddressValueError\tipaddress", "contents": "AddressValueError(${1:ValueError})"},
+		{"trigger": "IPv4Address\tipaddress", "contents": "IPv4Address(${1:address})"},
+		{"trigger": "IPv4Interface\tipaddress", "contents": "IPv4Interface(${1:address})"},
+		{"trigger": "IPv4Network\tipaddress", "contents": "IPv4Network(${1:address}, ${2:strict=True})"},
+		{"trigger": "IPv6Address\tipaddress", "contents": "IPv6Address(${1:address})"},
+		{"trigger": "IPv6Interface\tipaddress", "contents": "IPv6Interface(${1:address})"},
+		{"trigger": "IPv6Network\tipaddress", "contents": "IPv6Network(${1:address}, ${2:strict=True})"},
+		{"trigger": "NetmaskValueError\tipaddress", "contents": "NetmaskValueError(${1:ValueError})"},
+		{"trigger": "collapse_addresses()\tipaddress", "contents": "collapse_addresses(${1:addresses})"},
+		{"trigger": "get_mixed_type_key()\tipaddress", "contents": "get_mixed_type_key(${1:obj})"},
+		{"trigger": "ip_address()\tipaddress", "contents": "ip_address(${1:address})"},
+		{"trigger": "ip_interface()\tipaddress", "contents": "ip_interface(${1:address})"},
+		{"trigger": "ip_network()\tipaddress", "contents": "ip_network(${1:address}, ${2:strict=True})"},
+		{"trigger": "summarize_address_range()\tipaddress", "contents": "summarize_address_range(${1:first}, ${2:last})"},
+		{"trigger": "v4_int_to_packed()\tipaddress", "contents": "v4_int_to_packed(${1:address})"},
+		{"trigger": "v6_int_to_packed()\tipaddress", "contents": "v6_int_to_packed(${1:address})"}
+	]
+}

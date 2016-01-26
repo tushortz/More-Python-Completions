@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "getspall()\tspwd", "contents": "getspall(${1:})"},
+		{"trigger": "getspnam()\tspwd", "contents": "getspnam(${1:name})"}
+	]
+}

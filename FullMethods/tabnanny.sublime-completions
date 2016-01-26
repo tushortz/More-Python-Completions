@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-NannyNag\ttabnanny*", "contents": "tabnanny.NannyNag"},
+		{"trigger": "y-check()\ttabnanny*", "contents": "tabnanny.check(${1:file_or_dir})"},
+		{"trigger": "y-filename_only()\ttabnanny*", "contents": "tabnanny.filename_only()"},
+		{"trigger": "y-tokeneater()\ttabnanny*", "contents": "tabnanny.tokeneater(${1:type}, ${2:token}, ${3:start}, ${4:end}, ${5:line})"},
+		{"trigger": "y-verbose()\ttabnanny*", "contents": "tabnanny.verbose()"}
+	]
+}

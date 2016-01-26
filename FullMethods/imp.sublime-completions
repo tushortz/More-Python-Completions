@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-C_BUILTIN\timp*", "contents": "imp.C_BUILTIN"},
+		{"trigger": "y-C_EXTENSION\timp*", "contents": "imp.C_EXTENSION"},
+		{"trigger": "y-NullImporter\timp*", "contents": "imp.NullImporter(${1:path_string})"},
+		{"trigger": "y-PKG_DIRECTORY\timp*", "contents": "imp.PKG_DIRECTORY"},
+		{"trigger": "y-PY_COMPILED\timp*", "contents": "imp.PY_COMPILED"},
+		{"trigger": "y-PY_FROZEN\timp*", "contents": "imp.PY_FROZEN"},
+		{"trigger": "y-PY_SOURCE\timp*", "contents": "imp.PY_SOURCE"},
+		{"trigger": "y-acquire_lock()\timp*", "contents": "imp.acquire_lock(${1:})"},
+		{"trigger": "y-cache_from_source()\timp*", "contents": "imp.cache_from_source(${1:path}, ${2:debug_override=None})"},
+		{"trigger": "y-find_module()\timp*", "contents": "imp.find_module(${1:name[}, ${2:path]})"},
+		{"trigger": "y-get_magic()\timp*", "contents": "imp.get_magic(${1:})"},
+		{"trigger": "y-get_suffixes()\timp*", "contents": "imp.get_suffixes(${1:})"},
+		{"trigger": "y-get_tag()\timp*", "contents": "imp.get_tag(${1:})"},
+		{"trigger": "y-load_module()\timp*", "contents": "imp.load_module(${1:name}, ${2:file}, ${3:pathname}, ${4:description})"},
+		{"trigger": "y-lock_held()\timp*", "contents": "imp.lock_held(${1:})"},
+		{"trigger": "y-new_module()\timp*", "contents": "imp.new_module(${1:name})"},
+		{"trigger": "y-release_lock()\timp*", "contents": "imp.release_lock(${1:})"},
+		{"trigger": "y-reload()\timp*", "contents": "imp.reload(${1:module})"},
+		{"trigger": "y-source_from_cache()\timp*", "contents": "imp.source_from_cache(${1:path})"}
+	]
+}

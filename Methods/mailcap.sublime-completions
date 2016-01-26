@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "findmatch()\tmailcap", "contents": "findmatch(${1:caps}, ${2:MIMEtype}, ${3:key='view'}, ${4:filename='/dev/null'}, ${5:plist=[]})"},
+		{"trigger": "getcaps()\tmailcap", "contents": "getcaps(${1:})"}
+	]
+}

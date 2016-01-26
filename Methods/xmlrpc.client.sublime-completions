@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "MultiCall\txmlrpc", "contents": "MultiCall(${1:server})"},
+		{"trigger": "ServerProxy\txmlrpc", "contents": "ServerProxy(${1:uri}, ${2:transport=None}, ${3:encoding=None}, ${4:verbose=False}, ${5:allow_none=False}, ${6:use_datetime=False}, ${7:use_builtin_types=False}, ${8:*}, ${9:context=None})"},
+		{"trigger": "data()\txmlrpc", "contents": "data()"},
+		{"trigger": "decode()\txmlrpc", "contents": "decode(${1:bytes})"},
+		{"trigger": "decode()\txmlrpc", "contents": "decode(${1:string})"},
+		{"trigger": "dumps()\txmlrpc", "contents": "dumps(${1:params}, ${2:methodname=None}, ${3:methodresponse=None}, ${4:encoding=None}, ${5:allow_none=False})"},
+		{"trigger": "encode()\txmlrpc", "contents": "encode(${1:out})"},
+		{"trigger": "errcode()\txmlrpc", "contents": "errcode()"},
+		{"trigger": "errmsg()\txmlrpc", "contents": "errmsg()"},
+		{"trigger": "faultCode()\txmlrpc", "contents": "faultCode()"},
+		{"trigger": "faultString()\txmlrpc", "contents": "faultString()"},
+		{"trigger": "headers()\txmlrpc", "contents": "headers()"},
+		{"trigger": "listMethods()\txmlrpc", "contents": "listMethods(${1:})"},
+		{"trigger": "loads()\txmlrpc", "contents": "loads(${1:data}, ${2:use_datetime=False}, ${3:use_builtin_types=False})"},
+		{"trigger": "methodHelp()\txmlrpc", "contents": "methodHelp(${1:name})"},
+		{"trigger": "methodSignature()\txmlrpc", "contents": "methodSignature(${1:name})"},
+		{"trigger": "url()\txmlrpc", "contents": "url()"}
+	]
+}

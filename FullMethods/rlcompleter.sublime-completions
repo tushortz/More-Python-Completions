@@ -1,0 +1,7 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-complete()\trlcompleter*", "contents": "rlcompleter.complete(${1:text}, ${2:state})"}
+	]
+}

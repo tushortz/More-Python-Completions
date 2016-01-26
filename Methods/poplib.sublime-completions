@@ -1,0 +1,27 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "POP3\tpoplib", "contents": "POP3(${1:host}, ${2:port=POP3_PORT[}, ${3:timeout]})"},
+		{"trigger": "POP3_SSL\tpoplib", "contents": "POP3_SSL(${1:host}, ${2:port=POP3_SSL_PORT}, ${3:keyfile=None}, ${4:certfile=None}, ${5:timeout=None}, ${6:context=None})"},
+		{"trigger": "apop()\tpoplib", "contents": "apop(${1:user}, ${2:secret})"},
+		{"trigger": "capa()\tpoplib", "contents": "capa(${1:})"},
+		{"trigger": "dele()\tpoplib", "contents": "dele(${1:which})"},
+		{"trigger": "error_proto()\tpoplib", "contents": "error_proto()"},
+		{"trigger": "getwelcome()\tpoplib", "contents": "getwelcome(${1:})"},
+		{"trigger": "list()\tpoplib", "contents": "list(${1:[which]})"},
+		{"trigger": "noop()\tpoplib", "contents": "noop(${1:})"},
+		{"trigger": "pass_()\tpoplib", "contents": "pass_(${1:password})"},
+		{"trigger": "quit()\tpoplib", "contents": "quit(${1:})"},
+		{"trigger": "retr()\tpoplib", "contents": "retr(${1:which})"},
+		{"trigger": "rpop()\tpoplib", "contents": "rpop(${1:user})"},
+		{"trigger": "rset()\tpoplib", "contents": "rset(${1:})"},
+		{"trigger": "set_debuglevel()\tpoplib", "contents": "set_debuglevel(${1:level})"},
+		{"trigger": "stat()\tpoplib", "contents": "stat(${1:})"},
+		{"trigger": "stls()\tpoplib", "contents": "stls(${1:context=None})"},
+		{"trigger": "top()\tpoplib", "contents": "top(${1:which}, ${2:howmuch})"},
+		{"trigger": "uidl()\tpoplib", "contents": "uidl(${1:which=None})"},
+		{"trigger": "user()\tpoplib", "contents": "user(${1:username})"},
+		{"trigger": "utf8()\tpoplib", "contents": "utf8(${1:})"}
+	]
+}

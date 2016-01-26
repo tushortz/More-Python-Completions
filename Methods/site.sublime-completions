@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ENABLE_USER_SITE\tsite", "contents": "ENABLE_USER_SITE"},
+		{"trigger": "PREFIXES\tsite", "contents": "PREFIXES"},
+		{"trigger": "USER_BASE\tsite", "contents": "USER_BASE"},
+		{"trigger": "USER_SITE\tsite", "contents": "USER_SITE"},
+		{"trigger": "addsitedir()\tsite", "contents": "addsitedir(${1:sitedir}, ${2:known_paths=None})"},
+		{"trigger": "getsitepackages()\tsite", "contents": "getsitepackages(${1:})"},
+		{"trigger": "getuserbase()\tsite", "contents": "getuserbase(${1:})"},
+		{"trigger": "getusersitepackages()\tsite", "contents": "getusersitepackages(${1:})"},
+		{"trigger": "main()\tsite", "contents": "main(${1:})"}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BasicContext\tdecimal", "contents": "BasicContext"},
+		{"trigger": "Clamped\tdecimal", "contents": "Clamped"},
+		{"trigger": "Context\tdecimal", "contents": "Context(${1:prec=None}, ${2:rounding=None}, ${3:Emin=None}, ${4:Emax=None}, ${5:capitals=None}, ${6:clamp=None}, ${7:flags=None}, ${8:traps=None})"},
+		{"trigger": "Decimal\tdecimal", "contents": "Decimal(${1:value=\"0\"}, ${2:context=None})"},
+		{"trigger": "DecimalException\tdecimal", "contents": "DecimalException"},
+		{"trigger": "DefaultContext\tdecimal", "contents": "DefaultContext"},
+		{"trigger": "DivisionByZero\tdecimal", "contents": "DivisionByZero"},
+		{"trigger": "ExtendedContext\tdecimal", "contents": "ExtendedContext"},
+		{"trigger": "FloatOperation\tdecimal", "contents": "FloatOperation"},
+		{"trigger": "HAVE_THREADS\tdecimal", "contents": "HAVE_THREADS"},
+		{"trigger": "Inexact\tdecimal", "contents": "Inexact"},
+		{"trigger": "InvalidOperation\tdecimal", "contents": "InvalidOperation"},
+		{"trigger": "MAX_EMAX\tdecimal", "contents": "MAX_EMAX"},
+		{"trigger": "MAX_PREC\tdecimal", "contents": "MAX_PREC"},
+		{"trigger": "MIN_EMIN\tdecimal", "contents": "MIN_EMIN"},
+		{"trigger": "MIN_ETINY\tdecimal", "contents": "MIN_ETINY"},
+		{"trigger": "Overflow\tdecimal", "contents": "Overflow"},
+		{"trigger": "ROUND_05UP\tdecimal", "contents": "ROUND_05UP"},
+		{"trigger": "ROUND_CEILING\tdecimal", "contents": "ROUND_CEILING"},
+		{"trigger": "ROUND_DOWN\tdecimal", "contents": "ROUND_DOWN"},
+		{"trigger": "ROUND_FLOOR\tdecimal", "contents": "ROUND_FLOOR"},
+		{"trigger": "ROUND_HALF_DOWN\tdecimal", "contents": "ROUND_HALF_DOWN"},
+		{"trigger": "ROUND_HALF_EVEN\tdecimal", "contents": "ROUND_HALF_EVEN"},
+		{"trigger": "ROUND_HALF_UP\tdecimal", "contents": "ROUND_HALF_UP"},
+		{"trigger": "ROUND_UP\tdecimal", "contents": "ROUND_UP"},
+		{"trigger": "Rounded\tdecimal", "contents": "Rounded"},
+		{"trigger": "Subnormal\tdecimal", "contents": "Subnormal"},
+		{"trigger": "Underflow\tdecimal", "contents": "Underflow"},
+		{"trigger": "getcontext()\tdecimal", "contents": "getcontext(${1:})"},
+		{"trigger": "localcontext()\tdecimal", "contents": "localcontext(${1:ctx=None})"},
+		{"trigger": "setcontext()\tdecimal", "contents": "setcontext(${1:c})"}
+	]
+}

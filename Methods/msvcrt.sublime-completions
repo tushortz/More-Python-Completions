@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "LK_LOCK\tmsvcrt", "contents": "LK_LOCK"},
+		{"trigger": "LK_NBLCK\tmsvcrt", "contents": "LK_NBLCK"},
+		{"trigger": "LK_NBRLCK\tmsvcrt", "contents": "LK_NBRLCK"},
+		{"trigger": "LK_RLCK\tmsvcrt", "contents": "LK_RLCK"},
+		{"trigger": "LK_UNLCK\tmsvcrt", "contents": "LK_UNLCK"},
+		{"trigger": "get_osfhandle()\tmsvcrt", "contents": "get_osfhandle(${1:fd})"},
+		{"trigger": "getch()\tmsvcrt", "contents": "getch(${1:})"},
+		{"trigger": "getche()\tmsvcrt", "contents": "getche(${1:})"},
+		{"trigger": "getwch()\tmsvcrt", "contents": "getwch(${1:})"},
+		{"trigger": "getwche()\tmsvcrt", "contents": "getwche(${1:})"},
+		{"trigger": "heapmin()\tmsvcrt", "contents": "heapmin(${1:})"},
+		{"trigger": "kbhit()\tmsvcrt", "contents": "kbhit(${1:})"},
+		{"trigger": "locking()\tmsvcrt", "contents": "locking(${1:fd}, ${2:mode}, ${3:nbytes})"},
+		{"trigger": "open_osfhandle()\tmsvcrt", "contents": "open_osfhandle(${1:handle}, ${2:flags})"},
+		{"trigger": "putch()\tmsvcrt", "contents": "putch(${1:char})"},
+		{"trigger": "putwch()\tmsvcrt", "contents": "putwch(${1:unicode_char})"},
+		{"trigger": "setmode()\tmsvcrt", "contents": "setmode(${1:fd}, ${2:flags})"},
+		{"trigger": "ungetch()\tmsvcrt", "contents": "ungetch(${1:char})"},
+		{"trigger": "ungetwch()\tmsvcrt", "contents": "ungetwch(${1:unicode_char})"}
+	]
+}

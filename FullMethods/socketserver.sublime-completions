@@ -1,0 +1,32 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-BaseServer\tsocketserver*", "contents": "socketserver.BaseServer"},
+		{"trigger": "y-RequestHandlerClass\tsocketserver*", "contents": "socketserver.RequestHandlerClass"},
+		{"trigger": "y-address_family()\tsocketserver*", "contents": "socketserver.address_family()"},
+		{"trigger": "y-allow_reuse_address()\tsocketserver*", "contents": "socketserver.allow_reuse_address()"},
+		{"trigger": "y-fileno()\tsocketserver*", "contents": "socketserver.fileno(${1:})"},
+		{"trigger": "y-finish()\tsocketserver*", "contents": "socketserver.finish(${1:})"},
+		{"trigger": "y-finish_request()\tsocketserver*", "contents": "socketserver.finish_request(${1:})"},
+		{"trigger": "y-get_request()\tsocketserver*", "contents": "socketserver.get_request(${1:})"},
+		{"trigger": "y-handle()\tsocketserver*", "contents": "socketserver.handle(${1:})"},
+		{"trigger": "y-handle_error()\tsocketserver*", "contents": "socketserver.handle_error(${1:request}, ${2:client_address})"},
+		{"trigger": "y-handle_request()\tsocketserver*", "contents": "socketserver.handle_request(${1:})"},
+		{"trigger": "y-handle_timeout()\tsocketserver*", "contents": "socketserver.handle_timeout(${1:})"},
+		{"trigger": "y-process_request()\tsocketserver*", "contents": "socketserver.process_request(${1:request}, ${2:client_address})"},
+		{"trigger": "y-request_queue_size()\tsocketserver*", "contents": "socketserver.request_queue_size()"},
+		{"trigger": "y-serve_forever()\tsocketserver*", "contents": "socketserver.serve_forever(${1:poll_interval=0.5})"},
+		{"trigger": "y-server_activate()\tsocketserver*", "contents": "socketserver.server_activate(${1:})"},
+		{"trigger": "y-server_address()\tsocketserver*", "contents": "socketserver.server_address()"},
+		{"trigger": "y-server_bind()\tsocketserver*", "contents": "socketserver.server_bind(${1:})"},
+		{"trigger": "y-server_close()\tsocketserver*", "contents": "socketserver.server_close(${1:})"},
+		{"trigger": "y-service_actions()\tsocketserver*", "contents": "socketserver.service_actions(${1:})"},
+		{"trigger": "y-setup()\tsocketserver*", "contents": "socketserver.setup(${1:})"},
+		{"trigger": "y-shutdown()\tsocketserver*", "contents": "socketserver.shutdown(${1:})"},
+		{"trigger": "y-socket()\tsocketserver*", "contents": "socketserver.socket()"},
+		{"trigger": "y-socket_type()\tsocketserver*", "contents": "socketserver.socket_type()"},
+		{"trigger": "y-timeout()\tsocketserver*", "contents": "socketserver.timeout()"},
+		{"trigger": "y-verify_request()\tsocketserver*", "contents": "socketserver.verify_request(${1:request}, ${2:client_address})"}
+	]
+}

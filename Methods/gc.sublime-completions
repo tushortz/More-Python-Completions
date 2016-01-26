@@ -1,0 +1,27 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "DEBUG_COLLECTABLE\tgc", "contents": "DEBUG_COLLECTABLE"},
+		{"trigger": "DEBUG_LEAK\tgc", "contents": "DEBUG_LEAK"},
+		{"trigger": "DEBUG_SAVEALL\tgc", "contents": "DEBUG_SAVEALL"},
+		{"trigger": "DEBUG_STATS\tgc", "contents": "DEBUG_STATS"},
+		{"trigger": "DEBUG_UNCOLLECTABLE\tgc", "contents": "DEBUG_UNCOLLECTABLE"},
+		{"trigger": "callbacks()\tgc", "contents": "callbacks()"},
+		{"trigger": "collect()\tgc", "contents": "collect(${1:generations=2})"},
+		{"trigger": "disable()\tgc", "contents": "disable(${1:})"},
+		{"trigger": "enable()\tgc", "contents": "enable(${1:})"},
+		{"trigger": "garbage()\tgc", "contents": "garbage()"},
+		{"trigger": "get_count()\tgc", "contents": "get_count(${1:})"},
+		{"trigger": "get_debug()\tgc", "contents": "get_debug(${1:})"},
+		{"trigger": "get_objects()\tgc", "contents": "get_objects(${1:})"},
+		{"trigger": "get_referents()\tgc", "contents": "get_referents(${1:*objs})"},
+		{"trigger": "get_referrers()\tgc", "contents": "get_referrers(${1:*objs})"},
+		{"trigger": "get_stats()\tgc", "contents": "get_stats(${1:})"},
+		{"trigger": "get_threshold()\tgc", "contents": "get_threshold(${1:})"},
+		{"trigger": "is_tracked()\tgc", "contents": "is_tracked(${1:obj})"},
+		{"trigger": "isenabled()\tgc", "contents": "isenabled(${1:})"},
+		{"trigger": "set_debug()\tgc", "contents": "set_debug(${1:flags})"},
+		{"trigger": "set_threshold()\tgc", "contents": "set_threshold(${1:threshold0[}, ${2:threshold1[}, ${3:threshold2]]})"}
+	]
+}

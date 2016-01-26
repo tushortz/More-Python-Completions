@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "async_chat()\tasynchat", "contents": "async_chat()"},
+		{"trigger": "close_when_done()\tasynchat", "contents": "close_when_done(${1:})"},
+		{"trigger": "collect_incoming_data()\tasynchat", "contents": "collect_incoming_data(${1:data})"},
+		{"trigger": "discard_buffers()\tasynchat", "contents": "discard_buffers(${1:})"},
+		{"trigger": "found_terminator()\tasynchat", "contents": "found_terminator(${1:})"},
+		{"trigger": "get_terminator()\tasynchat", "contents": "get_terminator(${1:})"},
+		{"trigger": "push()\tasynchat", "contents": "push(${1:data})"},
+		{"trigger": "push_with_producer()\tasynchat", "contents": "push_with_producer(${1:producer})"},
+		{"trigger": "set_terminator()\tasynchat", "contents": "set_terminator(${1:term})"}
+	]
+}

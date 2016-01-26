@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Beep\twinsound", "contents": "Beep(${1:frequency}, ${2:duration})"},
+		{"trigger": "MB_ICONASTERISK\twinsound", "contents": "MB_ICONASTERISK"},
+		{"trigger": "MB_ICONEXCLAMATION\twinsound", "contents": "MB_ICONEXCLAMATION"},
+		{"trigger": "MB_ICONHAND\twinsound", "contents": "MB_ICONHAND"},
+		{"trigger": "MB_ICONQUESTION\twinsound", "contents": "MB_ICONQUESTION"},
+		{"trigger": "MB_OK\twinsound", "contents": "MB_OK"},
+		{"trigger": "MessageBeep\twinsound", "contents": "MessageBeep(${1:type=MB_OK})"},
+		{"trigger": "PlaySound\twinsound", "contents": "PlaySound(${1:sound}, ${2:flags})"},
+		{"trigger": "SND_ALIAS\twinsound", "contents": "SND_ALIAS"},
+		{"trigger": "SND_ASYNC\twinsound", "contents": "SND_ASYNC"},
+		{"trigger": "SND_FILENAME\twinsound", "contents": "SND_FILENAME"},
+		{"trigger": "SND_LOOP\twinsound", "contents": "SND_LOOP"},
+		{"trigger": "SND_MEMORY\twinsound", "contents": "SND_MEMORY"},
+		{"trigger": "SND_NODEFAULT\twinsound", "contents": "SND_NODEFAULT"},
+		{"trigger": "SND_NOSTOP\twinsound", "contents": "SND_NOSTOP"},
+		{"trigger": "SND_NOWAIT\twinsound", "contents": "SND_NOWAIT"},
+		{"trigger": "SND_PURGE\twinsound", "contents": "SND_PURGE"}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Barrier\tthreading*", "contents": "threading.Barrier(${1:parties}, ${2:action=None}, ${3:timeout=None})"},
+		{"trigger": "y-BoundedSemaphore\tthreading*", "contents": "threading.BoundedSemaphore(${1:value=1})"},
+		{"trigger": "y-BrokenBarrierError\tthreading*", "contents": "threading.BrokenBarrierError"},
+		{"trigger": "y-Condition\tthreading*", "contents": "threading.Condition(${1:lock=None})"},
+		{"trigger": "y-Event\tthreading*", "contents": "threading.Event"},
+		{"trigger": "y-Lock\tthreading*", "contents": "threading.Lock"},
+		{"trigger": "y-RLock\tthreading*", "contents": "threading.RLock"},
+		{"trigger": "y-Semaphore\tthreading*", "contents": "threading.Semaphore(${1:value=1})"},
+		{"trigger": "y-TIMEOUT_MAX\tthreading*", "contents": "threading.TIMEOUT_MAX"},
+		{"trigger": "y-Thread\tthreading*", "contents": "threading.Thread(${1:group=None}, ${2:target=None}, ${3:name=None}, ${4:args=}, ${5:})"},
+		{"trigger": "y-Timer\tthreading*", "contents": "threading.Timer(${1:interval}, ${2:function}, ${3:args=None}, ${4:kwargs=None})"},
+		{"trigger": "y-active_count()\tthreading*", "contents": "threading.active_count(${1:})"},
+		{"trigger": "y-current_thread()\tthreading*", "contents": "threading.current_thread(${1:})"},
+		{"trigger": "y-enumerate()\tthreading*", "contents": "threading.enumerate(${1:})"},
+		{"trigger": "y-get_ident()\tthreading*", "contents": "threading.get_ident(${1:})"},
+		{"trigger": "y-local()\tthreading*", "contents": "threading.local()"},
+		{"trigger": "y-main_thread()\tthreading*", "contents": "threading.main_thread(${1:})"},
+		{"trigger": "y-setprofile()\tthreading*", "contents": "threading.setprofile(${1:func})"},
+		{"trigger": "y-settrace()\tthreading*", "contents": "threading.settrace(${1:func})"},
+		{"trigger": "y-stack_size()\tthreading*", "contents": "threading.stack_size(${1:[size]})"}
+	]
+}

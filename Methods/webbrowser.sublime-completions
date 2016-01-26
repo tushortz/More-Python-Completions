@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Error\twebbrowser", "contents": "Error"},
+		{"trigger": "get()\twebbrowser", "contents": "get(${1:using=None})"},
+		{"trigger": "open()\twebbrowser", "contents": "open(${1:url}, ${2:new=0}, ${3:autoraise=True})"},
+		{"trigger": "open_new()\twebbrowser", "contents": "open_new(${1:url})"},
+		{"trigger": "open_new_tab()\twebbrowser", "contents": "open_new_tab(${1:url})"},
+		{"trigger": "register()\twebbrowser", "contents": "register(${1:name}, ${2:constructor}, ${3:instance=None})"}
+	]
+}

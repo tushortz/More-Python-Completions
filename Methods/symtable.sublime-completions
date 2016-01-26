@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Class\tsymtable", "contents": "Class"},
+		{"trigger": "Function\tsymtable", "contents": "Function"},
+		{"trigger": "Symbol\tsymtable", "contents": "Symbol"},
+		{"trigger": "SymbolTable\tsymtable", "contents": "SymbolTable"},
+		{"trigger": "symtable()\tsymtable", "contents": "symtable(${1:code}, ${2:filename}, ${3:compile_type})"}
+	]
+}

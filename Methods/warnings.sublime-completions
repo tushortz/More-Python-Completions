@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "catch_warnings()\twarnings", "contents": "catch_warnings(${1:*}, ${2:record=False}, ${3:module=None})"},
+		{"trigger": "filterwarnings()\twarnings", "contents": "filterwarnings(${1:action}, ${2:message=''}, ${3:category=Warning}, ${4:module=''}, ${5:lineno=0}, ${6:append=False})"},
+		{"trigger": "formatwarning()\twarnings", "contents": "formatwarning(${1:message}, ${2:category}, ${3:filename}, ${4:lineno}, ${5:line=None})"},
+		{"trigger": "resetwarnings()\twarnings", "contents": "resetwarnings(${1:})"},
+		{"trigger": "showwarning()\twarnings", "contents": "showwarning(${1:message}, ${2:category}, ${3:filename}, ${4:lineno}, ${5:file=None}, ${6:line=None})"},
+		{"trigger": "simplefilter()\twarnings", "contents": "simplefilter(${1:action}, ${2:category=Warning}, ${3:lineno=0}, ${4:append=False})"},
+		{"trigger": "warn()\twarnings", "contents": "warn(${1:message}, ${2:category=None}, ${3:stacklevel=1})"},
+		{"trigger": "warn_explicit()\twarnings", "contents": "warn_explicit(${1:message}, ${2:category}, ${3:filename}, ${4:lineno}, ${5:module=None}, ${6:registry=None}, ${7:module_globals=None})"}
+	]
+}

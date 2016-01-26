@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BaseRotatingHandler\tlogging", "contents": "BaseRotatingHandler(${1:filename}, ${2:mode}, ${3:encoding=None}, ${4:delay=False})"},
+		{"trigger": "BufferingHandler\tlogging", "contents": "BufferingHandler(${1:capacity})"},
+		{"trigger": "DatagramHandler\tlogging", "contents": "DatagramHandler(${1:host}, ${2:port})"},
+		{"trigger": "FileHandler\tlogging", "contents": "FileHandler(${1:filename}, ${2:mode='a'}, ${3:encoding=None}, ${4:delay=False})"},
+		{"trigger": "HTTPHandler\tlogging", "contents": "HTTPHandler(${1:host}, ${2:url}, ${3:method='GET'}, ${4:secure=False}, ${5:credentials=None}, ${6:context=None})"},
+		{"trigger": "MemoryHandler\tlogging", "contents": "MemoryHandler(${1:capacity}, ${2:flushLevel=ERROR}, ${3:target=None})"},
+		{"trigger": "NTEventLogHandler\tlogging", "contents": "NTEventLogHandler(${1:appname}, ${2:dllname=None}, ${3:logtype='Application'})"},
+		{"trigger": "NullHandler\tlogging", "contents": "NullHandler"},
+		{"trigger": "QueueHandler\tlogging", "contents": "QueueHandler(${1:queue})"},
+		{"trigger": "QueueListener\tlogging", "contents": "QueueListener(${1:queue}, ${2:*handlers}, ${3:respect_handler_level=False})"},
+		{"trigger": "RotatingFileHandler\tlogging", "contents": "RotatingFileHandler(${1:filename}, ${2:mode='a'}, ${3:maxBytes=0}, ${4:backupCount=0}, ${5:encoding=None}, ${6:delay=0})"},
+		{"trigger": "SMTPHandler\tlogging", "contents": "SMTPHandler(${1:mailhost}, ${2:fromaddr}, ${3:toaddrs}, ${4:subject}, ${5:credentials=None}, ${6:secure=None}, ${7:timeout=1.0})"},
+		{"trigger": "SocketHandler\tlogging", "contents": "SocketHandler(${1:host}, ${2:port})"},
+		{"trigger": "StreamHandler\tlogging", "contents": "StreamHandler(${1:stream=None})"},
+		{"trigger": "SysLogHandler\tlogging", "contents": "SysLogHandler(${1:address=}, ${2:'localhost'}, ${3:SYSLOG_UDP_PORT})"},
+		{"trigger": "TimedRotatingFileHandler\tlogging", "contents": "TimedRotatingFileHandler(${1:filename}, ${2:when='h'}, ${3:interval=1}, ${4:backupCount=0}, ${5:encoding=None}, ${6:delay=False}, ${7:utc=False}, ${8:atTime=None})"},
+		{"trigger": "WatchedFileHandler\tlogging", "contents": "WatchedFileHandler(${1:filename[}, ${2:mode[}, ${3:encoding[}, ${4:delay]]]})"}
+	]
+}

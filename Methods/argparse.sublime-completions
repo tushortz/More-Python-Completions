@@ -1,0 +1,29 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Action\targparse", "contents": "Action(${1:option_strings}, ${2:dest}, ${3:nargs=None}, ${4:const=None}, ${5:default=None}, ${6:type=None}, ${7:choices=None}, ${8:required=False}, ${9:help=None}, ${10:metavar=None})"},
+		{"trigger": "ArgumentDefaultsHelpFormatter\targparse", "contents": "ArgumentDefaultsHelpFormatter"},
+		{"trigger": "ArgumentParser\targparse", "contents": "ArgumentParser(${1:prog=None}, ${2:usage=None}, ${3:description=None}, ${4:epilog=None}, ${5:parents=[]}, ${6:formatter_class=argparse.HelpFormatter}, ${7:prefix_chars='-'}, ${8:fromfile_prefix_chars=None}, ${9:argument_default=None}, ${10:conflict_handler='error'}, ${11:add_help=True}, ${12:allow_abbrev=True})"},
+		{"trigger": "FileType\targparse", "contents": "FileType(${1:mode='r'}, ${2:bufsize=-1}, ${3:encoding=None}, ${4:errors=None})"},
+		{"trigger": "MetavarTypeHelpFormatter\targparse", "contents": "MetavarTypeHelpFormatter"},
+		{"trigger": "Namespace\targparse", "contents": "Namespace"},
+		{"trigger": "RawDescriptionHelpFormatter\targparse", "contents": "RawDescriptionHelpFormatter"},
+		{"trigger": "RawTextHelpFormatter\targparse", "contents": "RawTextHelpFormatter"},
+		{"trigger": "add_argument()\targparse", "contents": "add_argument(${1:name or flags...[}, ${2:action][}, ${3:nargs][}, ${4:const][}, ${5:default][}, ${6:type][}, ${7:choices][}, ${8:required][}, ${9:help][}, ${10:metavar][}, ${11:dest]})"},
+		{"trigger": "add_argument_group()\targparse", "contents": "add_argument_group(${1:title=None}, ${2:description=None})"},
+		{"trigger": "add_mutually_exclusive_group()\targparse", "contents": "add_mutually_exclusive_group(${1:required=False})"},
+		{"trigger": "add_subparsers()\targparse", "contents": "add_subparsers(${1:[title][}, ${2:description][}, ${3:prog][}, ${4:parser_class][}, ${5:action][}, ${6:option_string][}, ${7:dest][}, ${8:help][}, ${9:metavar]})"},
+		{"trigger": "convert_arg_line_to_args()\targparse", "contents": "convert_arg_line_to_args(${1:arg_line})"},
+		{"trigger": "error()\targparse", "contents": "error(${1:message})"},
+		{"trigger": "exit()\targparse", "contents": "exit(${1:status=0}, ${2:message=None})"},
+		{"trigger": "format_help()\targparse", "contents": "format_help(${1:})"},
+		{"trigger": "format_usage()\targparse", "contents": "format_usage(${1:})"},
+		{"trigger": "get_default()\targparse", "contents": "get_default(${1:dest})"},
+		{"trigger": "parse_args()\targparse", "contents": "parse_args(${1:args=None}, ${2:namespace=None})"},
+		{"trigger": "parse_known_args()\targparse", "contents": "parse_known_args(${1:args=None}, ${2:namespace=None})"},
+		{"trigger": "print_help()\targparse", "contents": "print_help(${1:file=None})"},
+		{"trigger": "print_usage()\targparse", "contents": "print_usage(${1:file=None})"},
+		{"trigger": "set_defaults()\targparse", "contents": "set_defaults(${1:**kwargs})"}
+	]
+}

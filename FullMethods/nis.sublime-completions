@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-cat()\tnis*", "contents": "nis.cat(${1:mapname}, ${2:domain=default_domain})"},
+		{"trigger": "y-error()\tnis*", "contents": "nis.error()"},
+		{"trigger": "y-get_default_domain()\tnis*", "contents": "nis.get_default_domain(${1:})"},
+		{"trigger": "y-maps()\tnis*", "contents": "nis.maps(${1:domain=default_domain})"},
+		{"trigger": "y-match()\tnis*", "contents": "nis.match(${1:key}, ${2:mapname}, ${3:domain=default_domain})"}
+	]
+}

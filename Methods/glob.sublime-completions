@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "escape()\tglob", "contents": "escape(${1:pathname})"},
+		{"trigger": "glob()\tglob", "contents": "glob(${1:pathname}, ${2:*}, ${3:recursive=False})"},
+		{"trigger": "iglob()\tglob", "contents": "iglob(${1:pathname}, ${2:recursive=False})"}
+	]
+}

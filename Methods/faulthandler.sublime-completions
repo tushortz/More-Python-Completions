@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "cancel_dump_traceback_later()\tfaulthandler", "contents": "cancel_dump_traceback_later(${1:})"},
+		{"trigger": "disable()\tfaulthandler", "contents": "disable(${1:})"},
+		{"trigger": "dump_traceback()\tfaulthandler", "contents": "dump_traceback(${1:file=sys.stderr}, ${2:all_threads=True})"},
+		{"trigger": "dump_traceback_later()\tfaulthandler", "contents": "dump_traceback_later(${1:timeout}, ${2:repeat=False}, ${3:file=sys.stderr}, ${4:exit=False})"},
+		{"trigger": "enable()\tfaulthandler", "contents": "enable(${1:file=sys.stderr}, ${2:all_threads=True})"},
+		{"trigger": "is_enabled()\tfaulthandler", "contents": "is_enabled(${1:})"},
+		{"trigger": "register()\tfaulthandler", "contents": "register(${1:signum}, ${2:file=sys.stderr}, ${3:all_threads=True}, ${4:chain=False})"},
+		{"trigger": "unregister()\tfaulthandler", "contents": "unregister(${1:signum})"}
+	]
+}

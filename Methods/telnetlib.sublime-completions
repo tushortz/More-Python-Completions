@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Telnet\ttelnetlib", "contents": "Telnet(${1:host=None}, ${2:port=0[}, ${3:timeout]})"},
+		{"trigger": "close()\ttelnetlib", "contents": "close(${1:})"},
+		{"trigger": "expect()\ttelnetlib", "contents": "expect(${1:list}, ${2:timeout=None})"},
+		{"trigger": "fileno()\ttelnetlib", "contents": "fileno(${1:})"},
+		{"trigger": "get_socket()\ttelnetlib", "contents": "get_socket(${1:})"},
+		{"trigger": "interact()\ttelnetlib", "contents": "interact(${1:})"},
+		{"trigger": "msg()\ttelnetlib", "contents": "msg(${0:msg}, ${2:*args})"},
+		{"trigger": "mt_interact()\ttelnetlib", "contents": "mt_interact(${1:})"},
+		{"trigger": "open()\ttelnetlib", "contents": "open(${1:host}, ${2:port=0[}, ${3:timeout]})"},
+		{"trigger": "read_all()\ttelnetlib", "contents": "read_all(${1:})"},
+		{"trigger": "read_eager()\ttelnetlib", "contents": "read_eager(${1:})"},
+		{"trigger": "read_lazy()\ttelnetlib", "contents": "read_lazy(${1:})"},
+		{"trigger": "read_sb_data()\ttelnetlib", "contents": "read_sb_data(${1:})"},
+		{"trigger": "read_some()\ttelnetlib", "contents": "read_some(${1:})"},
+		{"trigger": "read_until()\ttelnetlib", "contents": "read_until(${1:expected}, ${2:timeout=None})"},
+		{"trigger": "read_very_eager()\ttelnetlib", "contents": "read_very_eager(${1:})"},
+		{"trigger": "read_very_lazy()\ttelnetlib", "contents": "read_very_lazy(${1:})"},
+		{"trigger": "set_debuglevel()\ttelnetlib", "contents": "set_debuglevel(${1:debuglevel})"},
+		{"trigger": "set_option_negotiation_callback()\ttelnetlib", "contents": "set_option_negotiation_callback(${1:callback})"},
+		{"trigger": "write()\ttelnetlib", "contents": "write(${1:buffer})"}
+	]
+}

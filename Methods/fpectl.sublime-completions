@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "FloatingPointError\tfpectl", "contents": "FloatingPointError"},
+		{"trigger": "turnoff_sigfpe()\tfpectl", "contents": "turnoff_sigfpe(${1:})"},
+		{"trigger": "turnon_sigfpe()\tfpectl", "contents": "turnon_sigfpe(${1:})"}
+	]
+}

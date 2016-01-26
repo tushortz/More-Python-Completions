@@ -1,0 +1,31 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-PIPE_BUF\tselect*", "contents": "select.PIPE_BUF"},
+		{"trigger": "y-close()\tselect*", "contents": "select.close(${1:})"},
+		{"trigger": "y-closed()\tselect*", "contents": "select.closed()"},
+		{"trigger": "y-control()\tselect*", "contents": "select.control(${1:changelist}, ${2:max_events[}, ${3:timeout=None]})"},
+		{"trigger": "y-data()\tselect*", "contents": "select.data()"},
+		{"trigger": "y-devpoll()\tselect*", "contents": "select.devpoll(${1:})"},
+		{"trigger": "y-epoll()\tselect*", "contents": "select.epoll(${1:sizehint=-1}, ${2:flags=0})"},
+		{"trigger": "y-error()\tselect*", "contents": "select.error()"},
+		{"trigger": "y-fflags()\tselect*", "contents": "select.fflags()"},
+		{"trigger": "y-fileno()\tselect*", "contents": "select.fileno(${1:})"},
+		{"trigger": "y-filter()\tselect*", "contents": "select.filter()"},
+		{"trigger": "y-flags()\tselect*", "contents": "select.flags()"},
+		{"trigger": "y-fromfd()\tselect*", "contents": "select.fromfd(${1:fd})"},
+		{"trigger": "y-ident()\tselect*", "contents": "select.ident()"},
+		{"trigger": "y-kevent()\tselect*", "contents": "select.kevent(${1:ident}, ${2:filter=KQ_FILTER_READ}, ${3:flags=KQ_EV_ADD}, ${4:fflags=0}, ${5:data=0}, ${6:udata=0})"},
+		{"trigger": "y-kqueue()\tselect*", "contents": "select.kqueue(${1:})"},
+		{"trigger": "y-modify()\tselect*", "contents": "select.modify(${1:fd}, ${2:eventmask})"},
+		{"trigger": "y-modify()\tselect*", "contents": "select.modify(${1:fd[}, ${2:eventmask]})"},
+		{"trigger": "y-poll()\tselect*", "contents": "select.poll(${1:timeout=-1}, ${2:maxevents=-1})"},
+		{"trigger": "y-poll()\tselect*", "contents": "select.poll(${1:[timeout]})"},
+		{"trigger": "y-poll()\tselect*", "contents": "select.poll(${1:})"},
+		{"trigger": "y-register()\tselect*", "contents": "select.register(${1:fd[}, ${2:eventmask]})"},
+		{"trigger": "y-select()\tselect*", "contents": "select.select(${1:rlist}, ${2:wlist}, ${3:xlist[}, ${4:timeout]})"},
+		{"trigger": "y-udata()\tselect*", "contents": "select.udata()"},
+		{"trigger": "y-unregister()\tselect*", "contents": "select.unregister(${1:fd})"}
+	]
+}

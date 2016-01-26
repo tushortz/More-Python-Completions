@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-BuiltinFunctionType\ttypes*", "contents": "types.BuiltinFunctionType"},
+		{"trigger": "y-BuiltinMethodType\ttypes*", "contents": "types.BuiltinMethodType"},
+		{"trigger": "y-CodeType\ttypes*", "contents": "types.CodeType"},
+		{"trigger": "y-CoroutineType\ttypes*", "contents": "types.CoroutineType"},
+		{"trigger": "y-DynamicClassAttribute\ttypes*", "contents": "types.DynamicClassAttribute(${1:fget=None}, ${2:fset=None}, ${3:fdel=None}, ${4:doc=None})"},
+		{"trigger": "y-FrameType\ttypes*", "contents": "types.FrameType"},
+		{"trigger": "y-FunctionType\ttypes*", "contents": "types.FunctionType"},
+		{"trigger": "y-GeneratorType\ttypes*", "contents": "types.GeneratorType"},
+		{"trigger": "y-GetSetDescriptorType\ttypes*", "contents": "types.GetSetDescriptorType"},
+		{"trigger": "y-LambdaType\ttypes*", "contents": "types.LambdaType"},
+		{"trigger": "y-MappingProxyType\ttypes*", "contents": "types.MappingProxyType(${1:mapping})"},
+		{"trigger": "y-MemberDescriptorType\ttypes*", "contents": "types.MemberDescriptorType"},
+		{"trigger": "y-MethodType\ttypes*", "contents": "types.MethodType"},
+		{"trigger": "y-ModuleType\ttypes*", "contents": "types.ModuleType(${1:name}, ${2:doc=None})"},
+		{"trigger": "y-SimpleNamespace\ttypes*", "contents": "types.SimpleNamespace"},
+		{"trigger": "y-TracebackType\ttypes*", "contents": "types.TracebackType"},
+		{"trigger": "y-coroutine()\ttypes*", "contents": "types.coroutine(${1:gen_func})"},
+		{"trigger": "y-new_class()\ttypes*", "contents": "types.new_class(${1:name}, ${2:bases=}, ${3:})"},
+		{"trigger": "y-prepare_class()\ttypes*", "contents": "types.prepare_class(${1:name}, ${2:bases=}, ${3:})"}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "DOMEventStream\txml", "contents": "DOMEventStream(${1:stream}, ${2:parser}, ${3:bufsize})"},
+		{"trigger": "PullDom\txml", "contents": "PullDom(${1:documentFactory=None})"},
+		{"trigger": "SAX2DOM\txml", "contents": "SAX2DOM(${1:documentFactory=None})"},
+		{"trigger": "default_bufsize()\txml", "contents": "default_bufsize()"},
+		{"trigger": "parse()\txml", "contents": "parse(${1:stream_or_string}, ${2:parser=None}, ${3:bufsize=None})"},
+		{"trigger": "parseString()\txml", "contents": "parseString(${1:string}, ${2:parser=None})"}
+	]
+}

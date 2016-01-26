@@ -1,0 +1,32 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-CTRL_BREAK_EVENT\tsignal*", "contents": "signal.CTRL_BREAK_EVENT"},
+		{"trigger": "y-CTRL_C_EVENT\tsignal*", "contents": "signal.CTRL_C_EVENT"},
+		{"trigger": "y-ITIMER_PROF\tsignal*", "contents": "signal.ITIMER_PROF"},
+		{"trigger": "y-ITIMER_REAL\tsignal*", "contents": "signal.ITIMER_REAL"},
+		{"trigger": "y-ITIMER_VIRTUAL\tsignal*", "contents": "signal.ITIMER_VIRTUAL"},
+		{"trigger": "y-ItimerError\tsignal*", "contents": "signal.ItimerError"},
+		{"trigger": "y-NSIG\tsignal*", "contents": "signal.NSIG"},
+		{"trigger": "y-SIG_BLOCK\tsignal*", "contents": "signal.SIG_BLOCK"},
+		{"trigger": "y-SIG_DFL\tsignal*", "contents": "signal.SIG_DFL"},
+		{"trigger": "y-SIG_IGN\tsignal*", "contents": "signal.SIG_IGN"},
+		{"trigger": "y-SIG_SETMASK\tsignal*", "contents": "signal.SIG_SETMASK"},
+		{"trigger": "y-SIG_UNBLOCK\tsignal*", "contents": "signal.SIG_UNBLOCK"},
+		{"trigger": "y-alarm()\tsignal*", "contents": "signal.alarm(${1:time})"},
+		{"trigger": "y-getitimer()\tsignal*", "contents": "signal.getitimer(${1:which})"},
+		{"trigger": "y-getsignal()\tsignal*", "contents": "signal.getsignal(${1:signalnum})"},
+		{"trigger": "y-pause()\tsignal*", "contents": "signal.pause(${1:})"},
+		{"trigger": "y-pthread_kill()\tsignal*", "contents": "signal.pthread_kill(${1:thread_id}, ${2:signalnum})"},
+		{"trigger": "y-pthread_sigmask()\tsignal*", "contents": "signal.pthread_sigmask(${1:how}, ${2:mask})"},
+		{"trigger": "y-set_wakeup_fd()\tsignal*", "contents": "signal.set_wakeup_fd(${1:fd})"},
+		{"trigger": "y-setitimer()\tsignal*", "contents": "signal.setitimer(${1:which}, ${2:seconds[}, ${3:interval]})"},
+		{"trigger": "y-siginterrupt()\tsignal*", "contents": "signal.siginterrupt(${1:signalnum}, ${2:flag})"},
+		{"trigger": "y-signal()\tsignal*", "contents": "signal.signal(${1:signalnum}, ${2:handler})"},
+		{"trigger": "y-sigpending()\tsignal*", "contents": "signal.sigpending(${1:})"},
+		{"trigger": "y-sigtimedwait()\tsignal*", "contents": "signal.sigtimedwait(${1:sigset}, ${2:timeout})"},
+		{"trigger": "y-sigwait()\tsignal*", "contents": "signal.sigwait(${1:sigset})"},
+		{"trigger": "y-sigwaitinfo()\tsignal*", "contents": "signal.sigwaitinfo(${1:sigset})"}
+	]
+}

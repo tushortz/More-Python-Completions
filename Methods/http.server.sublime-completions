@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BaseHTTPRequestHandler\thttp", "contents": "BaseHTTPRequestHandler(${1:request}, ${2:client_address}, ${3:server})"},
+		{"trigger": "CGIHTTPRequestHandler\thttp", "contents": "CGIHTTPRequestHandler(${1:request}, ${2:client_address}, ${3:server})"},
+		{"trigger": "HTTPServer\thttp", "contents": "HTTPServer(${1:server_address}, ${2:RequestHandlerClass})"},
+		{"trigger": "SimpleHTTPRequestHandler\thttp", "contents": "SimpleHTTPRequestHandler(${1:request}, ${2:client_address}, ${3:server})"}
+	]
+}

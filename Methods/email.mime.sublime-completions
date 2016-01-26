@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "MIMEApplication\temail", "contents": "MIMEApplication(${1:_data}, ${2:_subtype='octet-stream'}, ${3:_encoder=email.encoders.encode_base64}, ${4:**_params})"},
+		{"trigger": "MIMEAudio\temail", "contents": "MIMEAudio(${1:_audiodata}, ${2:_subtype=None}, ${3:_encoder=email.encoders.encode_base64}, ${4:**_params})"},
+		{"trigger": "MIMEBase\temail", "contents": "MIMEBase(${1:_maintype}, ${2:_subtype}, ${3:**_params})"},
+		{"trigger": "MIMEImage\temail", "contents": "MIMEImage(${1:_imagedata}, ${2:_subtype=None}, ${3:_encoder=email.encoders.encode_base64}, ${4:**_params})"},
+		{"trigger": "MIMEMessage\temail", "contents": "MIMEMessage(${1:_msg}, ${2:_subtype='rfc822'})"},
+		{"trigger": "MIMEMultipart\temail", "contents": "MIMEMultipart(${1:_subtype='mixed'}, ${2:boundary=None}, ${3:_subparts=None}, ${4:**_params})"},
+		{"trigger": "MIMENonMultipart\temail", "contents": "MIMENonMultipart"},
+		{"trigger": "MIMEText\temail", "contents": "MIMEText(${1:_text}, ${2:_subtype='plain'}, ${3:_charset=None})"}
+	]
+}

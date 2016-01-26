@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "above()\tcurses", "contents": "above(${1:})"},
+		{"trigger": "below()\tcurses", "contents": "below(${1:})"},
+		{"trigger": "bottom()\tcurses", "contents": "bottom(${1:})"},
+		{"trigger": "bottom_panel()\tcurses", "contents": "bottom_panel(${1:})"},
+		{"trigger": "hidden()\tcurses", "contents": "hidden(${1:})"},
+		{"trigger": "hide()\tcurses", "contents": "hide(${1:})"},
+		{"trigger": "move()\tcurses", "contents": "move(${1:y}, ${2:x})"},
+		{"trigger": "new_panel()\tcurses", "contents": "new_panel(${1:win})"},
+		{"trigger": "replace()\tcurses", "contents": "replace(${1:win})"},
+		{"trigger": "set_userptr()\tcurses", "contents": "set_userptr(${1:obj})"},
+		{"trigger": "show()\tcurses", "contents": "show(${1:})"},
+		{"trigger": "top()\tcurses", "contents": "top(${1:})"},
+		{"trigger": "top_panel()\tcurses", "contents": "top_panel(${1:})"},
+		{"trigger": "update_panels()\tcurses", "contents": "update_panels(${1:})"},
+		{"trigger": "userptr()\tcurses", "contents": "userptr(${1:})"},
+		{"trigger": "window()\tcurses", "contents": "window(${1:})"}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-LockType\t_thread*", "contents": "_thread.LockType"},
+		{"trigger": "y-TIMEOUT_MAX\t_thread*", "contents": "_thread.TIMEOUT_MAX"},
+		{"trigger": "y-acquire()\t_thread*", "contents": "_thread.acquire(${1:waitflag=1}, ${2:timeout=-1})"},
+		{"trigger": "y-allocate_lock()\t_thread*", "contents": "_thread.allocate_lock(${1:})"},
+		{"trigger": "y-error()\t_thread*", "contents": "_thread.error()"},
+		{"trigger": "y-exit()\t_thread*", "contents": "_thread.exit(${1:})"},
+		{"trigger": "y-get_ident()\t_thread*", "contents": "_thread.get_ident(${1:})"},
+		{"trigger": "y-interrupt_main()\t_thread*", "contents": "_thread.interrupt_main(${1:})"},
+		{"trigger": "y-locked()\t_thread*", "contents": "_thread.locked(${1:})"},
+		{"trigger": "y-release()\t_thread*", "contents": "_thread.release(${1:})"},
+		{"trigger": "y-stack_size()\t_thread*", "contents": "_thread.stack_size(${1:[size]})"},
+		{"trigger": "y-start_new_thread()\t_thread*", "contents": "_thread.start_new_thread(${1:function}, ${2:args[}, ${3:kwargs]})"}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-AddPackagePath\tmodulefinder*", "contents": "modulefinder.AddPackagePath(${1:pkg_name}, ${2:path})"},
+		{"trigger": "y-ModuleFinder\tmodulefinder*", "contents": "modulefinder.ModuleFinder(${1:path=None}, ${2:debug=0}, ${3:excludes=[]}, ${4:replace_paths=[]})"},
+		{"trigger": "y-ReplacePackage\tmodulefinder*", "contents": "modulefinder.ReplacePackage(${1:oldname}, ${2:newname})"}
+	]
+}

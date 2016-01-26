@@ -1,0 +1,37 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-RLIMIT_AS\tresource*", "contents": "resource.RLIMIT_AS"},
+		{"trigger": "y-RLIMIT_CORE\tresource*", "contents": "resource.RLIMIT_CORE"},
+		{"trigger": "y-RLIMIT_CPU\tresource*", "contents": "resource.RLIMIT_CPU"},
+		{"trigger": "y-RLIMIT_DATA\tresource*", "contents": "resource.RLIMIT_DATA"},
+		{"trigger": "y-RLIMIT_FSIZE\tresource*", "contents": "resource.RLIMIT_FSIZE"},
+		{"trigger": "y-RLIMIT_MEMLOCK\tresource*", "contents": "resource.RLIMIT_MEMLOCK"},
+		{"trigger": "y-RLIMIT_MSGQUEUE\tresource*", "contents": "resource.RLIMIT_MSGQUEUE"},
+		{"trigger": "y-RLIMIT_NICE\tresource*", "contents": "resource.RLIMIT_NICE"},
+		{"trigger": "y-RLIMIT_NOFILE\tresource*", "contents": "resource.RLIMIT_NOFILE"},
+		{"trigger": "y-RLIMIT_NPROC\tresource*", "contents": "resource.RLIMIT_NPROC"},
+		{"trigger": "y-RLIMIT_NPTS\tresource*", "contents": "resource.RLIMIT_NPTS"},
+		{"trigger": "y-RLIMIT_OFILE\tresource*", "contents": "resource.RLIMIT_OFILE"},
+		{"trigger": "y-RLIMIT_RSS\tresource*", "contents": "resource.RLIMIT_RSS"},
+		{"trigger": "y-RLIMIT_RTPRIO\tresource*", "contents": "resource.RLIMIT_RTPRIO"},
+		{"trigger": "y-RLIMIT_RTTIME\tresource*", "contents": "resource.RLIMIT_RTTIME"},
+		{"trigger": "y-RLIMIT_SBSIZE\tresource*", "contents": "resource.RLIMIT_SBSIZE"},
+		{"trigger": "y-RLIMIT_SIGPENDING\tresource*", "contents": "resource.RLIMIT_SIGPENDING"},
+		{"trigger": "y-RLIMIT_STACK\tresource*", "contents": "resource.RLIMIT_STACK"},
+		{"trigger": "y-RLIMIT_SWAP\tresource*", "contents": "resource.RLIMIT_SWAP"},
+		{"trigger": "y-RLIMIT_VMEM\tresource*", "contents": "resource.RLIMIT_VMEM"},
+		{"trigger": "y-RLIM_INFINITY\tresource*", "contents": "resource.RLIM_INFINITY"},
+		{"trigger": "y-RUSAGE_BOTH\tresource*", "contents": "resource.RUSAGE_BOTH"},
+		{"trigger": "y-RUSAGE_CHILDREN\tresource*", "contents": "resource.RUSAGE_CHILDREN"},
+		{"trigger": "y-RUSAGE_SELF\tresource*", "contents": "resource.RUSAGE_SELF"},
+		{"trigger": "y-RUSAGE_THREAD\tresource*", "contents": "resource.RUSAGE_THREAD"},
+		{"trigger": "y-error()\tresource*", "contents": "resource.error()"},
+		{"trigger": "y-getpagesize()\tresource*", "contents": "resource.getpagesize(${1:})"},
+		{"trigger": "y-getrlimit()\tresource*", "contents": "resource.getrlimit(${1:resource})"},
+		{"trigger": "y-getrusage()\tresource*", "contents": "resource.getrusage(${1:who})"},
+		{"trigger": "y-prlimit()\tresource*", "contents": "resource.prlimit(${1:pid}, ${2:resource[}, ${3:limits]})"},
+		{"trigger": "y-setrlimit()\tresource*", "contents": "resource.setrlimit(${1:resource}, ${2:limits})"}
+	]
+}

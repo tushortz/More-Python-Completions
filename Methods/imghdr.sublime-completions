@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "tests()\timghdr", "contents": "tests()"},
+		{"trigger": "what()\timghdr", "contents": "what(${1:filename}, ${2:h=None})"}
+	]
+}

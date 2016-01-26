@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "LockType\t_thread", "contents": "LockType"},
+		{"trigger": "TIMEOUT_MAX\t_thread", "contents": "TIMEOUT_MAX"},
+		{"trigger": "acquire()\t_thread", "contents": "acquire(${1:waitflag=1}, ${2:timeout=-1})"},
+		{"trigger": "allocate_lock()\t_thread", "contents": "allocate_lock(${1:})"},
+		{"trigger": "error()\t_thread", "contents": "error()"},
+		{"trigger": "exit()\t_thread", "contents": "exit(${1:})"},
+		{"trigger": "get_ident()\t_thread", "contents": "get_ident(${1:})"},
+		{"trigger": "interrupt_main()\t_thread", "contents": "interrupt_main(${1:})"},
+		{"trigger": "locked()\t_thread", "contents": "locked(${1:})"},
+		{"trigger": "release()\t_thread", "contents": "release(${1:})"},
+		{"trigger": "stack_size()\t_thread", "contents": "stack_size(${1:[size]})"},
+		{"trigger": "start_new_thread()\t_thread", "contents": "start_new_thread(${1:function}, ${2:args[}, ${3:kwargs]})"}
+	]
+}

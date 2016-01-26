@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Cmd\tcmd*", "contents": "cmd.Cmd(${1:completekey='tab'}, ${2:stdin=None}, ${3:stdout=None})"},
+		{"trigger": "y-cmdloop()\tcmd*", "contents": "cmd.cmdloop(${1:intro=None})"},
+		{"trigger": "y-cmdqueue()\tcmd*", "contents": "cmd.cmdqueue()"},
+		{"trigger": "y-completedefault()\tcmd*", "contents": "cmd.completedefault(${1:text}, ${2:line}, ${3:begidx}, ${4:endidx})"},
+		{"trigger": "y-default()\tcmd*", "contents": "cmd.default(${1:line})"},
+		{"trigger": "y-doc_header()\tcmd*", "contents": "cmd.doc_header()"},
+		{"trigger": "y-emptyline()\tcmd*", "contents": "cmd.emptyline(${1:})"},
+		{"trigger": "y-identchars()\tcmd*", "contents": "cmd.identchars()"},
+		{"trigger": "y-intro()\tcmd*", "contents": "cmd.intro()"},
+		{"trigger": "y-lastcmd()\tcmd*", "contents": "cmd.lastcmd()"},
+		{"trigger": "y-misc_header()\tcmd*", "contents": "cmd.misc_header()"},
+		{"trigger": "y-onecmd()\tcmd*", "contents": "cmd.onecmd(${1:str})"},
+		{"trigger": "y-postcmd()\tcmd*", "contents": "cmd.postcmd(${1:stop}, ${2:line})"},
+		{"trigger": "y-postloop()\tcmd*", "contents": "cmd.postloop(${1:})"},
+		{"trigger": "y-precmd()\tcmd*", "contents": "cmd.precmd(${1:line})"},
+		{"trigger": "y-preloop()\tcmd*", "contents": "cmd.preloop(${1:})"},
+		{"trigger": "y-prompt()\tcmd*", "contents": "cmd.prompt()"},
+		{"trigger": "y-ruler()\tcmd*", "contents": "cmd.ruler()"},
+		{"trigger": "y-undoc_header()\tcmd*", "contents": "cmd.undoc_header()"},
+		{"trigger": "y-use_rawinput()\tcmd*", "contents": "cmd.use_rawinput()"}
+	]
+}

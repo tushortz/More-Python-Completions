@@ -1,0 +1,20 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Empty\tqueue", "contents": "Empty"},
+		{"trigger": "Full\tqueue", "contents": "Full"},
+		{"trigger": "LifoQueue\tqueue", "contents": "LifoQueue(${1:maxsize=0})"},
+		{"trigger": "PriorityQueue\tqueue", "contents": "PriorityQueue(${1:maxsize=0})"},
+		{"trigger": "Queue\tqueue", "contents": "Queue(${1:maxsize=0})"},
+		{"trigger": "empty()\tqueue", "contents": "empty(${1:})"},
+		{"trigger": "full()\tqueue", "contents": "full(${1:})"},
+		{"trigger": "get()\tqueue", "contents": "get(${1:block=True}, ${2:timeout=None})"},
+		{"trigger": "get_nowait()\tqueue", "contents": "get_nowait(${1:})"},
+		{"trigger": "join()\tqueue", "contents": "join(${1:})"},
+		{"trigger": "put()\tqueue", "contents": "put(${1:item}, ${2:block=True}, ${3:timeout=None})"},
+		{"trigger": "put_nowait()\tqueue", "contents": "put_nowait(${1:item})"},
+		{"trigger": "qsize()\tqueue", "contents": "qsize(${1:})"},
+		{"trigger": "task_done()\tqueue", "contents": "task_done(${1:})"}
+	]
+}

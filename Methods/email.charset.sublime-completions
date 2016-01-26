@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Charset\temail", "contents": "Charset(${1:input_charset=DEFAULT_CHARSET})"},
+		{"trigger": "add_alias()\temail", "contents": "add_alias(${1:alias}, ${2:canonical})"},
+		{"trigger": "add_charset()\temail", "contents": "add_charset(${1:charset}, ${2:header_enc=None}, ${3:body_enc=None}, ${4:output_charset=None})"},
+		{"trigger": "add_codec()\temail", "contents": "add_codec(${1:charset}, ${2:codecname})"}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-HTMLParser\thtml*", "contents": "html.parser.HTMLParser(${1:*}, ${2:convert_charrefs=True})"},
+		{"trigger": "y-close()\thtml*", "contents": "html.parser.close(${1:})"},
+		{"trigger": "y-feed()\thtml*", "contents": "html.parser.feed(${1:data})"},
+		{"trigger": "y-get_starttag_text()\thtml*", "contents": "html.parser.get_starttag_text(${1:})"},
+		{"trigger": "y-getpos()\thtml*", "contents": "html.parser.getpos(${1:})"},
+		{"trigger": "y-handle_charref()\thtml*", "contents": "html.parser.handle_charref(${1:name})"},
+		{"trigger": "y-handle_comment()\thtml*", "contents": "html.parser.handle_comment(${1:data})"},
+		{"trigger": "y-handle_data()\thtml*", "contents": "html.parser.handle_data(${1:data})"},
+		{"trigger": "y-handle_decl()\thtml*", "contents": "html.parser.handle_decl(${1:decl})"},
+		{"trigger": "y-handle_endtag()\thtml*", "contents": "html.parser.handle_endtag(${1:tag})"},
+		{"trigger": "y-handle_entityref()\thtml*", "contents": "html.parser.handle_entityref(${1:name})"},
+		{"trigger": "y-handle_pi()\thtml*", "contents": "html.parser.handle_pi(${1:data})"},
+		{"trigger": "y-handle_startendtag()\thtml*", "contents": "html.parser.handle_startendtag(${1:tag}, ${2:attrs})"},
+		{"trigger": "y-handle_starttag()\thtml*", "contents": "html.parser.handle_starttag(${1:tag}, ${2:attrs})"},
+		{"trigger": "y-reset()\thtml*", "contents": "html.parser.reset(${1:})"},
+		{"trigger": "y-unknown_decl()\thtml*", "contents": "html.parser.unknown_decl(${1:data})"}
+	]
+}

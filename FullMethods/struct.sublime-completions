@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Struct\tstruct*", "contents": "struct.Struct(${1:format})"},
+		{"trigger": "y-calcsize()\tstruct*", "contents": "struct.calcsize(${1:fmt})"},
+		{"trigger": "y-error()\tstruct*", "contents": "struct.error()"},
+		{"trigger": "y-iter_unpack()\tstruct*", "contents": "struct.iter_unpack(${1:fmt}, ${2:buffer})"},
+		{"trigger": "y-pack()\tstruct*", "contents": "struct.pack(${1:fmt}, ${2:v1}, ${3:v2}, ${4:...})"},
+		{"trigger": "y-pack_into()\tstruct*", "contents": "struct.pack_into(${1:fmt}, ${2:buffer}, ${3:offset}, ${4:v1}, ${5:v2}, ${6:...})"},
+		{"trigger": "y-unpack()\tstruct*", "contents": "struct.unpack(${1:fmt}, ${2:buffer})"},
+		{"trigger": "y-unpack_from()\tstruct*", "contents": "struct.unpack_from(${1:fmt}, ${2:buffer}, ${3:offset=0})"}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ZLIB_RUNTIME_VERSION\tzlib", "contents": "ZLIB_RUNTIME_VERSION"},
+		{"trigger": "ZLIB_VERSION\tzlib", "contents": "ZLIB_VERSION"},
+		{"trigger": "adler32()\tzlib", "contents": "adler32(${1:data[}, ${2:value]})"},
+		{"trigger": "compress()\tzlib", "contents": "compress(${1:data[}, ${2:level]})"},
+		{"trigger": "compress()\tzlib", "contents": "compress(${1:data})"},
+		{"trigger": "compressobj()\tzlib", "contents": "compressobj(${1:level=-1}, ${2:method=DEFLATED}, ${3:wbits=15}, ${4:memLevel=8}, ${5:strategy=Z_DEFAULT_STRATEGY[}, ${6:zdict]})"},
+		{"trigger": "copy()\tzlib", "contents": "copy(${1:})"},
+		{"trigger": "crc32()\tzlib", "contents": "crc32(${1:data[}, ${2:value]})"},
+		{"trigger": "decompress()\tzlib", "contents": "decompress(${1:data[}, ${2:max_length]})"},
+		{"trigger": "decompress()\tzlib", "contents": "decompress(${1:data[}, ${2:wbits[}, ${3:bufsize]]})"},
+		{"trigger": "decompressobj()\tzlib", "contents": "decompressobj(${1:wbits=15[}, ${2:zdict]})"},
+		{"trigger": "eof()\tzlib", "contents": "eof()"},
+		{"trigger": "error()\tzlib", "contents": "error()"},
+		{"trigger": "flush()\tzlib", "contents": "flush(${1:[length]})"},
+		{"trigger": "flush()\tzlib", "contents": "flush(${1:[mode]})"},
+		{"trigger": "unconsumed_tail()\tzlib", "contents": "unconsumed_tail()"},
+		{"trigger": "unused_data()\tzlib", "contents": "unused_data()"}
+	]
+}

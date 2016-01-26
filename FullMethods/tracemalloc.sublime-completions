@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Filter\ttracemalloc*", "contents": "tracemalloc.Filter(${1:inclusive: bool}, ${2:filename_pattern: str}, ${3:lineno: int=None}, ${4:all_frames: bool=False})"},
+		{"trigger": "y-Frame\ttracemalloc*", "contents": "tracemalloc.Frame"},
+		{"trigger": "y-Snapshot\ttracemalloc*", "contents": "tracemalloc.Snapshot"},
+		{"trigger": "y-Statistic\ttracemalloc*", "contents": "tracemalloc.Statistic"},
+		{"trigger": "y-StatisticDiff\ttracemalloc*", "contents": "tracemalloc.StatisticDiff"},
+		{"trigger": "y-Trace\ttracemalloc*", "contents": "tracemalloc.Trace"},
+		{"trigger": "y-Traceback\ttracemalloc*", "contents": "tracemalloc.Traceback"},
+		{"trigger": "y-clear_traces()\ttracemalloc*", "contents": "tracemalloc.clear_traces(${1:})"},
+		{"trigger": "y-get_object_traceback()\ttracemalloc*", "contents": "tracemalloc.get_object_traceback(${1:obj})"},
+		{"trigger": "y-get_traceback_limit()\ttracemalloc*", "contents": "tracemalloc.get_traceback_limit(${1:})"},
+		{"trigger": "y-get_traced_memory()\ttracemalloc*", "contents": "tracemalloc.get_traced_memory(${1:})"},
+		{"trigger": "y-get_tracemalloc_memory()\ttracemalloc*", "contents": "tracemalloc.get_tracemalloc_memory(${1:})"},
+		{"trigger": "y-is_tracing()\ttracemalloc*", "contents": "tracemalloc.is_tracing(${1:})"},
+		{"trigger": "y-start()\ttracemalloc*", "contents": "tracemalloc.start(${1:nframe: int=1})"},
+		{"trigger": "y-stop()\ttracemalloc*", "contents": "tracemalloc.stop(${1:})"},
+		{"trigger": "y-take_snapshot()\ttracemalloc*", "contents": "tracemalloc.take_snapshot(${1:})"}
+	]
+}

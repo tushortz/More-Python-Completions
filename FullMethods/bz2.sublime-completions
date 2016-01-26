@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-BZ2Compressor\tbz2*", "contents": "bz2.BZ2Compressor(${1:compresslevel=9})"},
+		{"trigger": "y-BZ2Decompressor\tbz2*", "contents": "bz2.BZ2Decompressor"},
+		{"trigger": "y-BZ2File\tbz2*", "contents": "bz2.BZ2File(${1:filename}, ${2:mode='r'}, ${3:buffering=None}, ${4:compresslevel=9})"},
+		{"trigger": "y-compress()\tbz2*", "contents": "bz2.compress(${1:data}, ${2:compresslevel=9})"},
+		{"trigger": "y-decompress()\tbz2*", "contents": "bz2.decompress(${1:data})"},
+		{"trigger": "y-open()\tbz2*", "contents": "bz2.open(${1:filename}, ${2:mode='r'}, ${3:compresslevel=9}, ${4:encoding=None}, ${5:errors=None}, ${6:newline=None})"}
+	]
+}

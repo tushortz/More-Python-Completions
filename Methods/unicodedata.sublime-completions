@@ -1,0 +1,20 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "bidirectional()\tunicodedata", "contents": "bidirectional(${1:chr})"},
+		{"trigger": "category()\tunicodedata", "contents": "category(${1:chr})"},
+		{"trigger": "combining()\tunicodedata", "contents": "combining(${1:chr})"},
+		{"trigger": "decimal()\tunicodedata", "contents": "decimal(${1:chr[}, ${2:default]})"},
+		{"trigger": "decomposition()\tunicodedata", "contents": "decomposition(${1:chr})"},
+		{"trigger": "digit()\tunicodedata", "contents": "digit(${1:chr[}, ${2:default]})"},
+		{"trigger": "east_asian_width()\tunicodedata", "contents": "east_asian_width(${1:chr})"},
+		{"trigger": "lookup()\tunicodedata", "contents": "lookup(${1:name})"},
+		{"trigger": "mirrored()\tunicodedata", "contents": "mirrored(${1:chr})"},
+		{"trigger": "name()\tunicodedata", "contents": "name(${1:chr[}, ${2:default]})"},
+		{"trigger": "normalize()\tunicodedata", "contents": "normalize(${1:form}, ${2:unistr})"},
+		{"trigger": "numeric()\tunicodedata", "contents": "numeric(${1:chr[}, ${2:default]})"},
+		{"trigger": "ucd_3_2_0()\tunicodedata", "contents": "ucd_3_2_0()"},
+		{"trigger": "unidata_version()\tunicodedata", "contents": "unidata_version()"}
+	]
+}

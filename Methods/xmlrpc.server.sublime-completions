@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "CGIXMLRPCRequestHandler\txmlrpc", "contents": "CGIXMLRPCRequestHandler(${1:allow_none=False}, ${2:encoding=None}, ${3:use_builtin_types=False})"},
+		{"trigger": "DocCGIXMLRPCRequestHandler\txmlrpc", "contents": "DocCGIXMLRPCRequestHandler"},
+		{"trigger": "DocXMLRPCRequestHandler\txmlrpc", "contents": "DocXMLRPCRequestHandler"},
+		{"trigger": "DocXMLRPCServer\txmlrpc", "contents": "DocXMLRPCServer(${1:addr}, ${2:requestHandler=DocXMLRPCRequestHandler}, ${3:logRequests=True}, ${4:allow_none=False}, ${5:encoding=None}, ${6:bind_and_activate=True}, ${7:use_builtin_types=True})"},
+		{"trigger": "SimpleXMLRPCRequestHandler\txmlrpc", "contents": "SimpleXMLRPCRequestHandler"},
+		{"trigger": "SimpleXMLRPCServer\txmlrpc", "contents": "SimpleXMLRPCServer(${1:addr}, ${2:requestHandler=SimpleXMLRPCRequestHandler}, ${3:logRequests=True}, ${4:allow_none=False}, ${5:encoding=None}, ${6:bind_and_activate=True}, ${7:use_builtin_types=False})"},
+		{"trigger": "handle_request()\txmlrpc", "contents": "handle_request(${1:request_text=None})"},
+		{"trigger": "register_function()\txmlrpc", "contents": "register_function(${1:function}, ${2:name=None})"},
+		{"trigger": "register_instance()\txmlrpc", "contents": "register_instance(${1:instance}, ${2:allow_dotted_names=False})"},
+		{"trigger": "register_instance()\txmlrpc", "contents": "register_instance(${1:instance})"},
+		{"trigger": "register_introspection_functions()\txmlrpc", "contents": "register_introspection_functions(${1:})"},
+		{"trigger": "register_multicall_functions()\txmlrpc", "contents": "register_multicall_functions(${1:})"},
+		{"trigger": "rpc_paths()\txmlrpc", "contents": "rpc_paths()"},
+		{"trigger": "set_server_documentation()\txmlrpc", "contents": "set_server_documentation(${1:server_documentation})"},
+		{"trigger": "set_server_name()\txmlrpc", "contents": "set_server_name(${1:server_name})"},
+		{"trigger": "set_server_title()\txmlrpc", "contents": "set_server_title(${1:server_title})"}
+	]
+}

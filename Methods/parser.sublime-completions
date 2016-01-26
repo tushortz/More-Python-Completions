@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ParserError\tparser", "contents": "ParserError"},
+		{"trigger": "STType\tparser", "contents": "STType"},
+		{"trigger": "compile()\tparser", "contents": "compile(${1:filename=''})"},
+		{"trigger": "compilest()\tparser", "contents": "compilest(${1:st}, ${2:filename=''})"},
+		{"trigger": "expr()\tparser", "contents": "expr(${1:source})"},
+		{"trigger": "isexpr()\tparser", "contents": "isexpr(${1:st})"},
+		{"trigger": "isexpr()\tparser", "contents": "isexpr(${1:})"},
+		{"trigger": "issuite()\tparser", "contents": "issuite(${1:st})"},
+		{"trigger": "issuite()\tparser", "contents": "issuite(${1:})"},
+		{"trigger": "sequence2st()\tparser", "contents": "sequence2st(${1:sequence})"},
+		{"trigger": "st2list()\tparser", "contents": "st2list(${1:st}, ${2:line_info=False}, ${3:col_info=False})"},
+		{"trigger": "st2tuple()\tparser", "contents": "st2tuple(${1:st}, ${2:line_info=False}, ${3:col_info=False})"},
+		{"trigger": "suite()\tparser", "contents": "suite(${1:source})"},
+		{"trigger": "tolist()\tparser", "contents": "tolist(${1:line_info=False}, ${2:col_info=False})"},
+		{"trigger": "totuple()\tparser", "contents": "totuple(${1:line_info=False}, ${2:col_info=False})"},
+		{"trigger": "tuple2st()\tparser", "contents": "tuple2st(${1:sequence})"}
+	]
+}

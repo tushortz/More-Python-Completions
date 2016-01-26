@@ -1,0 +1,37 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-BasicContext\tdecimal*", "contents": "decimal.BasicContext"},
+		{"trigger": "y-Clamped\tdecimal*", "contents": "decimal.Clamped"},
+		{"trigger": "y-Context\tdecimal*", "contents": "decimal.Context(${1:prec=None}, ${2:rounding=None}, ${3:Emin=None}, ${4:Emax=None}, ${5:capitals=None}, ${6:clamp=None}, ${7:flags=None}, ${8:traps=None})"},
+		{"trigger": "y-Decimal\tdecimal*", "contents": "decimal.Decimal(${1:value=\"0\"}, ${2:context=None})"},
+		{"trigger": "y-DecimalException\tdecimal*", "contents": "decimal.DecimalException"},
+		{"trigger": "y-DefaultContext\tdecimal*", "contents": "decimal.DefaultContext"},
+		{"trigger": "y-DivisionByZero\tdecimal*", "contents": "decimal.DivisionByZero"},
+		{"trigger": "y-ExtendedContext\tdecimal*", "contents": "decimal.ExtendedContext"},
+		{"trigger": "y-FloatOperation\tdecimal*", "contents": "decimal.FloatOperation"},
+		{"trigger": "y-HAVE_THREADS\tdecimal*", "contents": "decimal.HAVE_THREADS"},
+		{"trigger": "y-Inexact\tdecimal*", "contents": "decimal.Inexact"},
+		{"trigger": "y-InvalidOperation\tdecimal*", "contents": "decimal.InvalidOperation"},
+		{"trigger": "y-MAX_EMAX\tdecimal*", "contents": "decimal.MAX_EMAX"},
+		{"trigger": "y-MAX_PREC\tdecimal*", "contents": "decimal.MAX_PREC"},
+		{"trigger": "y-MIN_EMIN\tdecimal*", "contents": "decimal.MIN_EMIN"},
+		{"trigger": "y-MIN_ETINY\tdecimal*", "contents": "decimal.MIN_ETINY"},
+		{"trigger": "y-Overflow\tdecimal*", "contents": "decimal.Overflow"},
+		{"trigger": "y-ROUND_05UP\tdecimal*", "contents": "decimal.ROUND_05UP"},
+		{"trigger": "y-ROUND_CEILING\tdecimal*", "contents": "decimal.ROUND_CEILING"},
+		{"trigger": "y-ROUND_DOWN\tdecimal*", "contents": "decimal.ROUND_DOWN"},
+		{"trigger": "y-ROUND_FLOOR\tdecimal*", "contents": "decimal.ROUND_FLOOR"},
+		{"trigger": "y-ROUND_HALF_DOWN\tdecimal*", "contents": "decimal.ROUND_HALF_DOWN"},
+		{"trigger": "y-ROUND_HALF_EVEN\tdecimal*", "contents": "decimal.ROUND_HALF_EVEN"},
+		{"trigger": "y-ROUND_HALF_UP\tdecimal*", "contents": "decimal.ROUND_HALF_UP"},
+		{"trigger": "y-ROUND_UP\tdecimal*", "contents": "decimal.ROUND_UP"},
+		{"trigger": "y-Rounded\tdecimal*", "contents": "decimal.Rounded"},
+		{"trigger": "y-Subnormal\tdecimal*", "contents": "decimal.Subnormal"},
+		{"trigger": "y-Underflow\tdecimal*", "contents": "decimal.Underflow"},
+		{"trigger": "y-getcontext()\tdecimal*", "contents": "decimal.getcontext(${1:})"},
+		{"trigger": "y-localcontext()\tdecimal*", "contents": "decimal.localcontext(${1:ctx=None})"},
+		{"trigger": "y-setcontext()\tdecimal*", "contents": "decimal.setcontext(${1:c})"}
+	]
+}

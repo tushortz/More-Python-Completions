@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "constructor()\tcopyreg", "contents": "constructor(${1:object})"},
+		{"trigger": "pickle()\tcopyreg", "contents": "pickle(${1:type}, ${2:function}, ${3:constructor=None})"}
+	]
+}

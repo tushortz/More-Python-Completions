@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "MimeTypes\tmimetypes", "contents": "MimeTypes(${1:filenames=}, ${2:})"},
+		{"trigger": "add_type()\tmimetypes", "contents": "add_type(${1:type}, ${2:ext}, ${3:strict=True})"},
+		{"trigger": "common_types()\tmimetypes", "contents": "common_types()"},
+		{"trigger": "encodings_map()\tmimetypes", "contents": "encodings_map()"},
+		{"trigger": "guess_all_extensions()\tmimetypes", "contents": "guess_all_extensions(${1:type}, ${2:strict=True})"},
+		{"trigger": "guess_extension()\tmimetypes", "contents": "guess_extension(${1:type}, ${2:strict=True})"},
+		{"trigger": "guess_type()\tmimetypes", "contents": "guess_type(${1:url}, ${2:strict=True})"},
+		{"trigger": "init()\tmimetypes", "contents": "init(${1:files=None})"},
+		{"trigger": "inited()\tmimetypes", "contents": "inited()"},
+		{"trigger": "knownfiles()\tmimetypes", "contents": "knownfiles()"},
+		{"trigger": "read()\tmimetypes", "contents": "read(${1:filename}, ${2:strict=True})"},
+		{"trigger": "read_mime_types()\tmimetypes", "contents": "read_mime_types(${1:filename})"},
+		{"trigger": "read_windows_registry()\tmimetypes", "contents": "read_windows_registry(${1:strict=True})"},
+		{"trigger": "readfp()\tmimetypes", "contents": "readfp(${1:fp}, ${2:strict=True})"},
+		{"trigger": "suffix_map()\tmimetypes", "contents": "suffix_map()"},
+		{"trigger": "types_map()\tmimetypes", "contents": "types_map()"},
+		{"trigger": "types_map_inv()\tmimetypes", "contents": "types_map_inv()"}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "EXCEPTION\ttkinter", "contents": "EXCEPTION"},
+		{"trigger": "READABLE\ttkinter", "contents": "READABLE"},
+		{"trigger": "Tcl\ttkinter", "contents": "Tcl(${1:screenName=None}, ${2:baseName=None}, ${3:className='Tk'}, ${4:useTk=0})"},
+		{"trigger": "Tk\ttkinter", "contents": "Tk(${1:screenName=None}, ${2:baseName=None}, ${3:className='Tk'}, ${4:useTk=1})"},
+		{"trigger": "WRITABLE\ttkinter", "contents": "WRITABLE"},
+		{"trigger": "createfilehandler()\ttkinter", "contents": "createfilehandler(${1:file}, ${2:mask}, ${3:func})"},
+		{"trigger": "deletefilehandler()\ttkinter", "contents": "deletefilehandler(${1:file})"}
+	]
+}

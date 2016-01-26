@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "CallableProxyType\tweakref", "contents": "CallableProxyType"},
+		{"trigger": "ProxyType\tweakref", "contents": "ProxyType"},
+		{"trigger": "ProxyTypes\tweakref", "contents": "ProxyTypes"},
+		{"trigger": "ReferenceError\tweakref", "contents": "ReferenceError"},
+		{"trigger": "ReferenceType\tweakref", "contents": "ReferenceType"},
+		{"trigger": "WeakKeyDictionary\tweakref", "contents": "WeakKeyDictionary(${1:[dict]})"},
+		{"trigger": "WeakMethod\tweakref", "contents": "WeakMethod(${1:method})"},
+		{"trigger": "WeakSet\tweakref", "contents": "WeakSet(${1:[elements]})"},
+		{"trigger": "WeakValueDictionary\tweakref", "contents": "WeakValueDictionary(${1:[dict]})"},
+		{"trigger": "finalize()\tweakref", "contents": "finalize(${1:obj}, ${2:func}, ${3:*args}, ${4:**kwargs})"},
+		{"trigger": "getweakrefcount()\tweakref", "contents": "getweakrefcount(${1:object})"},
+		{"trigger": "getweakrefs()\tweakref", "contents": "getweakrefs(${1:object})"},
+		{"trigger": "keyrefs()\tweakref", "contents": "keyrefs(${1:})"},
+		{"trigger": "proxy()\tweakref", "contents": "proxy(${1:object[}, ${2:callback]})"},
+		{"trigger": "ref()\tweakref", "contents": "ref(${1:object[}, ${2:callback]})"},
+		{"trigger": "valuerefs()\tweakref", "contents": "valuerefs(${1:})"}
+	]
+}

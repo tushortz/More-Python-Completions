@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-dictConfig()\tlogging*", "contents": "logging.config.dictConfig(${1:config})"},
+		{"trigger": "y-fileConfig()\tlogging*", "contents": "logging.config.fileConfig(${1:fname}, ${2:defaults=None}, ${3:disable_existing_loggers=True})"},
+		{"trigger": "y-listen()\tlogging*", "contents": "logging.config.listen(${1:port=DEFAULT_LOGGING_CONFIG_PORT}, ${2:verify=None})"},
+		{"trigger": "y-stopListening()\tlogging*", "contents": "logging.config.stopListening(${1:})"}
+	]
+}

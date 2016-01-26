@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-run_module()\trunpy*", "contents": "runpy.run_module(${1:mod_name}, ${2:init_globals=None}, ${3:run_name=None}, ${4:alter_sys=False})"},
+		{"trigger": "y-run_path()\trunpy*", "contents": "runpy.run_path(${1:file_path}, ${2:init_globals=None}, ${3:run_name=None})"}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "CLOCK_HIGHRES\ttime", "contents": "CLOCK_HIGHRES"},
+		{"trigger": "CLOCK_MONOTONIC\ttime", "contents": "CLOCK_MONOTONIC"},
+		{"trigger": "CLOCK_MONOTONIC_RAW\ttime", "contents": "CLOCK_MONOTONIC_RAW"},
+		{"trigger": "CLOCK_PROCESS_CPUTIME_ID\ttime", "contents": "CLOCK_PROCESS_CPUTIME_ID"},
+		{"trigger": "CLOCK_REALTIME\ttime", "contents": "CLOCK_REALTIME"},
+		{"trigger": "CLOCK_THREAD_CPUTIME_ID\ttime", "contents": "CLOCK_THREAD_CPUTIME_ID"},
+		{"trigger": "altzone()\ttime", "contents": "altzone()"},
+		{"trigger": "asctime()\ttime", "contents": "asctime(${1:[t]})"},
+		{"trigger": "clock()\ttime", "contents": "clock(${1:})"},
+		{"trigger": "clock_getres()\ttime", "contents": "clock_getres(${1:clk_id})"},
+		{"trigger": "clock_gettime()\ttime", "contents": "clock_gettime(${1:clk_id})"},
+		{"trigger": "clock_settime()\ttime", "contents": "clock_settime(${1:clk_id}, ${2:time})"},
+		{"trigger": "ctime()\ttime", "contents": "ctime(${1:[secs]})"},
+		{"trigger": "daylight()\ttime", "contents": "daylight()"},
+		{"trigger": "get_clock_info()\ttime", "contents": "get_clock_info(${1:name})"},
+		{"trigger": "gmtime()\ttime", "contents": "gmtime(${1:[secs]})"},
+		{"trigger": "localtime()\ttime", "contents": "localtime(${1:[secs]})"},
+		{"trigger": "mktime()\ttime", "contents": "mktime(${1:t})"},
+		{"trigger": "monotonic()\ttime", "contents": "monotonic(${1:})"},
+		{"trigger": "perf_counter()\ttime", "contents": "perf_counter(${1:})"},
+		{"trigger": "process_time()\ttime", "contents": "process_time(${1:})"},
+		{"trigger": "sleep()\ttime", "contents": "sleep(${1:secs})"},
+		{"trigger": "strftime()\ttime", "contents": "strftime(${1:format[}, ${2:t]})"},
+		{"trigger": "strptime()\ttime", "contents": "strptime(${1:string[}, ${2:format]})"},
+		{"trigger": "struct_time()\ttime", "contents": "struct_time()"},
+		{"trigger": "time()\ttime", "contents": "time(${1:})"},
+		{"trigger": "timezone()\ttime", "contents": "timezone()"},
+		{"trigger": "tzname()\ttime", "contents": "tzname()"},
+		{"trigger": "tzset()\ttime", "contents": "tzset(${1:})"}
+	]
+}

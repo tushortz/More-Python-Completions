@@ -1,0 +1,13 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Pdb\tpdb", "contents": "Pdb(${1:completekey='tab'}, ${2:stdin=None}, ${3:stdout=None}, ${4:skip=None}, ${5:nosigint=False})"},
+		{"trigger": "pm()\tpdb", "contents": "pm(${1:})"},
+		{"trigger": "post_mortem()\tpdb", "contents": "post_mortem(${1:traceback=None})"},
+		{"trigger": "run()\tpdb", "contents": "run(${1:statement}, ${2:globals=None}, ${3:locals=None})"},
+		{"trigger": "runcall()\tpdb", "contents": "runcall(${1:function}, ${2:*args}, ${3:**kwds})"},
+		{"trigger": "runeval()\tpdb", "contents": "runeval(${1:expression}, ${2:globals=None}, ${3:locals=None})"},
+		{"trigger": "set_trace()\tpdb", "contents": "set_trace(${1:})"}
+	]
+}

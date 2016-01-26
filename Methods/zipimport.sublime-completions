@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "ZipImportError\tzipimport", "contents": "ZipImportError"},
+		{"trigger": "zipimporter()\tzipimport", "contents": "zipimporter(${1:archivepath})"}
+	]
+}

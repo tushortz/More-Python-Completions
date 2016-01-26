@@ -1,0 +1,18 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "FileInput\tfileinput", "contents": "FileInput(${1:files=None}, ${2:inplace=False}, ${3:backup=''}, ${4:bufsize=0}, ${5:mode='r'}, ${6:openhook=None})"},
+		{"trigger": "close()\tfileinput", "contents": "close(${1:})"},
+		{"trigger": "filelineno()\tfileinput", "contents": "filelineno(${1:})"},
+		{"trigger": "filename()\tfileinput", "contents": "filename(${1:})"},
+		{"trigger": "fileno()\tfileinput", "contents": "fileno(${1:})"},
+		{"trigger": "hook_compressed()\tfileinput", "contents": "hook_compressed(${1:filename}, ${2:mode})"},
+		{"trigger": "hook_encoded()\tfileinput", "contents": "hook_encoded(${1:encoding})"},
+		{"trigger": "input()\tfileinput", "contents": "input(${1:files=None}, ${2:inplace=False}, ${3:backup=''}, ${4:bufsize=0}, ${5:mode='r'}, ${6:openhook=None})"},
+		{"trigger": "isfirstline()\tfileinput", "contents": "isfirstline(${1:})"},
+		{"trigger": "isstdin()\tfileinput", "contents": "isstdin(${1:})"},
+		{"trigger": "lineno()\tfileinput", "contents": "lineno(${1:})"},
+		{"trigger": "nextfile()\tfileinput", "contents": "nextfile(${1:})"}
+	]
+}

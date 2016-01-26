@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-CoverageResults\ttrace*", "contents": "trace.CoverageResults"},
+		{"trigger": "y-Trace\ttrace*", "contents": "trace.Trace(${1:count=1}, ${2:trace=1}, ${3:countfuncs=0}, ${4:countcallers=0}, ${5:ignoremods=}, ${6:})"}
+	]
+}

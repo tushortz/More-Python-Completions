@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "fcntl()\tfcntl", "contents": "fcntl(${1:fd}, ${2:cmd}, ${3:arg=0})"},
+		{"trigger": "flock()\tfcntl", "contents": "flock(${1:fd}, ${2:operation})"},
+		{"trigger": "ioctl()\tfcntl", "contents": "ioctl(${1:fd}, ${2:request}, ${3:arg=0}, ${4:mutate_flag=True})"},
+		{"trigger": "lockf()\tfcntl", "contents": "lockf(${1:fd}, ${2:cmd}, ${3:len=0}, ${4:start=0}, ${5:whence=0})"}
+	]
+}

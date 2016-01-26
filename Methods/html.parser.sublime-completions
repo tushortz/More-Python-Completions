@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "HTMLParser\thtml", "contents": "HTMLParser(${1:*}, ${2:convert_charrefs=True})"},
+		{"trigger": "close()\thtml", "contents": "close(${1:})"},
+		{"trigger": "feed()\thtml", "contents": "feed(${1:data})"},
+		{"trigger": "get_starttag_text()\thtml", "contents": "get_starttag_text(${1:})"},
+		{"trigger": "getpos()\thtml", "contents": "getpos(${1:})"},
+		{"trigger": "handle_charref()\thtml", "contents": "handle_charref(${1:name})"},
+		{"trigger": "handle_comment()\thtml", "contents": "handle_comment(${1:data})"},
+		{"trigger": "handle_data()\thtml", "contents": "handle_data(${1:data})"},
+		{"trigger": "handle_decl()\thtml", "contents": "handle_decl(${1:decl})"},
+		{"trigger": "handle_endtag()\thtml", "contents": "handle_endtag(${1:tag})"},
+		{"trigger": "handle_entityref()\thtml", "contents": "handle_entityref(${1:name})"},
+		{"trigger": "handle_pi()\thtml", "contents": "handle_pi(${1:data})"},
+		{"trigger": "handle_startendtag()\thtml", "contents": "handle_startendtag(${1:tag}, ${2:attrs})"},
+		{"trigger": "handle_starttag()\thtml", "contents": "handle_starttag(${1:tag}, ${2:attrs})"},
+		{"trigger": "reset()\thtml", "contents": "reset(${1:})"},
+		{"trigger": "unknown_decl()\thtml", "contents": "unknown_decl(${1:data})"}
+	]
+}

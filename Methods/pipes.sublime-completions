@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Template\tpipes", "contents": "Template"},
+		{"trigger": "append()\tpipes", "contents": "append(${1:cmd}, ${2:kind})"},
+		{"trigger": "clone()\tpipes", "contents": "clone(${1:})"},
+		{"trigger": "copy()\tpipes", "contents": "copy(${1:infile}, ${2:outfile})"},
+		{"trigger": "debug()\tpipes", "contents": "debug(${1:flag})"},
+		{"trigger": "open()\tpipes", "contents": "open(${1:file}, ${2:mode})"},
+		{"trigger": "prepend()\tpipes", "contents": "prepend(${1:cmd}, ${2:kind})"},
+		{"trigger": "reset()\tpipes", "contents": "reset(${1:})"}
+	]
+}

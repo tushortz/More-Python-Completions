@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-codepoint2name()\thtml*", "contents": "html.entities.codepoint2name()"},
+		{"trigger": "y-entitydefs()\thtml*", "contents": "html.entities.entitydefs()"},
+		{"trigger": "y-html5()\thtml*", "contents": "html.entities.html5()"},
+		{"trigger": "y-name2codepoint()\thtml*", "contents": "html.entities.name2codepoint()"}
+	]
+}

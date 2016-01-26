@@ -1,0 +1,30 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-append()\tarray*", "contents": "array.append(${1:x})"},
+		{"trigger": "y-array()\tarray*", "contents": "array.array(${1:typecode[}, ${2:initializer]})"},
+		{"trigger": "y-buffer_info()\tarray*", "contents": "array.buffer_info(${1:})"},
+		{"trigger": "y-byteswap()\tarray*", "contents": "array.byteswap(${1:})"},
+		{"trigger": "y-count()\tarray*", "contents": "array.count(${1:x})"},
+		{"trigger": "y-extend()\tarray*", "contents": "array.extend(${1:iterable})"},
+		{"trigger": "y-frombytes()\tarray*", "contents": "array.frombytes(${1:s})"},
+		{"trigger": "y-fromfile()\tarray*", "contents": "array.fromfile(${1:f}, ${2:n})"},
+		{"trigger": "y-fromlist()\tarray*", "contents": "array.fromlist(${1:list})"},
+		{"trigger": "y-fromstring()\tarray*", "contents": "array.fromstring(${1:})"},
+		{"trigger": "y-fromunicode()\tarray*", "contents": "array.fromunicode(${1:s})"},
+		{"trigger": "y-index()\tarray*", "contents": "array.index(${1:x})"},
+		{"trigger": "y-insert()\tarray*", "contents": "array.insert(${1:i}, ${2:x})"},
+		{"trigger": "y-itemsize()\tarray*", "contents": "array.itemsize()"},
+		{"trigger": "y-pop()\tarray*", "contents": "array.pop(${1:[i]})"},
+		{"trigger": "y-remove()\tarray*", "contents": "array.remove(${1:x})"},
+		{"trigger": "y-reverse()\tarray*", "contents": "array.reverse(${1:})"},
+		{"trigger": "y-tobytes()\tarray*", "contents": "array.tobytes(${1:})"},
+		{"trigger": "y-tofile()\tarray*", "contents": "array.tofile(${1:f})"},
+		{"trigger": "y-tolist()\tarray*", "contents": "array.tolist(${1:})"},
+		{"trigger": "y-tostring()\tarray*", "contents": "array.tostring(${1:})"},
+		{"trigger": "y-tounicode()\tarray*", "contents": "array.tounicode(${1:})"},
+		{"trigger": "y-typecode()\tarray*", "contents": "array.typecode()"},
+		{"trigger": "y-typecodes()\tarray*", "contents": "array.typecodes()"}
+	]
+}

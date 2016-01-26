@@ -1,0 +1,14 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Struct\tstruct", "contents": "Struct(${1:format})"},
+		{"trigger": "calcsize()\tstruct", "contents": "calcsize(${1:fmt})"},
+		{"trigger": "error()\tstruct", "contents": "error()"},
+		{"trigger": "iter_unpack()\tstruct", "contents": "iter_unpack(${1:fmt}, ${2:buffer})"},
+		{"trigger": "pack()\tstruct", "contents": "pack(${1:fmt}, ${2:v1}, ${3:v2}, ${4:...})"},
+		{"trigger": "pack_into()\tstruct", "contents": "pack_into(${1:fmt}, ${2:buffer}, ${3:offset}, ${4:v1}, ${5:v2}, ${6:...})"},
+		{"trigger": "unpack()\tstruct", "contents": "unpack(${1:fmt}, ${2:buffer})"},
+		{"trigger": "unpack_from()\tstruct", "contents": "unpack_from(${1:fmt}, ${2:buffer}, ${3:offset=0})"}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-architecture()\tplatform*", "contents": "platform.architecture(${1:executable=sys.executable}, ${2:bits=''}, ${3:linkage=''})"},
+		{"trigger": "y-dist()\tplatform*", "contents": "platform.dist(${1:distname=''}, ${2:version=''}, ${3:id=''}, ${4:supported_dists=}, ${5:'SuSE'}, ${6:'debian'}, ${7:'redhat'}, ${8:'mandrake'}, ${9:...})"},
+		{"trigger": "y-java_ver()\tplatform*", "contents": "platform.java_ver(${1:release=''}, ${2:vendor=''}, ${3:vminfo=}, ${4:''}, ${4:''}, ${6:''})"},
+		{"trigger": "y-libc_ver()\tplatform*", "contents": "platform.libc_ver(${1:executable=sys.executable}, ${2:lib=''}, ${3:version=''}, ${4:chunksize=2048})"},
+		{"trigger": "y-linux_distribution()\tplatform*", "contents": "platform.linux_distribution(${1:distname=''}, ${2:version=''}, ${3:id=''}, ${4:supported_dists=}, ${5:'SuSE'}, ${6:'debian'}, ${7:'redhat'}, ${8:'mandrake'}, ${9:...})"},
+		{"trigger": "y-mac_ver()\tplatform*", "contents": "platform.mac_ver(${1:release=''}, ${2:versioninfo=}, ${3:''}, ${3:''}, ${5:''})"},
+		{"trigger": "y-machine()\tplatform*", "contents": "platform.machine(${1:})"},
+		{"trigger": "y-node()\tplatform*", "contents": "platform.node(${1:})"},
+		{"trigger": "y-platform()\tplatform*", "contents": "platform.platform(${1:aliased=0}, ${2:terse=0})"},
+		{"trigger": "y-popen()\tplatform*", "contents": "platform.popen(${1:cmd}, ${2:mode='r'}, ${3:bufsize=-1})"},
+		{"trigger": "y-processor()\tplatform*", "contents": "platform.processor(${1:})"},
+		{"trigger": "y-python_branch()\tplatform*", "contents": "platform.python_branch(${1:})"},
+		{"trigger": "y-python_build()\tplatform*", "contents": "platform.python_build(${1:})"},
+		{"trigger": "y-python_compiler()\tplatform*", "contents": "platform.python_compiler(${1:})"},
+		{"trigger": "y-python_implementation()\tplatform*", "contents": "platform.python_implementation(${1:})"},
+		{"trigger": "y-python_revision()\tplatform*", "contents": "platform.python_revision(${1:})"},
+		{"trigger": "y-python_version()\tplatform*", "contents": "platform.python_version(${1:})"},
+		{"trigger": "y-python_version_tuple()\tplatform*", "contents": "platform.python_version_tuple(${1:})"},
+		{"trigger": "y-release()\tplatform*", "contents": "platform.release(${1:})"},
+		{"trigger": "y-system()\tplatform*", "contents": "platform.system(${1:})"},
+		{"trigger": "y-system_alias()\tplatform*", "contents": "platform.system_alias(${1:system}, ${2:release}, ${3:version})"},
+		{"trigger": "y-uname()\tplatform*", "contents": "platform.uname(${1:})"},
+		{"trigger": "y-version()\tplatform*", "contents": "platform.version(${1:})"},
+		{"trigger": "y-win32_ver()\tplatform*", "contents": "platform.win32_ver(${1:release=''}, ${2:version=''}, ${3:csd=''}, ${4:ptype=''})"}
+	]
+}

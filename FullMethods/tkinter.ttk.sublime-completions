@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Combobox\ttkinter*", "contents": "tkinter.ttk.Combobox"},
+		{"trigger": "y-Notebook\ttkinter*", "contents": "tkinter.ttk.Notebook"},
+		{"trigger": "y-Progressbar\ttkinter*", "contents": "tkinter.ttk.Progressbar"},
+		{"trigger": "y-Style\ttkinter*", "contents": "tkinter.ttk.Style"},
+		{"trigger": "y-Treeview\ttkinter*", "contents": "tkinter.ttk.Treeview"},
+		{"trigger": "y-Widget\ttkinter*", "contents": "tkinter.ttk.Widget"}
+	]
+}

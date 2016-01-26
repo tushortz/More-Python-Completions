@@ -1,0 +1,10 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-GetoptError\tgetopt*", "contents": "getopt.GetoptError"},
+		{"trigger": "y-error()\tgetopt*", "contents": "getopt.error()"},
+		{"trigger": "y-getopt()\tgetopt*", "contents": "getopt.getopt(${1:args}, ${2:shortopts}, ${3:longopts=[]})"},
+		{"trigger": "y-gnu_getopt()\tgetopt*", "contents": "getopt.gnu_getopt(${1:args}, ${2:shortopts}, ${3:longopts=[]})"}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "hls_to_rgb()\tcolorsys", "contents": "hls_to_rgb(${1:h}, ${2:l}, ${3:s})"},
+		{"trigger": "hsv_to_rgb()\tcolorsys", "contents": "hsv_to_rgb(${1:h}, ${2:s}, ${3:v})"},
+		{"trigger": "rgb_to_hls()\tcolorsys", "contents": "rgb_to_hls(${1:r}, ${2:g}, ${3:b})"},
+		{"trigger": "rgb_to_hsv()\tcolorsys", "contents": "rgb_to_hsv(${1:r}, ${2:g}, ${3:b})"},
+		{"trigger": "rgb_to_yiq()\tcolorsys", "contents": "rgb_to_yiq(${1:r}, ${2:g}, ${3:b})"},
+		{"trigger": "yiq_to_rgb()\tcolorsys", "contents": "yiq_to_rgb(${1:y}, ${2:i}, ${3:q})"}
+	]
+}

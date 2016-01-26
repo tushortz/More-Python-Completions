@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-register()\tatexit*", "contents": "atexit.register(${1:func}, ${2:*args}, ${3:**kargs})"},
+		{"trigger": "y-unregister()\tatexit*", "contents": "atexit.unregister(${1:func})"}
+	]
+}

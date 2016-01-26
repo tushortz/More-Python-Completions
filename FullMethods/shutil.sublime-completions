@@ -1,0 +1,31 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Error\tshutil*", "contents": "shutil.Error"},
+		{"trigger": "y-SameFileError\tshutil*", "contents": "shutil.SameFileError"},
+		{"trigger": "y-avoids_symlink_attacks()\tshutil*", "contents": "shutil.avoids_symlink_attacks()"},
+		{"trigger": "y-chown()\tshutil*", "contents": "shutil.chown(${1:path}, ${2:user=None}, ${3:group=None})"},
+		{"trigger": "y-copy2()\tshutil*", "contents": "shutil.copy2(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "y-copy()\tshutil*", "contents": "shutil.copy(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "y-copyfile()\tshutil*", "contents": "shutil.copyfile(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "y-copyfileobj()\tshutil*", "contents": "shutil.copyfileobj(${1:fsrc}, ${2:fdst[}, ${3:length]})"},
+		{"trigger": "y-copymode()\tshutil*", "contents": "shutil.copymode(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "y-copystat()\tshutil*", "contents": "shutil.copystat(${1:src}, ${2:dst}, ${3:*}, ${4:follow_symlinks=True})"},
+		{"trigger": "y-copytree()\tshutil*", "contents": "shutil.copytree(${1:src}, ${2:dst}, ${3:symlinks=False}, ${4:ignore=None}, ${5:copy_function=copy2}, ${6:ignore_dangling_symlinks=False})"},
+		{"trigger": "y-disk_usage()\tshutil*", "contents": "shutil.disk_usage(${1:path})"},
+		{"trigger": "y-get_archive_formats()\tshutil*", "contents": "shutil.get_archive_formats(${1:})"},
+		{"trigger": "y-get_terminal_size()\tshutil*", "contents": "shutil.get_terminal_size(${1:fallback=}, ${2:columns}, ${3:lines})"},
+		{"trigger": "y-get_unpack_formats()\tshutil*", "contents": "shutil.get_unpack_formats(${1:})"},
+		{"trigger": "y-ignore_patterns()\tshutil*", "contents": "shutil.ignore_patterns(${1:*patterns})"},
+		{"trigger": "y-make_archive()\tshutil*", "contents": "shutil.make_archive(${1:base_name}, ${2:format[}, ${3:root_dir[}, ${4:base_dir[}, ${5:verbose[}, ${6:dry_run[}, ${7:owner[}, ${8:group[}, ${9:logger]]]]]]]})"},
+		{"trigger": "y-move()\tshutil*", "contents": "shutil.move(${1:src}, ${2:dst}, ${3:copy_function=copy2})"},
+		{"trigger": "y-register_archive_format()\tshutil*", "contents": "shutil.register_archive_format(${1:name}, ${2:function[}, ${3:extra_args[}, ${4:description]]})"},
+		{"trigger": "y-register_unpack_format()\tshutil*", "contents": "shutil.register_unpack_format(${1:name}, ${2:extensions}, ${3:function[}, ${4:extra_args[}, ${5:description]]})"},
+		{"trigger": "y-rmtree()\tshutil*", "contents": "shutil.rmtree(${1:path}, ${2:ignore_errors=False}, ${3:onerror=None})"},
+		{"trigger": "y-unpack_archive()\tshutil*", "contents": "shutil.unpack_archive(${1:filename[}, ${2:extract_dir[}, ${3:format]]})"},
+		{"trigger": "y-unregister_archive_format()\tshutil*", "contents": "shutil.unregister_archive_format(${1:name})"},
+		{"trigger": "y-unregister_unpack_format()\tshutil*", "contents": "shutil.unregister_unpack_format(${1:name})"},
+		{"trigger": "y-which()\tshutil*", "contents": "shutil.which(${1:cmd}, ${2:mode=os.F_OK | os.X_OK}, ${3:path=None})"}
+	]
+}

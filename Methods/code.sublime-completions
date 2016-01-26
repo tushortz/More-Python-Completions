@@ -1,0 +1,19 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "InteractiveConsole\tcode", "contents": "InteractiveConsole(${1:locals=None}, ${2:filename=\"\"})"},
+		{"trigger": "InteractiveInterpreter\tcode", "contents": "InteractiveInterpreter(${1:locals=None})"},
+		{"trigger": "compile_command()\tcode", "contents": "compile_command(${1:source}, ${2:filename=\"\"}, ${3:symbol=\"single\"})"},
+		{"trigger": "interact()\tcode", "contents": "interact(${1:banner=None}, ${2:readfunc=None}, ${3:local=None})"},
+		{"trigger": "interact()\tcode", "contents": "interact(${1:banner=None})"},
+		{"trigger": "push()\tcode", "contents": "push(${1:line})"},
+		{"trigger": "raw_input()\tcode", "contents": "raw_input(${1:prompt=\"\"})"},
+		{"trigger": "resetbuffer()\tcode", "contents": "resetbuffer(${1:})"},
+		{"trigger": "runcode()\tcode", "contents": "runcode(${1:code})"},
+		{"trigger": "runsource()\tcode", "contents": "runsource(${1:source}, ${2:filename=\"\"}, ${3:symbol=\"single\"})"},
+		{"trigger": "showsyntaxerror()\tcode", "contents": "showsyntaxerror(${1:filename=None})"},
+		{"trigger": "showtraceback()\tcode", "contents": "showtraceback(${1:})"},
+		{"trigger": "write()\tcode", "contents": "write(${1:data})"}
+	]
+}

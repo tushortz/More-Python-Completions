@@ -1,0 +1,32 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "BaseServer\tsocketserver", "contents": "BaseServer"},
+		{"trigger": "RequestHandlerClass\tsocketserver", "contents": "RequestHandlerClass"},
+		{"trigger": "address_family()\tsocketserver", "contents": "address_family()"},
+		{"trigger": "allow_reuse_address()\tsocketserver", "contents": "allow_reuse_address()"},
+		{"trigger": "fileno()\tsocketserver", "contents": "fileno(${1:})"},
+		{"trigger": "finish()\tsocketserver", "contents": "finish(${1:})"},
+		{"trigger": "finish_request()\tsocketserver", "contents": "finish_request(${1:})"},
+		{"trigger": "get_request()\tsocketserver", "contents": "get_request(${1:})"},
+		{"trigger": "handle()\tsocketserver", "contents": "handle(${1:})"},
+		{"trigger": "handle_error()\tsocketserver", "contents": "handle_error(${1:request}, ${2:client_address})"},
+		{"trigger": "handle_request()\tsocketserver", "contents": "handle_request(${1:})"},
+		{"trigger": "handle_timeout()\tsocketserver", "contents": "handle_timeout(${1:})"},
+		{"trigger": "process_request()\tsocketserver", "contents": "process_request(${1:request}, ${2:client_address})"},
+		{"trigger": "request_queue_size()\tsocketserver", "contents": "request_queue_size()"},
+		{"trigger": "serve_forever()\tsocketserver", "contents": "serve_forever(${1:poll_interval=0.5})"},
+		{"trigger": "server_activate()\tsocketserver", "contents": "server_activate(${1:})"},
+		{"trigger": "server_address()\tsocketserver", "contents": "server_address()"},
+		{"trigger": "server_bind()\tsocketserver", "contents": "server_bind(${1:})"},
+		{"trigger": "server_close()\tsocketserver", "contents": "server_close(${1:})"},
+		{"trigger": "service_actions()\tsocketserver", "contents": "service_actions(${1:})"},
+		{"trigger": "setup()\tsocketserver", "contents": "setup(${1:})"},
+		{"trigger": "shutdown()\tsocketserver", "contents": "shutdown(${1:})"},
+		{"trigger": "socket()\tsocketserver", "contents": "socket()"},
+		{"trigger": "socket_type()\tsocketserver", "contents": "socket_type()"},
+		{"trigger": "timeout()\tsocketserver", "contents": "timeout()"},
+		{"trigger": "verify_request()\tsocketserver", "contents": "verify_request(${1:request}, ${2:client_address})"}
+	]
+}

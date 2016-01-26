@@ -1,0 +1,15 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-SAXException\txml*", "contents": "xml.sax.SAXException(${1:msg}, ${2:exception=None})"},
+		{"trigger": "y-SAXNotRecognizedException\txml*", "contents": "xml.sax.SAXNotRecognizedException(${1:msg}, ${2:exception=None})"},
+		{"trigger": "y-SAXNotSupportedException\txml*", "contents": "xml.sax.SAXNotSupportedException(${1:msg}, ${2:exception=None})"},
+		{"trigger": "y-SAXParseException\txml*", "contents": "xml.sax.SAXParseException(${1:msg}, ${2:exception}, ${3:locator})"},
+		{"trigger": "y-getException()\txml*", "contents": "xml.sax.getException(${1:})"},
+		{"trigger": "y-getMessage()\txml*", "contents": "xml.sax.getMessage(${1:})"},
+		{"trigger": "y-make_parser()\txml*", "contents": "xml.sax.make_parser(${1:parser_list=[]})"},
+		{"trigger": "y-parse()\txml*", "contents": "xml.sax.parse(${1:filename_or_stream}, ${2:handler}, ${3:error_handler=handler.ErrorHandler}, ${4:})"},
+		{"trigger": "y-parseString()\txml*", "contents": "xml.sax.parseString(${1:string}, ${2:handler}, ${3:error_handler=handler.ErrorHandler}, ${4:})"}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "EnvBuilder\tvenv", "contents": "EnvBuilder(${1:system_site_packages=False}, ${2:clear=False}, ${3:symlinks=False}, ${4:upgrade=False}, ${5:with_pip=False})"},
+		{"trigger": "create()\tvenv", "contents": "create(${1:env_dir}, ${2:system_site_packages=False}, ${3:clear=False}, ${4:symlinks=False}, ${5:with_pip=False})"}
+	]
+}

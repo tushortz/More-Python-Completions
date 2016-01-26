@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "PyCompileError\tpy_compile", "contents": "PyCompileError"},
+		{"trigger": "compile()\tpy_compile", "contents": "compile(${1:file}, ${2:cfile=None}, ${3:dfile=None}, ${4:doraise=False}, ${5:optimize=-1})"},
+		{"trigger": "main()\tpy_compile", "contents": "main(${1:args=None})"}
+	]
+}

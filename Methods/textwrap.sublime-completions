@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "TextWrapper\ttextwrap", "contents": "TextWrapper(${1:**kwargs})"},
+		{"trigger": "dedent()\ttextwrap", "contents": "dedent(${1:text})"},
+		{"trigger": "fill()\ttextwrap", "contents": "fill(${1:text}, ${2:width=70}, ${3:**kwargs})"},
+		{"trigger": "indent()\ttextwrap", "contents": "indent(${1:text}, ${2:prefix}, ${3:predicate=None})"},
+		{"trigger": "shorten()\ttextwrap", "contents": "shorten(${1:text}, ${2:width}, ${3:**kwargs})"},
+		{"trigger": "wrap()\ttextwrap", "contents": "wrap(${1:text}, ${2:width=70}, ${3:**kwargs})"}
+	]
+}

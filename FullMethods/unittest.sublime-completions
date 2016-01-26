@@ -1,0 +1,24 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-FunctionTestCase\tunittest*", "contents": "unittest.FunctionTestCase(${1:testFunc}, ${2:setUp=None}, ${3:tearDown=None}, ${4:description=None})"},
+		{"trigger": "y-SkipTest\tunittest*", "contents": "unittest.SkipTest(${1:reason})"},
+		{"trigger": "y-TestCase\tunittest*", "contents": "unittest.TestCase(${1:methodName='runTest'})"},
+		{"trigger": "y-TestLoader\tunittest*", "contents": "unittest.TestLoader"},
+		{"trigger": "y-TestResult\tunittest*", "contents": "unittest.TestResult"},
+		{"trigger": "y-TestSuite\tunittest*", "contents": "unittest.TestSuite(${1:tests=}, ${2:})"},
+		{"trigger": "y-TextTestResult\tunittest*", "contents": "unittest.TextTestResult(${1:stream}, ${2:descriptions}, ${3:verbosity})"},
+		{"trigger": "y-TextTestRunner\tunittest*", "contents": "unittest.TextTestRunner(${1:stream=None}, ${2:descriptions=True}, ${3:verbosity=1}, ${4:failfast=False}, ${5:buffer=False}, ${6:resultclass=None}, ${7:warnings=None}, ${8:*}, ${9:tb_locals=False})"},
+		{"trigger": "y-defaultTestLoader()\tunittest*", "contents": "unittest.defaultTestLoader()"},
+		{"trigger": "y-expectedFailure()\tunittest*", "contents": "unittest.expectedFailure()"},
+		{"trigger": "y-installHandler()\tunittest*", "contents": "unittest.installHandler(${1:})"},
+		{"trigger": "y-main()\tunittest*", "contents": "unittest.main(${1:module='__main__'}, ${2:defaultTest=None}, ${3:argv=None}, ${4:testRunner=None}, ${5:testLoader=unittest.defaultTestLoader}, ${6:exit=True}, ${7:verbosity=1}, ${8:failfast=None}, ${9:catchbreak=None}, ${10:buffer=None}, ${11:warnings=None})"},
+		{"trigger": "y-registerResult()\tunittest*", "contents": "unittest.registerResult(${1:result})"},
+		{"trigger": "y-removeHandler()\tunittest*", "contents": "unittest.removeHandler(${1:function=None})"},
+		{"trigger": "y-removeResult()\tunittest*", "contents": "unittest.removeResult(${1:result})"},
+		{"trigger": "y-skip()\tunittest*", "contents": "unittest.skip(${1:reason})"},
+		{"trigger": "y-skipIf()\tunittest*", "contents": "unittest.skipIf(${1:condition}, ${2:reason})"},
+		{"trigger": "y-skipUnless()\tunittest*", "contents": "unittest.skipUnless(${1:condition}, ${2:reason})"}
+	]
+}

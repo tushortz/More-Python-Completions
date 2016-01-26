@@ -1,0 +1,30 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "architecture()\tplatform", "contents": "architecture(${1:executable=sys.executable}, ${2:bits=''}, ${3:linkage=''})"},
+		{"trigger": "dist()\tplatform", "contents": "dist(${1:distname=''}, ${2:version=''}, ${3:id=''}, ${4:supported_dists=}, ${5:'SuSE'}, ${6:'debian'}, ${7:'redhat'}, ${8:'mandrake'}, ${9:...})"},
+		{"trigger": "java_ver()\tplatform", "contents": "java_ver(${1:release=''}, ${2:vendor=''}, ${3:vminfo=}, ${4:''}, ${4:''}, ${6:''})"},
+		{"trigger": "libc_ver()\tplatform", "contents": "libc_ver(${1:executable=sys.executable}, ${2:lib=''}, ${3:version=''}, ${4:chunksize=2048})"},
+		{"trigger": "linux_distribution()\tplatform", "contents": "linux_distribution(${1:distname=''}, ${2:version=''}, ${3:id=''}, ${4:supported_dists=}, ${5:'SuSE'}, ${6:'debian'}, ${7:'redhat'}, ${8:'mandrake'}, ${9:...})"},
+		{"trigger": "mac_ver()\tplatform", "contents": "mac_ver(${1:release=''}, ${2:versioninfo=}, ${3:''}, ${3:''}, ${5:''})"},
+		{"trigger": "machine()\tplatform", "contents": "machine(${1:})"},
+		{"trigger": "node()\tplatform", "contents": "node(${1:})"},
+		{"trigger": "platform()\tplatform", "contents": "platform(${1:aliased=0}, ${2:terse=0})"},
+		{"trigger": "popen()\tplatform", "contents": "popen(${1:cmd}, ${2:mode='r'}, ${3:bufsize=-1})"},
+		{"trigger": "processor()\tplatform", "contents": "processor(${1:})"},
+		{"trigger": "python_branch()\tplatform", "contents": "python_branch(${1:})"},
+		{"trigger": "python_build()\tplatform", "contents": "python_build(${1:})"},
+		{"trigger": "python_compiler()\tplatform", "contents": "python_compiler(${1:})"},
+		{"trigger": "python_implementation()\tplatform", "contents": "python_implementation(${1:})"},
+		{"trigger": "python_revision()\tplatform", "contents": "python_revision(${1:})"},
+		{"trigger": "python_version()\tplatform", "contents": "python_version(${1:})"},
+		{"trigger": "python_version_tuple()\tplatform", "contents": "python_version_tuple(${1:})"},
+		{"trigger": "release()\tplatform", "contents": "release(${1:})"},
+		{"trigger": "system()\tplatform", "contents": "system(${1:})"},
+		{"trigger": "system_alias()\tplatform", "contents": "system_alias(${1:system}, ${2:release}, ${3:version})"},
+		{"trigger": "uname()\tplatform", "contents": "uname(${1:})"},
+		{"trigger": "version()\tplatform", "contents": "version(${1:})"},
+		{"trigger": "win32_ver()\tplatform", "contents": "win32_ver(${1:release=''}, ${2:version=''}, ${3:csd=''}, ${4:ptype=''})"}
+	]
+}

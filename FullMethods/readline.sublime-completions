@@ -1,0 +1,32 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-add_history()\treadline*", "contents": "readline.add_history(${1:line})"},
+		{"trigger": "y-append_history_file()\treadline*", "contents": "readline.append_history_file(${1:nelements[}, ${2:filename]})"},
+		{"trigger": "y-clear_history()\treadline*", "contents": "readline.clear_history(${1:})"},
+		{"trigger": "y-get_begidx()\treadline*", "contents": "readline.get_begidx(${1:})"},
+		{"trigger": "y-get_completer()\treadline*", "contents": "readline.get_completer(${1:})"},
+		{"trigger": "y-get_completer_delims()\treadline*", "contents": "readline.get_completer_delims(${1:})"},
+		{"trigger": "y-get_completion_type()\treadline*", "contents": "readline.get_completion_type(${1:})"},
+		{"trigger": "y-get_current_history_length()\treadline*", "contents": "readline.get_current_history_length(${1:})"},
+		{"trigger": "y-get_endidx()\treadline*", "contents": "readline.get_endidx(${1:})"},
+		{"trigger": "y-get_history_item()\treadline*", "contents": "readline.get_history_item(${1:index})"},
+		{"trigger": "y-get_history_length()\treadline*", "contents": "readline.get_history_length(${1:})"},
+		{"trigger": "y-get_line_buffer()\treadline*", "contents": "readline.get_line_buffer(${1:})"},
+		{"trigger": "y-insert_text()\treadline*", "contents": "readline.insert_text(${1:string})"},
+		{"trigger": "y-parse_and_bind()\treadline*", "contents": "readline.parse_and_bind(${1:string})"},
+		{"trigger": "y-read_history_file()\treadline*", "contents": "readline.read_history_file(${1:[filename]})"},
+		{"trigger": "y-read_init_file()\treadline*", "contents": "readline.read_init_file(${1:[filename]})"},
+		{"trigger": "y-redisplay()\treadline*", "contents": "readline.redisplay(${1:})"},
+		{"trigger": "y-remove_history_item()\treadline*", "contents": "readline.remove_history_item(${1:pos})"},
+		{"trigger": "y-replace_history_item()\treadline*", "contents": "readline.replace_history_item(${1:pos}, ${2:line})"},
+		{"trigger": "y-set_completer()\treadline*", "contents": "readline.set_completer(${1:[function]})"},
+		{"trigger": "y-set_completer_delims()\treadline*", "contents": "readline.set_completer_delims(${1:string})"},
+		{"trigger": "y-set_completion_display_matches_hook()\treadline*", "contents": "readline.set_completion_display_matches_hook(${1:[function]})"},
+		{"trigger": "y-set_history_length()\treadline*", "contents": "readline.set_history_length(${1:length})"},
+		{"trigger": "y-set_pre_input_hook()\treadline*", "contents": "readline.set_pre_input_hook(${1:[function]})"},
+		{"trigger": "y-set_startup_hook()\treadline*", "contents": "readline.set_startup_hook(${1:[function]})"},
+		{"trigger": "y-write_history_file()\treadline*", "contents": "readline.write_history_file(${1:[filename]})"}
+	]
+}

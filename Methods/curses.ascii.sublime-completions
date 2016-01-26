@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "alt()\tcurses", "contents": "alt(${1:c})"},
+		{"trigger": "ascii()\tcurses", "contents": "ascii(${1:c})"},
+		{"trigger": "controlnames()\tcurses", "contents": "controlnames()"},
+		{"trigger": "ctrl()\tcurses", "contents": "ctrl(${1:c})"},
+		{"trigger": "isalnum()\tcurses", "contents": "isalnum(${1:c})"},
+		{"trigger": "isalpha()\tcurses", "contents": "isalpha(${1:c})"},
+		{"trigger": "isascii()\tcurses", "contents": "isascii(${1:c})"},
+		{"trigger": "isblank()\tcurses", "contents": "isblank(${1:c})"},
+		{"trigger": "iscntrl()\tcurses", "contents": "iscntrl(${1:c})"},
+		{"trigger": "isctrl()\tcurses", "contents": "isctrl(${1:c})"},
+		{"trigger": "isdigit()\tcurses", "contents": "isdigit(${1:c})"},
+		{"trigger": "isgraph()\tcurses", "contents": "isgraph(${1:c})"},
+		{"trigger": "islower()\tcurses", "contents": "islower(${1:c})"},
+		{"trigger": "ismeta()\tcurses", "contents": "ismeta(${1:c})"},
+		{"trigger": "isprint()\tcurses", "contents": "isprint(${1:c})"},
+		{"trigger": "ispunct()\tcurses", "contents": "ispunct(${1:c})"},
+		{"trigger": "isspace()\tcurses", "contents": "isspace(${1:c})"},
+		{"trigger": "isupper()\tcurses", "contents": "isupper(${1:c})"},
+		{"trigger": "isxdigit()\tcurses", "contents": "isxdigit(${1:c})"},
+		{"trigger": "unctrl()\tcurses", "contents": "unctrl(${1:c})"}
+	]
+}

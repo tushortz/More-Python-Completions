@@ -1,0 +1,31 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "acos()\tcmath", "contents": "acos(${1:x})"},
+		{"trigger": "acosh()\tcmath", "contents": "acosh(${1:x})"},
+		{"trigger": "asin()\tcmath", "contents": "asin(${1:x})"},
+		{"trigger": "asinh()\tcmath", "contents": "asinh(${1:x})"},
+		{"trigger": "atan()\tcmath", "contents": "atan(${1:x})"},
+		{"trigger": "atanh()\tcmath", "contents": "atanh(${1:x})"},
+		{"trigger": "cos()\tcmath", "contents": "cos(${1:x})"},
+		{"trigger": "cosh()\tcmath", "contents": "cosh(${1:x})"},
+		{"trigger": "e()\tcmath", "contents": "e()"},
+		{"trigger": "exp()\tcmath", "contents": "exp(${1:x})"},
+		{"trigger": "isclose()\tcmath", "contents": "isclose(${1:a}, ${2:b}, ${3:*}, ${4:rel_tol=1e-09}, ${5:abs_tol=0.0})"},
+		{"trigger": "isfinite()\tcmath", "contents": "isfinite(${1:x})"},
+		{"trigger": "isinf()\tcmath", "contents": "isinf(${1:x})"},
+		{"trigger": "isnan()\tcmath", "contents": "isnan(${1:x})"},
+		{"trigger": "log10()\tcmath", "contents": "log10(${1:x})"},
+		{"trigger": "log()\tcmath", "contents": "log(${1:x[}, ${2:base]})"},
+		{"trigger": "phase()\tcmath", "contents": "phase(${1:x})"},
+		{"trigger": "pi()\tcmath", "contents": "pi()"},
+		{"trigger": "polar()\tcmath", "contents": "polar(${1:x})"},
+		{"trigger": "rect()\tcmath", "contents": "rect(${1:r}, ${2:phi})"},
+		{"trigger": "sin()\tcmath", "contents": "sin(${1:x})"},
+		{"trigger": "sinh()\tcmath", "contents": "sinh(${1:x})"},
+		{"trigger": "sqrt()\tcmath", "contents": "sqrt(${1:x})"},
+		{"trigger": "tan()\tcmath", "contents": "tan(${1:x})"},
+		{"trigger": "tanh()\tcmath", "contents": "tanh(${1:x})"}
+	]
+}

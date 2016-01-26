@@ -1,0 +1,20 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-Empty\tqueue*", "contents": "queue.Empty"},
+		{"trigger": "y-Full\tqueue*", "contents": "queue.Full"},
+		{"trigger": "y-LifoQueue\tqueue*", "contents": "queue.LifoQueue(${1:maxsize=0})"},
+		{"trigger": "y-PriorityQueue\tqueue*", "contents": "queue.PriorityQueue(${1:maxsize=0})"},
+		{"trigger": "y-Queue\tqueue*", "contents": "queue.Queue(${1:maxsize=0})"},
+		{"trigger": "y-empty()\tqueue*", "contents": "queue.empty(${1:})"},
+		{"trigger": "y-full()\tqueue*", "contents": "queue.full(${1:})"},
+		{"trigger": "y-get()\tqueue*", "contents": "queue.get(${1:block=True}, ${2:timeout=None})"},
+		{"trigger": "y-get_nowait()\tqueue*", "contents": "queue.get_nowait(${1:})"},
+		{"trigger": "y-join()\tqueue*", "contents": "queue.join(${1:})"},
+		{"trigger": "y-put()\tqueue*", "contents": "queue.put(${1:item}, ${2:block=True}, ${3:timeout=None})"},
+		{"trigger": "y-put_nowait()\tqueue*", "contents": "queue.put_nowait(${1:item})"},
+		{"trigger": "y-qsize()\tqueue*", "contents": "queue.qsize(${1:})"},
+		{"trigger": "y-task_done()\tqueue*", "contents": "queue.task_done(${1:})"}
+	]
+}

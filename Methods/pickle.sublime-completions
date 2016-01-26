@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "DEFAULT_PROTOCOL\tpickle", "contents": "DEFAULT_PROTOCOL"},
+		{"trigger": "HIGHEST_PROTOCOL\tpickle", "contents": "HIGHEST_PROTOCOL"},
+		{"trigger": "PickleError\tpickle", "contents": "PickleError"},
+		{"trigger": "Pickler\tpickle", "contents": "Pickler(${1:file}, ${2:protocol=None}, ${3:*}, ${4:fix_imports=True})"},
+		{"trigger": "PicklingError\tpickle", "contents": "PicklingError"},
+		{"trigger": "Unpickler\tpickle", "contents": "Unpickler(${1:file}, ${2:*}, ${3:fix_imports=True}, ${4:encoding=\"ASCII\"}, ${5:errors=\"strict\"})"},
+		{"trigger": "UnpicklingError\tpickle", "contents": "UnpicklingError"},
+		{"trigger": "__getnewargs__()\tpickle", "contents": "__getnewargs__(${1:})"},
+		{"trigger": "__getnewargs_ex__()\tpickle", "contents": "__getnewargs_ex__(${1:})"},
+		{"trigger": "__getstate__()\tpickle", "contents": "__getstate__(${1:})"},
+		{"trigger": "__reduce__()\tpickle", "contents": "__reduce__(${1:})"},
+		{"trigger": "__reduce_ex__()\tpickle", "contents": "__reduce_ex__(${1:protocol})"},
+		{"trigger": "__setstate__()\tpickle", "contents": "__setstate__(${1:state})"},
+		{"trigger": "dump()\tpickle", "contents": "dump(${1:obj}, ${2:file}, ${3:protocol=None}, ${4:*}, ${5:fix_imports=True})"},
+		{"trigger": "dumps()\tpickle", "contents": "dumps(${1:obj}, ${2:protocol=None}, ${3:*}, ${4:fix_imports=True})"},
+		{"trigger": "load()\tpickle", "contents": "load(${1:file}, ${2:*}, ${3:fix_imports=True}, ${4:encoding=\"ASCII\"}, ${5:errors=\"strict\"})"},
+		{"trigger": "loads()\tpickle", "contents": "loads(${1:bytes_object}, ${2:*}, ${3:fix_imports=True}, ${4:encoding=\"ASCII\"}, ${5:errors=\"strict\"})"}
+	]
+}

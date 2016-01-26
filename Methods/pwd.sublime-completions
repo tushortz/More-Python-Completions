@@ -1,0 +1,9 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "getpwall()\tpwd", "contents": "getpwall(${1:})"},
+		{"trigger": "getpwnam()\tpwd", "contents": "getpwnam(${1:name})"},
+		{"trigger": "getpwuid()\tpwd", "contents": "getpwuid(${1:uid})"}
+	]
+}

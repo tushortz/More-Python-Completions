@@ -1,0 +1,12 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-NetrcParseError\tnetrc*", "contents": "netrc.NetrcParseError"},
+		{"trigger": "y-__repr__()\tnetrc*", "contents": "netrc.__repr__(${1:})"},
+		{"trigger": "y-authenticators()\tnetrc*", "contents": "netrc.authenticators(${1:host})"},
+		{"trigger": "y-hosts()\tnetrc*", "contents": "netrc.hosts()"},
+		{"trigger": "y-macros()\tnetrc*", "contents": "netrc.macros()"},
+		{"trigger": "y-netrc()\tnetrc*", "contents": "netrc.netrc(${1:[file]})"}
+	]
+}

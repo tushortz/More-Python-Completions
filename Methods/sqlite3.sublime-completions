@@ -1,0 +1,20 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Connection\tsqlite3", "contents": "Connection"},
+		{"trigger": "Cursor\tsqlite3", "contents": "Cursor"},
+		{"trigger": "PARSE_COLNAMES\tsqlite3", "contents": "PARSE_COLNAMES"},
+		{"trigger": "PARSE_DECLTYPES\tsqlite3", "contents": "PARSE_DECLTYPES"},
+		{"trigger": "Row\tsqlite3", "contents": "Row"},
+		{"trigger": "complete_statement()\tsqlite3", "contents": "complete_statement(${1:sql})"},
+		{"trigger": "connect()\tsqlite3", "contents": "connect(${1:database[}, ${2:timeout}, ${3:detect_types}, ${4:isolation_level}, ${5:check_same_thread}, ${6:factory}, ${7:cached_statements}, ${8:uri]})"},
+		{"trigger": "enable_callback_tracebacks()\tsqlite3", "contents": "enable_callback_tracebacks(${1:flag})"},
+		{"trigger": "register_adapter()\tsqlite3", "contents": "register_adapter(${1:type}, ${2:callable})"},
+		{"trigger": "register_converter()\tsqlite3", "contents": "register_converter(${1:typename}, ${2:callable})"},
+		{"trigger": "sqlite_version()\tsqlite3", "contents": "sqlite_version()"},
+		{"trigger": "sqlite_version_info()\tsqlite3", "contents": "sqlite_version_info()"},
+		{"trigger": "version()\tsqlite3", "contents": "version()"},
+		{"trigger": "version_info()\tsqlite3", "contents": "version_info()"}
+	]
+}

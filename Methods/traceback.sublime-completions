@@ -1,0 +1,25 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "FrameSummary\ttraceback", "contents": "FrameSummary(${1:filename}, ${2:lineno}, ${3:name}, ${4:lookup_line=True}, ${5:locals=None}, ${6:line=None})"},
+		{"trigger": "StackSummary\ttraceback", "contents": "StackSummary"},
+		{"trigger": "TracebackException\ttraceback", "contents": "TracebackException(${1:exc_type}, ${2:exc_value}, ${3:exc_traceback}, ${4:*}, ${5:limit=None}, ${6:lookup_lines=True}, ${7:capture_locals=False})"},
+		{"trigger": "clear_frames()\ttraceback", "contents": "clear_frames(${1:tb})"},
+		{"trigger": "extract_stack()\ttraceback", "contents": "extract_stack(${1:f=None}, ${2:limit=None})"},
+		{"trigger": "extract_tb()\ttraceback", "contents": "extract_tb(${1:tb}, ${2:limit=None})"},
+		{"trigger": "format_exc()\ttraceback", "contents": "format_exc(${1:limit=None}, ${2:chain=True})"},
+		{"trigger": "format_exception()\ttraceback", "contents": "format_exception(${1:etype}, ${2:value}, ${3:tb}, ${4:limit=None}, ${5:chain=True})"},
+		{"trigger": "format_exception_only()\ttraceback", "contents": "format_exception_only(${1:etype}, ${2:value})"},
+		{"trigger": "format_list()\ttraceback", "contents": "format_list(${1:extracted_list})"},
+		{"trigger": "format_stack()\ttraceback", "contents": "format_stack(${1:f=None}, ${2:limit=None})"},
+		{"trigger": "format_tb()\ttraceback", "contents": "format_tb(${1:tb}, ${2:limit=None})"},
+		{"trigger": "print_exc()\ttraceback", "contents": "print_exc(${1:limit=None}, ${2:file=None}, ${3:chain=True})"},
+		{"trigger": "print_exception()\ttraceback", "contents": "print_exception(${1:etype}, ${2:value}, ${3:tb}, ${4:limit=None}, ${5:file=None}, ${6:chain=True})"},
+		{"trigger": "print_last()\ttraceback", "contents": "print_last(${1:limit=None}, ${2:file=None}, ${3:chain=True})"},
+		{"trigger": "print_stack()\ttraceback", "contents": "print_stack(${1:f=None}, ${2:limit=None}, ${3:file=None})"},
+		{"trigger": "print_tb()\ttraceback", "contents": "print_tb(${1:tb}, ${2:limit=None}, ${3:file=None})"},
+		{"trigger": "walk_stack()\ttraceback", "contents": "walk_stack(${1:f})"},
+		{"trigger": "walk_tb()\ttraceback", "contents": "walk_tb(${1:tb})"}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-a85decode()\tbase64*", "contents": "base64.a85decode(${1:s}, ${2:*}, ${3:foldspaces=False}, ${4:adobe=False}, ${5:ignorechars=b' \\ \\\v'})"},
+		{"trigger": "y-a85encode()\tbase64*", "contents": "base64.a85encode(${1:s}, ${2:*}, ${3:foldspaces=False}, ${4:wrapcol=0}, ${5:pad=False}, ${6:adobe=False})"},
+		{"trigger": "y-b16decode()\tbase64*", "contents": "base64.b16decode(${1:s}, ${2:casefold=False})"},
+		{"trigger": "y-b16encode()\tbase64*", "contents": "base64.b16encode(${1:s})"},
+		{"trigger": "y-b32decode()\tbase64*", "contents": "base64.b32decode(${1:s}, ${2:casefold=False}, ${3:map01=None})"},
+		{"trigger": "y-b32encode()\tbase64*", "contents": "base64.b32encode(${1:s})"},
+		{"trigger": "y-b64decode()\tbase64*", "contents": "base64.b64decode(${1:s}, ${2:altchars=None}, ${3:validate=False})"},
+		{"trigger": "y-b64encode()\tbase64*", "contents": "base64.b64encode(${1:s}, ${2:altchars=None})"},
+		{"trigger": "y-b85decode()\tbase64*", "contents": "base64.b85decode(${1:b})"},
+		{"trigger": "y-b85encode()\tbase64*", "contents": "base64.b85encode(${1:s}, ${2:pad=False})"},
+		{"trigger": "y-decode()\tbase64*", "contents": "base64.decode(${1:input}, ${2:output})"},
+		{"trigger": "y-decodebytes()\tbase64*", "contents": "base64.decodebytes(${1:s})"},
+		{"trigger": "y-decodestring()\tbase64*", "contents": "base64.decodestring(${1:s})"},
+		{"trigger": "y-encode()\tbase64*", "contents": "base64.encode(${1:input}, ${2:output})"},
+		{"trigger": "y-encodebytes()\tbase64*", "contents": "base64.encodebytes(${1:s})"},
+		{"trigger": "y-encodestring()\tbase64*", "contents": "base64.encodestring(${1:s})"},
+		{"trigger": "y-standard_b64decode()\tbase64*", "contents": "base64.standard_b64decode(${1:s})"},
+		{"trigger": "y-standard_b64encode()\tbase64*", "contents": "base64.standard_b64encode(${1:s})"},
+		{"trigger": "y-urlsafe_b64decode()\tbase64*", "contents": "base64.urlsafe_b64decode(${1:s})"},
+		{"trigger": "y-urlsafe_b64encode()\tbase64*", "contents": "base64.urlsafe_b64encode(${1:s})"}
+	]
+}

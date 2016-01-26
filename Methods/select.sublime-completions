@@ -1,0 +1,31 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "PIPE_BUF\tselect", "contents": "PIPE_BUF"},
+		{"trigger": "close()\tselect", "contents": "close(${1:})"},
+		{"trigger": "closed()\tselect", "contents": "closed()"},
+		{"trigger": "control()\tselect", "contents": "control(${1:changelist}, ${2:max_events[}, ${3:timeout=None]})"},
+		{"trigger": "data()\tselect", "contents": "data()"},
+		{"trigger": "devpoll()\tselect", "contents": "devpoll(${1:})"},
+		{"trigger": "epoll()\tselect", "contents": "epoll(${1:sizehint=-1}, ${2:flags=0})"},
+		{"trigger": "error()\tselect", "contents": "error()"},
+		{"trigger": "fflags()\tselect", "contents": "fflags()"},
+		{"trigger": "fileno()\tselect", "contents": "fileno(${1:})"},
+		{"trigger": "filter()\tselect", "contents": "filter()"},
+		{"trigger": "flags()\tselect", "contents": "flags()"},
+		{"trigger": "fromfd()\tselect", "contents": "fromfd(${1:fd})"},
+		{"trigger": "ident()\tselect", "contents": "ident()"},
+		{"trigger": "kevent()\tselect", "contents": "kevent(${1:ident}, ${2:filter=KQ_FILTER_READ}, ${3:flags=KQ_EV_ADD}, ${4:fflags=0}, ${5:data=0}, ${6:udata=0})"},
+		{"trigger": "kqueue()\tselect", "contents": "kqueue(${1:})"},
+		{"trigger": "modify()\tselect", "contents": "modify(${1:fd}, ${2:eventmask})"},
+		{"trigger": "modify()\tselect", "contents": "modify(${1:fd[}, ${2:eventmask]})"},
+		{"trigger": "poll()\tselect", "contents": "poll(${1:timeout=-1}, ${2:maxevents=-1})"},
+		{"trigger": "poll()\tselect", "contents": "poll(${1:[timeout]})"},
+		{"trigger": "poll()\tselect", "contents": "poll(${1:})"},
+		{"trigger": "register()\tselect", "contents": "register(${1:fd[}, ${2:eventmask]})"},
+		{"trigger": "select()\tselect", "contents": "select(${1:rlist}, ${2:wlist}, ${3:xlist[}, ${4:timeout]})"},
+		{"trigger": "udata()\tselect", "contents": "udata()"},
+		{"trigger": "unregister()\tselect", "contents": "unregister(${1:fd})"}
+	]
+}

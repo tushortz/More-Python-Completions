@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "Repr\treprlib", "contents": "Repr"},
+		{"trigger": "aRepr()\treprlib", "contents": "aRepr()"},
+		{"trigger": "maxarray()\treprlib", "contents": "maxarray()"},
+		{"trigger": "maxdeque()\treprlib", "contents": "maxdeque()"},
+		{"trigger": "maxdict()\treprlib", "contents": "maxdict()"},
+		{"trigger": "maxfrozenset()\treprlib", "contents": "maxfrozenset()"},
+		{"trigger": "maxlevel()\treprlib", "contents": "maxlevel()"},
+		{"trigger": "maxlist()\treprlib", "contents": "maxlist()"},
+		{"trigger": "maxlong()\treprlib", "contents": "maxlong()"},
+		{"trigger": "maxother()\treprlib", "contents": "maxother()"},
+		{"trigger": "maxset()\treprlib", "contents": "maxset()"},
+		{"trigger": "maxstring()\treprlib", "contents": "maxstring()"},
+		{"trigger": "maxtuple()\treprlib", "contents": "maxtuple()"},
+		{"trigger": "recursive_repr()\treprlib", "contents": "recursive_repr(${1:fillvalue=\"...\"})"},
+		{"trigger": "repr1()\treprlib", "contents": "repr1(${1:obj}, ${2:level})"},
+		{"trigger": "repr()\treprlib", "contents": "repr(${1:obj})"},
+		{"trigger": "repr_TYPE()\treprlib", "contents": "repr_TYPE(${1:obj}, ${2:level})"}
+	]
+}

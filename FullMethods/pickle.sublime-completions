@@ -1,0 +1,23 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-DEFAULT_PROTOCOL\tpickle*", "contents": "pickle.DEFAULT_PROTOCOL"},
+		{"trigger": "y-HIGHEST_PROTOCOL\tpickle*", "contents": "pickle.HIGHEST_PROTOCOL"},
+		{"trigger": "y-PickleError\tpickle*", "contents": "pickle.PickleError"},
+		{"trigger": "y-Pickler\tpickle*", "contents": "pickle.Pickler(${1:file}, ${2:protocol=None}, ${3:*}, ${4:fix_imports=True})"},
+		{"trigger": "y-PicklingError\tpickle*", "contents": "pickle.PicklingError"},
+		{"trigger": "y-Unpickler\tpickle*", "contents": "pickle.Unpickler(${1:file}, ${2:*}, ${3:fix_imports=True}, ${4:encoding=\"ASCII\"}, ${5:errors=\"strict\"})"},
+		{"trigger": "y-UnpicklingError\tpickle*", "contents": "pickle.UnpicklingError"},
+		{"trigger": "y-__getnewargs__()\tpickle*", "contents": "pickle.__getnewargs__(${1:})"},
+		{"trigger": "y-__getnewargs_ex__()\tpickle*", "contents": "pickle.__getnewargs_ex__(${1:})"},
+		{"trigger": "y-__getstate__()\tpickle*", "contents": "pickle.__getstate__(${1:})"},
+		{"trigger": "y-__reduce__()\tpickle*", "contents": "pickle.__reduce__(${1:})"},
+		{"trigger": "y-__reduce_ex__()\tpickle*", "contents": "pickle.__reduce_ex__(${1:protocol})"},
+		{"trigger": "y-__setstate__()\tpickle*", "contents": "pickle.__setstate__(${1:state})"},
+		{"trigger": "y-dump()\tpickle*", "contents": "pickle.dump(${1:obj}, ${2:file}, ${3:protocol=None}, ${4:*}, ${5:fix_imports=True})"},
+		{"trigger": "y-dumps()\tpickle*", "contents": "pickle.dumps(${1:obj}, ${2:protocol=None}, ${3:*}, ${4:fix_imports=True})"},
+		{"trigger": "y-load()\tpickle*", "contents": "pickle.load(${1:file}, ${2:*}, ${3:fix_imports=True}, ${4:encoding=\"ASCII\"}, ${5:errors=\"strict\"})"},
+		{"trigger": "y-loads()\tpickle*", "contents": "pickle.loads(${1:bytes_object}, ${2:*}, ${3:fix_imports=True}, ${4:encoding=\"ASCII\"}, ${5:errors=\"strict\"})"}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "closelog()\tsyslog", "contents": "closelog(${1:})"},
+		{"trigger": "openlog()\tsyslog", "contents": "openlog(${1:[ident[}, ${2:logoption[}, ${3:facility]]]})"},
+		{"trigger": "setlogmask()\tsyslog", "contents": "setlogmask(${1:maskpri})"},
+		{"trigger": "syslog()\tsyslog", "contents": "syslog(${1:message})"},
+		{"trigger": "syslog()\tsyslog", "contents": "syslog(${1:priority}, ${2:message})"}
+	]
+}

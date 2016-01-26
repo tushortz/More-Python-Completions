@@ -1,0 +1,22 @@
+{
+	"scope": "source.python, source.py, source.py3",
+	"completions":
+	[
+		{"trigger": "y-CGIXMLRPCRequestHandler\txmlrpc*", "contents": "xmlrpc.server.CGIXMLRPCRequestHandler(${1:allow_none=False}, ${2:encoding=None}, ${3:use_builtin_types=False})"},
+		{"trigger": "y-DocCGIXMLRPCRequestHandler\txmlrpc*", "contents": "xmlrpc.server.DocCGIXMLRPCRequestHandler"},
+		{"trigger": "y-DocXMLRPCRequestHandler\txmlrpc*", "contents": "xmlrpc.server.DocXMLRPCRequestHandler"},
+		{"trigger": "y-DocXMLRPCServer\txmlrpc*", "contents": "xmlrpc.server.DocXMLRPCServer(${1:addr}, ${2:requestHandler=DocXMLRPCRequestHandler}, ${3:logRequests=True}, ${4:allow_none=False}, ${5:encoding=None}, ${6:bind_and_activate=True}, ${7:use_builtin_types=True})"},
+		{"trigger": "y-SimpleXMLRPCRequestHandler\txmlrpc*", "contents": "xmlrpc.server.SimpleXMLRPCRequestHandler"},
+		{"trigger": "y-SimpleXMLRPCServer\txmlrpc*", "contents": "xmlrpc.server.SimpleXMLRPCServer(${1:addr}, ${2:requestHandler=SimpleXMLRPCRequestHandler}, ${3:logRequests=True}, ${4:allow_none=False}, ${5:encoding=None}, ${6:bind_and_activate=True}, ${7:use_builtin_types=False})"},
+		{"trigger": "y-handle_request()\txmlrpc*", "contents": "xmlrpc.server.handle_request(${1:request_text=None})"},
+		{"trigger": "y-register_function()\txmlrpc*", "contents": "xmlrpc.server.register_function(${1:function}, ${2:name=None})"},
+		{"trigger": "y-register_instance()\txmlrpc*", "contents": "xmlrpc.server.register_instance(${1:instance}, ${2:allow_dotted_names=False})"},
+		{"trigger": "y-register_instance()\txmlrpc*", "contents": "xmlrpc.server.register_instance(${1:instance})"},
+		{"trigger": "y-register_introspection_functions()\txmlrpc*", "contents": "xmlrpc.server.register_introspection_functions(${1:})"},
+		{"trigger": "y-register_multicall_functions()\txmlrpc*", "contents": "xmlrpc.server.register_multicall_functions(${1:})"},
+		{"trigger": "y-rpc_paths()\txmlrpc*", "contents": "xmlrpc.server.rpc_paths()"},
+		{"trigger": "y-set_server_documentation()\txmlrpc*", "contents": "xmlrpc.server.set_server_documentation(${1:server_documentation})"},
+		{"trigger": "y-set_server_name()\txmlrpc*", "contents": "xmlrpc.server.set_server_name(${1:server_name})"},
+		{"trigger": "y-set_server_title()\txmlrpc*", "contents": "xmlrpc.server.set_server_title(${1:server_title})"}
+	]
+}
