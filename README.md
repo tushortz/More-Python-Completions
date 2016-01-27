@@ -1,4 +1,4 @@
-# Python Completions
+# More Python Completions
 
 A sublime text package that displays total completions of module methods as found on the Python documentation website. Also offers completion for import statements
 
@@ -17,9 +17,9 @@ A sublime text package that displays total completions of module methods as foun
 
 ### Using Package Control's Repository
 
-Go to `Preferences` --> `Package Control` --> `Add Repository` --> then type into the textbox `https://github.com/tushortz/Python-Completions`
+Go to `Preferences` --> `Package Control` --> `Add Repository` --> then type into the textbox `https://github.com/tushortz/More-Python-Completions`
 
-After doing this, then go to: `Preferences` --> `Package Control` --> `Install Package` --> then search `Python-Completions` and click it.
+After doing this, then go to: `Preferences` --> `Package Control` --> `Install Package` --> then search `More-Python-Completions` and click it.
 
 The package will be installed and ready for use.
 
@@ -30,7 +30,7 @@ Locate your Sublime Text `Packages` directory by using the menu item `Preference
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/tushortz/Python-Completions
+    git clone https://github.com/tushortz/More-Python-Completions
 
 or just download the zipped folder, extract it and paste the extracted folder into your sublime text packages directory.
 
@@ -38,7 +38,7 @@ or just download the zipped folder, extract it and paste the extracted folder in
 
 ## Contributing
 
-All contributions are welcome. fork Python Completions on [Github](https://github.com/tushortz/Python-Completions) and create a pull request. Any suggestions or bugs, please let me know.
+All contributions are welcome. fork More Python Completions on [Github](https://github.com/tushortz/More-Python-Completions) and create a pull request. Any suggestions or bugs, please let me know.
 
 ## Licence
 
