@@ -2,7 +2,7 @@
 	"scope": "source.python, source.py, source.py3",
 	"completions":
 	[
-		{"trigger": "y-a85decode()\tbase64*", "contents": "base64.a85decode(${1:s}, ${2:*}, ${3:foldspaces=False}, ${4:adobe=False}, ${5:ignorechars=b' \\t\\n\\r\\v'})"},
+		{"trigger": "y-a85decode()\tbase64*", "contents": "base64.a85decode(${1:s}, ${2:*}, ${3:foldspaces=False}, ${4:adobe=False}, ${5:ignorechars=b' /t/n/r/v'})"},
 		{"trigger": "y-a85encode()\tbase64*", "contents": "base64.a85encode(${1:s}, ${2:*}, ${3:foldspaces=False}, ${4:wrapcol=0}, ${5:pad=False}, ${6:adobe=False})"},
 		{"trigger": "y-b16decode()\tbase64*", "contents": "base64.b16decode(${1:s}, ${2:casefold=False})"},
 		{"trigger": "y-b16encode()\tbase64*", "contents": "base64.b16encode(${1:s})"},

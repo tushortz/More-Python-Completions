@@ -14,7 +14,7 @@
 		{"trigger": "y-IOBase\tio*", "contents": "io.IOBase"},
 		{"trigger": "y-IncrementalNewlineDecoder\tio*", "contents": "io.IncrementalNewlineDecoder"},
 		{"trigger": "y-RawIOBase\tio*", "contents": "io.RawIOBase"},
-		{"trigger": "y-StringIO\tio*", "contents": "io.StringIO(${1:initial_value=''}, ${2:newline='\\n '})"},
+		{"trigger": "y-StringIO\tio*", "contents": "io.StringIO(${1:initial_value=''}, ${2:newline='/n '})"},
 		{"trigger": "y-TextIOBase\tio*", "contents": "io.TextIOBase"},
 		{"trigger": "y-TextIOWrapper\tio*", "contents": "io.TextIOWrapper(${1:buffer}, ${2:encoding=None}, ${3:errors=None}, ${4:newline=None}, ${5:line_buffering=False}, ${6:write_through=False})"},
 		{"trigger": "y-UnsupportedOperation\tio*", "contents": "io.UnsupportedOperation"},
