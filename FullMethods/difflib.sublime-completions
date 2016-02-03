@@ -9,7 +9,7 @@
 		{"trigger": "y-IS_LINE_JUNK\tdifflib*", "contents": "difflib.IS_LINE_JUNK(${1:line})"},
 		{"trigger": "y-SequenceMatcher\tdifflib*", "contents": "difflib.SequenceMatcher"},
 		{"trigger": "y-SequenceMatcher\tdifflib*", "contents": "difflib.SequenceMatcher(${1:isjunk=None}, ${2:a=''}, ${3:b=''}, ${4:autojunk=True})"},
-		{"trigger": "y-context_diff()\tdifflib*", "contents": "difflib.context_diff(${1:a}, ${2:b}, ${3:fromfile=''}, ${4:tofile=''}, ${5:fromfiledate=''}, ${6:tofiledate=''}, ${7:n=3}, ${8:lineterm='/n '})"},
+		{"trigger": "y-context_diff()\tdifflib*", "contents": "difflib.context_diff(${1:a}, ${2:b}, ${3:fromfile=''}, ${4:tofile=''}, ${5:fromfiledate=''}, ${6:tofiledate=''}, ${7:n=3}, ${8:lineterm='|n '})"},
 		{"trigger": "y-diff_bytes()\tdifflib*", "contents": "difflib.diff_bytes(${1:dfunc}, ${2:a}, ${3:b}, ${4:fromfile=b''}, ${5:tofile=b''}, ${6:fromfiledate=b''}, ${7:tofiledate=b''}, ${8:n=3}, ${9:lineterm=b'\\n '})"},
 		{"trigger": "y-get_close_matches()\tdifflib*", "contents": "difflib.get_close_matches(${1:word}, ${2:possibilities}, ${3:n=3}, ${4:cutoff=0.6})"},
 		{"trigger": "y-ndiff()\tdifflib*", "contents": "difflib.ndiff(${1:a}, ${2:b}, ${3:linejunk=None}, ${4:charjunk=IS_CHARACTER_JUNK})"},
