@@ -14,7 +14,7 @@
 		{"trigger": "IOBase\tio", "contents": "IOBase"},
 		{"trigger": "IncrementalNewlineDecoder\tio", "contents": "IncrementalNewlineDecoder"},
 		{"trigger": "RawIOBase\tio", "contents": "RawIOBase"},
-		{"trigger": "StringIO\tio", "contents": "StringIO(${1:initial_value=''}, ${2:newline='\ '})"},
+		{"trigger": "StringIO\tio", "contents": "StringIO(${1:initial_value=''}, ${2:newline='| '})"},
 		{"trigger": "TextIOBase\tio", "contents": "TextIOBase"},
 		{"trigger": "TextIOWrapper\tio", "contents": "TextIOWrapper(${1:buffer}, ${2:encoding=None}, ${3:errors=None}, ${4:newline=None}, ${5:line_buffering=False}, ${6:write_through=False})"},
 		{"trigger": "UnsupportedOperation\tio", "contents": "UnsupportedOperation"},
