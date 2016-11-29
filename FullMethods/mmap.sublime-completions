@@ -1,8 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-mmap()\tmmap*", "contents": "mmap.mmap(${1:fileno}, ${2:length}, ${3:flags=MAP_SHARED}, ${4:prot=PROT_WRITE|PROT_READ}, ${5:access=ACCESS_DEFAULT[}, ${6:offset]})"},
-		{"trigger": "y-mmap()\tmmap*", "contents": "mmap.mmap(${1:fileno}, ${2:length}, ${3:tagname=None}, ${4:access=ACCESS_DEFAULT[}, ${5:offset]})"}
-	]
-}

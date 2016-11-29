@@ -1,8 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-setcbreak()\ttty*", "contents": "tty.setcbreak(${1:fd}, ${2:when=termios.TCSAFLUSH})"},
-		{"trigger": "y-setraw()\ttty*", "contents": "tty.setraw(${1:fd}, ${2:when=termios.TCSAFLUSH})"}
-	]
-}

@@ -1,8 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-bootstrap()\tensurepip*", "contents": "ensurepip.bootstrap(${1:root=None}, ${2:upgrade=False}, ${3:user=False}, ${4:altinstall=False}, ${5:default_pip=False}, ${6:verbosity=0})"},
-		{"trigger": "y-version()\tensurepip*", "contents": "ensurepip.version(${1:})"}
-	]
-}

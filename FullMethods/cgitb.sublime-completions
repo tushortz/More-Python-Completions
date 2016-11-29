@@ -1,8 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-enable()\tcgitb*", "contents": "cgitb.enable(${1:display=1}, ${2:logdir=None}, ${3:context=5}, ${4:format=\"html\"})"},
-		{"trigger": "y-handler()\tcgitb*", "contents": "cgitb.handler(${1:info=None})"}
-	]
-}

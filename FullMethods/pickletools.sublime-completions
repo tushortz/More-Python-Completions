@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-dis()\tpickletools*", "contents": "pickletools.dis(${1:pickle}, ${2:out=None}, ${3:memo=None}, ${4:indentlevel=4}, ${5:annotate=0})"},
-		{"trigger": "y-genops()\tpickletools*", "contents": "pickletools.genops(${1:pickle})"},
-		{"trigger": "y-optimize()\tpickletools*", "contents": "pickletools.optimize(${1:picklestring})"}
-	]
-}

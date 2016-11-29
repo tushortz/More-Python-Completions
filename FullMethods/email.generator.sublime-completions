@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-BytesGenerator\temail*", "contents": "email.generator.BytesGenerator(${1:outfp}, ${2:mangle_from_=True}, ${3:maxheaderlen=78}, ${4:*}, ${5:policy=None})"},
-		{"trigger": "y-DecodedGenerator\temail*", "contents": "email.generator.DecodedGenerator(${1:outfp}, ${2:mangle_from_=True}, ${3:maxheaderlen=78}, ${4:fmt=None})"},
-		{"trigger": "y-Generator\temail*", "contents": "email.generator.Generator(${1:outfp}, ${2:mangle_from_=True}, ${3:maxheaderlen=78}, ${4:*}, ${5:policy=None})"}
-	]
-}

@@ -1,7 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-Chunk\tchunk*", "contents": "chunk.Chunk(${1:file}, ${2:align=True}, ${3:bigendian=True}, ${4:inclheader=False})"}
-	]
-}

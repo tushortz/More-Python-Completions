@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-Error\tbinhex*", "contents": "binhex.Error"},
-		{"trigger": "y-binhex()\tbinhex*", "contents": "binhex.binhex(${1:input}, ${2:output})"},
-		{"trigger": "y-hexbin()\tbinhex*", "contents": "binhex.hexbin(${1:input}, ${2:output})"}
-	]
-}

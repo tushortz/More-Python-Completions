@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-FloatingPointError\tfpectl*", "contents": "fpectl.FloatingPointError"},
-		{"trigger": "y-turnoff_sigfpe()\tfpectl*", "contents": "fpectl.turnoff_sigfpe(${1:})"},
-		{"trigger": "y-turnon_sigfpe()\tfpectl*", "contents": "fpectl.turnon_sigfpe(${1:})"}
-	]
-}

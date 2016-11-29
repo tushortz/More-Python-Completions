@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-copy()\tcopy*", "contents": "copy.copy(${1:x})"},
-		{"trigger": "y-deepcopy()\tcopy*", "contents": "copy.deepcopy(${1:x})"},
-		{"trigger": "y-error()\tcopy*", "contents": "copy.error()"}
-	]
-}

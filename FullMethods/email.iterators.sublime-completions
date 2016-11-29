@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-_structure()\temail*", "contents": "email.iterators._structure(${1:msg}, ${2:fp=None}, ${3:level=0}, ${4:include_default=False})"},
-		{"trigger": "y-body_line_iterator()\temail*", "contents": "email.iterators.body_line_iterator(${1:msg}, ${2:decode=False})"},
-		{"trigger": "y-typed_subpart_iterator()\temail*", "contents": "email.iterators.typed_subpart_iterator(${1:msg}, ${2:maintype='text'}, ${3:subtype=None})"}
-	]
-}

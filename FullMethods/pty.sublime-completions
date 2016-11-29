@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-fork()\tpty*", "contents": "pty.fork(${1:})"},
-		{"trigger": "y-openpty()\tpty*", "contents": "pty.openpty(${1:})"},
-		{"trigger": "y-spawn()\tpty*", "contents": "pty.spawn(${1:argv[}, ${2:master_read[}, ${3:stdin_read]]})"}
-	]
-}

@@ -1,8 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-tests()\timghdr*", "contents": "imghdr.tests()"},
-		{"trigger": "y-what()\timghdr*", "contents": "imghdr.what(${1:filename}, ${2:h=None})"}
-	]
-}

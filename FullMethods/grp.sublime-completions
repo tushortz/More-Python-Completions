@@ -1,9 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-getgrall()\tgrp*", "contents": "grp.getgrall(${1:})"},
-		{"trigger": "y-getgrgid()\tgrp*", "contents": "grp.getgrgid(${1:gid})"},
-		{"trigger": "y-getgrnam()\tgrp*", "contents": "grp.getgrnam(${1:name})"}
-	]
-}

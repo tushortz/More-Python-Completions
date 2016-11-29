@@ -1,8 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-escape()\thtml*", "contents": "html.escape(${1:s}, ${2:quote=True})"},
-		{"trigger": "y-unescape()\thtml*", "contents": "html.unescape(${1:s})"}
-	]
-}

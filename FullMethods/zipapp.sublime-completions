@@ -1,8 +1,0 @@
-{
-	"scope": "source.python, source.py, source.py3",
-	"completions":
-	[
-		{"trigger": "y-create_archive()\tzipapp*", "contents": "zipapp.create_archive(${1:source}, ${2:target=None}, ${3:interpreter=None}, ${4:main=None})"},
-		{"trigger": "y-get_interpreter()\tzipapp*", "contents": "zipapp.get_interpreter(${1:archive})"}
-	]
-}
